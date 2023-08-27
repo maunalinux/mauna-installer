@@ -1,0 +1,6 @@
+### 17g live service config
+
+enable_live: true
+live_user: mauna
+live_password: mauna
+# custom_scripts: true

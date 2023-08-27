@@ -1,0 +1,10 @@
+live-installer/resources/interface.ui~
+live-installer/resources/interface2.ui~
+live-installer/__pycache__
+live-installer/frontend/__pycache__
+build/
+debian/mauna-installer/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/mauna-installer.substvars
