@@ -1,3 +1,10 @@
+mauna-installer (2.0.0mauna3) mauna; urgency=medium
+
+  * New upstream version for Mauna Linux
+  * Add new languages on live-installer.desktop
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 14 Sep 2023 18:07:08 -0300
+
 mauna-installer (2.0.0mauna2) mauna; urgency=medium
 
   * New upstream version for Mauna Linux
