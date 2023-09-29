@@ -8,29 +8,27 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-09 13:04+0000\n"
-"PO-Revision-Date: 2020-02-15 13:04+0000\n"
+"PO-Revision-Date: 2023-09-26 18:37-0300\n"
 "Last-Translator: Stephan Woidowski <swoidowski@t-online.de>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
-"Language: \n"
+"Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: live-installer/resources/interface.ui:71
-#, fuzzy
 msgid "Welcome to the 17g Installer."
-msgstr "Welcome to the 17G Installer."
+msgstr "Welcome to the Mauna Installer."
 
 #: live-installer/resources/interface.ui:88
 #: live-installer/frontend/gtk_interface.py:493
 #: live-installer/frontend/tui_interface.py:36
-#, fuzzy
 msgid ""
 "This program will ask you some questions and set up system on your computer."
 msgstr ""
-"This program will ask you some questions and set up 17G on your computer."
+"This program will ask you some questions and set up Mauna on your computer."
 
 #: live-installer/resources/interface.ui:143
 #: live-installer/frontend/gtk_interface.py:495
@@ -43,9 +41,8 @@ msgid "Keyboard Model:"
 msgstr "Keyboard Model:"
 
 #: live-installer/resources/interface.ui:321
-#, fuzzy
 msgid "Type here to test your keyboard"
-msgstr "Type here to test your keyboard layout"
+msgstr "Type here to test your keyboard"
 
 #: live-installer/resources/interface.ui:377
 #: live-installer/resources/interface.ui:1946
@@ -71,9 +68,8 @@ msgid "Automated Installation"
 msgstr "Automated Installation"
 
 #: live-installer/resources/interface.ui:500
-#, fuzzy
 msgid "Erase a disk and install LMDE on it."
-msgstr "Erase a disk and install 17G on it."
+msgstr "Erase a disk and install Mauna on it."
 
 #: live-installer/resources/interface.ui:528
 #: live-installer/frontend/gtk_interface.py:533
@@ -82,9 +78,8 @@ msgstr "Disk:"
 
 #: live-installer/resources/interface.ui:573
 #: live-installer/frontend/gtk_interface.py:560
-#, fuzzy
 msgid "Create swap partition"
-msgstr "Edit partition"
+msgstr "Create swap partition"
 
 #: live-installer/resources/interface.ui:595
 msgid "1"
@@ -132,17 +127,16 @@ msgid "Manual Partitioning"
 msgstr "Manual Partitioning"
 
 #: live-installer/resources/interface.ui:900
-#, fuzzy
 msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Manually create, resize or choose partitions for 17G."
+msgstr "Manually create, resize or choose partitions for Mauna."
 
 #: live-installer/resources/interface.ui:965
 msgid "Remove windows & Install"
-msgstr ""
+msgstr "Remove Windows & Install"
 
 #: live-installer/resources/interface.ui:981
 msgid "Remove existsing windows and install LMDE on it."
-msgstr ""
+msgstr "Remove existsing Windows and install Mauna on it."
 
 #: live-installer/resources/interface.ui:1033
 #: live-installer/frontend/gtk_interface.py:547
@@ -273,7 +267,7 @@ msgstr ""
 #: live-installer/resources/interface.ui:2066
 #: live-installer/resources/welcome.ui:206
 msgid "17g team"
-msgstr ""
+msgstr "Mauna team"
 
 #: live-installer/resources/interface.ui:2269
 #: live-installer/resources/interface.ui:2309
@@ -291,7 +285,7 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try 17g"
-msgstr ""
+msgstr "Try Mauna"
 
 #: live-installer/resources/welcome.ui:85
 msgid " "
@@ -299,24 +293,24 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:121
 #: live-installer/frontend/welcome.py:34
-#, fuzzy
 msgid "Install to Hard Drive"
-msgstr "Installing drivers"
+msgstr "Install to Hard Drive"
 
 #: live-installer/resources/welcome.ui:166
 msgid "You are currently running 17g from live media."
-msgstr ""
+msgstr "You are currently running Mauna from live media."
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
 "You can install 17g now, or chose \"Install to Hard Drive\" in the "
 "Appication Menu later."
 msgstr ""
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Appication Menu later."
 
 #: live-installer/resources/welcome.ui:228
-#, fuzzy
 msgid "Welcome to 17g"
-msgstr "Welcome"
+msgstr "Welcome to Mauna"
 
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
@@ -373,18 +367,16 @@ msgid "Setting locale"
 msgstr "Setting locale"
 
 #: live-installer/installer.py:642
-#, fuzzy
 msgid "Setting timezone"
-msgstr "Setting hostname"
+msgstr "Setting timezone"
 
 #: live-installer/installer.py:677
 msgid "Setting keyboard options"
 msgstr "Setting keyboard options"
 
 #: live-installer/installer.py:771
-#, fuzzy
 msgid "Removing extra packages"
-msgstr "Removing live configuration (packages)"
+msgstr "Removing extra packages"
 
 #: live-installer/installer.py:777
 msgid "Clearing package manager"
@@ -453,9 +445,9 @@ msgid ""
 msgstr ""
 
 #: live-installer/frontend/welcome.py:39
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to %s"
-msgstr "Welcome"
+msgstr "Welcome to %s"
 
 #: live-installer/frontend/partitioning.py:72
 msgid "B"
@@ -464,7 +456,7 @@ msgstr "B"
 #: live-installer/frontend/partitioning.py:72
 #: live-installer/frontend/partitioning.py:442
 msgid "kB"
-msgstr "KB"
+msgstr "kB"
 
 #: live-installer/frontend/partitioning.py:72
 #: live-installer/frontend/partitioning.py:442
@@ -493,9 +485,9 @@ msgstr "Edit"
 #: live-installer/frontend/partitioning.py:230
 #: live-installer/frontend/partitioning.py:237
 #: live-installer/frontend/partitioning.py:246
-#, fuzzy, python-format
+#, python-format
 msgid "Assign to %s"
-msgstr "Assign to /"
+msgstr "Assign to %s"
 
 #: live-installer/frontend/partitioning.py:301
 #: live-installer/frontend/partitioning.py:368
@@ -561,9 +553,8 @@ msgid "bootloader/recovery"
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:582
-#, fuzzy
 msgid "EFI System Partition"
-msgstr "Edit partition"
+msgstr "EFI System Partition"
 
 #: live-installer/frontend/partitioning.py:607
 msgid "Edit partition"
@@ -651,9 +642,8 @@ msgstr "Installation Type"
 
 #: live-installer/frontend/gtk_interface.py:476
 #: live-installer/frontend/gtk_interface.py:478
-#, fuzzy
 msgid "Where do you want to install system?"
-msgstr "Where do you want to install 17G?"
+msgstr "Where do you want to install Mauna?"
 
 #: live-installer/frontend/gtk_interface.py:478
 msgid "Partitioning"
@@ -690,23 +680,21 @@ msgstr "Next"
 
 #: live-installer/frontend/gtk_interface.py:491
 #: live-installer/frontend/tui_interface.py:34
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to the %s Installer."
-msgstr "Welcome to the 17G Installer."
+msgstr "Welcome to the %s Installer."
 
 #: live-installer/frontend/gtk_interface.py:506
 msgid "Type here to test your keyboard layout"
 msgstr "Type here to test your keyboard layout"
 
 #: live-installer/frontend/gtk_interface.py:532
-#, fuzzy
 msgid "Erase a disk and install system on it."
-msgstr "Erase a disk and install 17G on it."
+msgstr "Erase a disk and install Mauna on it."
 
 #: live-installer/frontend/gtk_interface.py:545
-#, fuzzy
 msgid "Manually create, resize or choose partitions for system."
-msgstr "Manually create, resize or choose partitions for 17G."
+msgstr "Manually create, resize or choose partitions for Mauna."
 
 #: live-installer/frontend/gtk_interface.py:549
 msgid "The setup tool will not do partitioning"
@@ -792,9 +780,8 @@ msgid "Please choose a language"
 msgstr "Please choose a language"
 
 #: live-installer/frontend/gtk_interface.py:1120
-#, fuzzy
 msgid "Please provide a kayboard layout for your computer."
-msgstr "Please provide a password for your user account."
+msgstr "Please provide a keyboard layout for your computer."
 
 #: live-installer/frontend/gtk_interface.py:1140
 msgid "Please provide your full name."
@@ -802,9 +789,8 @@ msgstr "Please provide your full name."
 
 #: live-installer/frontend/gtk_interface.py:1145
 #: live-installer/frontend/gtk_interface.py:1264
-#, fuzzy
 msgid "Your passwords is not strong."
-msgstr "Your passwords do not match."
+msgstr "Your passwords is not strong."
 
 #: live-installer/frontend/gtk_interface.py:1149
 msgid "Install"
@@ -817,18 +803,19 @@ msgid ""
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1167
-#, fuzzy
 msgid ""
 "The root partition is too small. It should be at least 16GB. Do you want to "
 "continue?"
-msgstr "The EFI partition is too small. It must be at least 35MB."
+msgstr ""
+"The root partition is too small. It should be at least 16GB. Do you want to "
+"continue?"
 
 #: live-installer/frontend/gtk_interface.py:1171
 msgid "Please select a root (/) partition."
 msgstr "Please select a root (/) partition."
 
 #: live-installer/frontend/gtk_interface.py:1172
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "A root partition is needed to install %s on.\n"
 "\n"
@@ -837,25 +824,21 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 "\n"
 msgstr ""
-"A root partition is needed to install Linux Mint on.\n"
+"A root partition is needed to install %s on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"
 " - Recommended filesystem format: ext4\n"
 "\n"
-"Note: The timeshift btrfs snapshots feature requires the use of:\n"
-" - subvolume Mount-point /@\n"
-" - btrfs as filesystem format\n"
+"  \n"
 
 #: live-installer/frontend/gtk_interface.py:1186
-#, fuzzy
 msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr "The EFI partition is not bootable. Please edit the partition flags."
+msgstr "The EFI partition is not bootable. Do you want to set boot flag?"
 
 #: live-installer/frontend/gtk_interface.py:1192
-#, fuzzy
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "The EFI partition is too small. It must be at least 35MB."
+msgstr "The EFI partition is too small. It must be at least 100MB."
 
 #: live-installer/frontend/gtk_interface.py:1198
 #: live-installer/frontend/gtk_interface.py:1203
@@ -867,7 +850,6 @@ msgid "Please select an EFI partition."
 msgstr "Please select an EFI partition."
 
 #: live-installer/frontend/gtk_interface.py:1208
-#, fuzzy
 msgid ""
 "An EFI system partition is needed with the following requirements:\n"
 "\n"
@@ -884,12 +866,12 @@ msgstr ""
 "\n"
 " - Mount point: /boot/efi\n"
 " - Partition flags: Bootable\n"
-" - Size: at least 35MB (100MB or more recommended)\n"
+" - Size: at least 100MB \n"
 " - Format: vfat or fat32\n"
 "\n"
 "To ensure compatibility with Windows we recommend you use the first "
 "partition of the disk as the EFI system partition.\n"
-" "
+"  "
 
 #: live-installer/frontend/gtk_interface.py:1257
 msgid "Please select a disk."
@@ -905,9 +887,8 @@ msgid "This will delete all the data on %s. Are you sure?"
 msgstr "This will delete all the data on %s. Are you sure?"
 
 #: live-installer/frontend/gtk_interface.py:1346
-#, fuzzy
 msgid "Please provide a device to install grub."
-msgstr "Please provide a username."
+msgstr "Please provide a device to install grub."
 
 #: live-installer/frontend/gtk_interface.py:1390
 msgid "Localization"
@@ -971,9 +952,8 @@ msgid "Bios type: "
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1417
-#, fuzzy
 msgid "Install updates after installation"
-msgstr "Automated Installation"
+msgstr "Install updates after installation"
 
 #: live-installer/frontend/gtk_interface.py:1418
 msgid "Filesystem operations"
@@ -1040,29 +1020,24 @@ msgid "Error"
 msgstr ""
 
 #: live-installer/frontend/tui_interface.py:57
-#, fuzzy
 msgid "What keyboard would you like to use?"
-msgstr "What language would you like to use?"
+msgstr "What keyboard would you like to use?"
 
 #: live-installer/frontend/tui_interface.py:64
-#, fuzzy
 msgid "Keyboard Model"
-msgstr "Keyboard Model:"
+msgstr "Keyboard Model"
 
 #: live-installer/frontend/tui_interface.py:73
-#, fuzzy
 msgid "Installation type?"
-msgstr "Installation Type"
+msgstr "Installation Type?"
 
 #: live-installer/frontend/tui_interface.py:80
-#, fuzzy
 msgid "Select a disk?"
-msgstr "Please select a disk."
+msgstr "Select a disk?"
 
 #: live-installer/frontend/tui_interface.py:84
-#, fuzzy
 msgid "Disk"
-msgstr "Disk:"
+msgstr "Disk"
 
 #: live-installer/frontend/dialogs.py:41
 msgid "No"
@@ -1073,33 +1048,28 @@ msgid "Yes"
 msgstr "Yes"
 
 #: live-installer/frontend/timezones.py:140
-#, fuzzy
 msgid "Select timezone"
-msgstr "Timezone"
+msgstr "Select timezone"
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
 msgstr "Please provide a username."
 
 #: live-installer/validate.py:14
-#, fuzzy
 msgid "Your username is invalid."
-msgstr "Your username must be lower case."
+msgstr "Your username is invalid."
 
 #: live-installer/validate.py:16
-#, fuzzy
 msgid "Your username is too long"
-msgstr "Your username must be lower case."
+msgstr "Your username is too long"
 
 #: live-installer/validate.py:18
-#, fuzzy
 msgid "Your username is unavailable"
-msgstr "Your username must be lower case."
+msgstr "Your username is unavailable"
 
 #: live-installer/validate.py:20
-#, fuzzy
 msgid "Your username cannot start with numbers."
-msgstr "Your username may not contain whitespace characters."
+msgstr "Your username cannot start with numbers."
 
 #: live-installer/validate.py:23
 msgid "Your username must be lower case."
@@ -1114,14 +1084,12 @@ msgid "Please provide a name for your computer."
 msgstr ""
 
 #: live-installer/validate.py:35
-#, fuzzy
 msgid "The computer's name is invalid."
-msgstr "Your username must be lower case."
+msgstr "The computer's name is invalid."
 
 #: live-installer/validate.py:37
-#, fuzzy
 msgid "The computer's name is too long."
-msgstr "Your username must be lower case."
+msgstr "The computer's name is too long."
 
 #: live-installer/validate.py:39
 msgid "The computer's name should not starts or ends with -"
@@ -1141,43 +1109,36 @@ msgid ""
 msgstr ""
 
 #: live-installer/validate.py:59
-#, fuzzy
 msgid "Your passwords is too short."
-msgstr "Your passwords do not match."
+msgstr "Your passwords is too short."
 
 #: live-installer/validate.py:63
-#, fuzzy
 msgid "Your password is numeric"
-msgstr "Your passwords do not match."
+msgstr "Your password is numeric"
 
 #: live-installer/validate.py:67
-#, fuzzy
 msgid "Your password must have big letters"
-msgstr "Your passwords do not match."
+msgstr "Your password must have big letters"
 
 #: live-installer/validate.py:71
-#, fuzzy
 msgid "Your password must have small letters"
-msgstr "Your passwords do not match."
+msgstr "Your password must have small letters"
 
 #: live-installer/validate.py:75
-#, fuzzy
 msgid "Your password must not be the same as the user name"
-msgstr "Your passwords do not match."
+msgstr "Your password must not be the same as the user name"
 
 #: live-installer/validate.py:79
 msgid "Your password length must be minimum 8 characters"
 msgstr ""
 
 #: live-installer/validate.py:99
-#, fuzzy
 msgid "Your password must have exclusive characters"
-msgstr "Your passwords do not match."
+msgstr "Your password must have exclusive characters"
 
 #: live-installer/validate.py:103
-#, fuzzy
 msgid "Your password must have numbers"
-msgstr "Your passwords do not match."
+msgstr "Your password must have numbers"
 
 #: live-installer/validate.py:107
 msgid "Please provide a password for your user account."

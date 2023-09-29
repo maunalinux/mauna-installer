@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-09 13:04+0000\n"
-"PO-Revision-Date: 2011-10-07 21:36+0000\n"
+"PO-Revision-Date: 2023-09-26 18:46-0300\n"
 "Last-Translator: blueXrider <Unknown>\n"
 "Language-Team: English (Canada) <en_CA@li.org>\n"
-"Language: \n"
+"Language: en_CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: live-installer/resources/interface.ui:71
 msgid "Welcome to the 17g Installer."
-msgstr ""
+msgstr "Welcome to the Mauna Installer."
 
 #: live-installer/resources/interface.ui:88
 #: live-installer/frontend/gtk_interface.py:493
@@ -68,7 +68,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:500
 msgid "Erase a disk and install LMDE on it."
-msgstr ""
+msgstr "Erase a disk and install Mauna on it."
 
 #: live-installer/resources/interface.ui:528
 #: live-installer/frontend/gtk_interface.py:533
@@ -127,7 +127,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:900
 msgid "Manually create, resize or choose partitions for LMDE."
-msgstr ""
+msgstr "Manually create, resize or choose partitions for Mauna."
 
 #: live-installer/resources/interface.ui:965
 msgid "Remove windows & Install"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:981
 msgid "Remove existsing windows and install LMDE on it."
-msgstr ""
+msgstr "Remove existsing Windows and install Mauna on it."
 
 #: live-installer/resources/interface.ui:1033
 #: live-installer/frontend/gtk_interface.py:547
@@ -194,9 +194,8 @@ msgid "Install the GRUB boot menu on:"
 msgstr ""
 
 #: live-installer/resources/interface.ui:1528
-#, fuzzy
 msgid "Edit Partitions"
-msgstr "System settings"
+msgstr "Edit Partitions"
 
 #: live-installer/resources/interface.ui:1552
 msgid "Legacy"
@@ -263,7 +262,7 @@ msgstr ""
 #: live-installer/resources/interface.ui:2066
 #: live-installer/resources/welcome.ui:206
 msgid "17g team"
-msgstr ""
+msgstr "Mauna team"
 
 #: live-installer/resources/interface.ui:2269
 #: live-installer/resources/interface.ui:2309
@@ -281,7 +280,7 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try 17g"
-msgstr ""
+msgstr "Try Mauna"
 
 #: live-installer/resources/welcome.ui:85
 msgid " "
@@ -289,23 +288,24 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:121
 #: live-installer/frontend/welcome.py:34
-#, fuzzy
 msgid "Install to Hard Drive"
-msgstr "Installing bootloader"
+msgstr "Install to Hard Drive"
 
 #: live-installer/resources/welcome.ui:166
 msgid "You are currently running 17g from live media."
-msgstr ""
+msgstr "You are currently running Mauna from live media."
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
 "You can install 17g now, or chose \"Install to Hard Drive\" in the "
 "Appication Menu later."
 msgstr ""
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Appication Menu later."
 
 #: live-installer/resources/welcome.ui:228
 msgid "Welcome to 17g"
-msgstr ""
+msgstr "Welcome to Mauna"
 
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
@@ -362,18 +362,16 @@ msgid "Setting locale"
 msgstr "Setting locale"
 
 #: live-installer/installer.py:642
-#, fuzzy
 msgid "Setting timezone"
-msgstr "Setting hostname"
+msgstr "Setting timezone"
 
 #: live-installer/installer.py:677
 msgid "Setting keyboard options"
 msgstr "Setting keyboard options"
 
 #: live-installer/installer.py:771
-#, fuzzy
 msgid "Removing extra packages"
-msgstr "Removing live configuration (packages)"
+msgstr "Removing extra packages"
 
 #: live-installer/installer.py:777
 msgid "Clearing package manager"
@@ -550,9 +548,8 @@ msgid "bootloader/recovery"
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:582
-#, fuzzy
 msgid "EFI System Partition"
-msgstr "System settings"
+msgstr "EFI System Partition"
 
 #: live-installer/frontend/partitioning.py:607
 msgid "Edit partition"
@@ -779,7 +776,7 @@ msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1120
 msgid "Please provide a kayboard layout for your computer."
-msgstr ""
+msgstr "Please provide a keyboard layout for your computer."
 
 #: live-installer/frontend/gtk_interface.py:1140
 msgid "Please provide your full name."
@@ -1001,14 +998,12 @@ msgid "What keyboard would you like to use?"
 msgstr ""
 
 #: live-installer/frontend/tui_interface.py:64
-#, fuzzy
 msgid "Keyboard Model"
-msgstr "Keyboard layout: "
+msgstr "Keyboard Model"
 
 #: live-installer/frontend/tui_interface.py:73
-#, fuzzy
 msgid "Installation type?"
-msgstr "Installation error"
+msgstr "Installation type?"
 
 #: live-installer/frontend/tui_interface.py:80
 msgid "Select a disk?"
