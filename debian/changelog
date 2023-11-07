@@ -1,3 +1,18 @@
+mauna-installer (2.0.2) mauna; urgency=medium
+
+  * New upstream release
+  * update "ui" and resources
+  * l10n: update pot
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 01 Nov 2023 18:31:33 -0300
+
+mauna-installer (2.0.1) mauna; urgency=medium
+
+  * New upstream version
+  * l10n: update .pot 
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 26 Oct 2023 21:23:45 -0300
+
 mauna-installer (2.0.0mauna3) mauna; urgency=medium
 
   * New upstream version for Mauna Linux
