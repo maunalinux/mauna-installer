@@ -26,5 +26,5 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
                     console-setup,
                     btrfs-progs
 Description: Mauna live installer (17g)
- 17G installation tools configured for pardus
+ 17G installation tools configured for Mauna
 

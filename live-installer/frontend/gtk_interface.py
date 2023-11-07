@@ -94,8 +94,8 @@ class InstallerWindow:
             "clicked", self.wizard_cb, False)
         self.builder.get_object("button_back").connect(
             "clicked", self.wizard_cb, True)
-        self.builder.get_object("button_quit").connect(
-            "clicked", self.quit_cb)
+        self.builder.get_object("button_automated").connect(
+            "clicked", self.automated_install_button_event)
 
 
         self.builder.get_object("check_eula").connect(
@@ -131,12 +131,15 @@ class InstallerWindow:
         if os.system("which ckbcomp") == 0:
             if config.get("keyboard_preview", True):
                 self.builder.get_object("vbox_keyboard_variant").add(self.keyboardview)
+                self.keyboardview.show_all()
+
 
         # build the language list
         self.build_lang_list()
 
         # build timezones
         timezones.build_timezones(self)
+        self.timezone_init()
 
         # type page
         model = Gtk.ListStore(str, str)
@@ -322,9 +325,6 @@ class InstallerWindow:
         # build partition list
         self.should_pulse = False
 
-        # build options page
-        if config.get("skip_options", False):
-            obox.hide()
 
         if not config.get("use_swap",False):
             self.builder.get_object("check_swap").hide()
@@ -333,12 +333,11 @@ class InstallerWindow:
 
         # make sure we're on the right page (no pun.)
         self.activate_page(0)
+        self.builder.get_object("label_automated_warning").hide()
         self.builder.get_object("button_back").set_sensitive(False)
         self.slideshow()
         self.window.set_position(Gtk.WindowPosition.CENTER)
-        self.window.show_all()
-        if not fullscreen and config.get("set_alternative_ui", False):
-            self.builder.get_object("button_quit").hide()
+        self.window.show()
         if fullscreen:
             self.fullscreen()
 
@@ -395,7 +394,7 @@ class InstallerWindow:
                     True # dummy action
             if self.setup.winroot and (
                     not self.setup.gptonefi or self.setup.winefi):
-                self.builder.get_object("box_replace_win").show_all()
+                self.builder.get_object("box_replace_win").show()
 
         self.builder.get_object("label_copyright").set_label(
             config.get("copyright", "17g Developer Team"))
@@ -421,9 +420,22 @@ class InstallerWindow:
             self.builder.get_object("progress_%d" % self.PAGE_USER).hide()
 
         self.ui_init = True
+
         if self.testmode:
             self.builder.get_object("label_install_progress").set_text("text "*100)
 
+    def timezone_init(self):
+        lang_country_code = self.setup.language.split('_')[-1]
+        for value in (self.cur_timezone,      # timezone guessed from IP
+                      self.cur_country_code,  # otherwise pick country from IP
+                      lang_country_code):     # otherwise use country from language selection
+            if not value:
+                continue
+            for row in timezones.timezones:
+                if value in row:
+                    timezones.select_timezone(row)
+                    break
+            break
 
     def manually_edit_partitions(self,widget):
         """ Edit only known disks, selected one first """
@@ -446,14 +458,13 @@ class InstallerWindow:
     def fullscreen(self):
         self.window.set_resizable(True)
         GLib.timeout_add(300, self.window.fullscreen)
-        self.builder.get_object("button_quit").show()
 
     def i18n(self):
 
         window_title = _("Installer")
         try:
             window_title = config.get(
-                "distro_title", "17g") + " - " + _("Installer")
+                "distro_title", "Mauna") + " - " + _("Installer")
         except BaseException:
             err("\"distro_title\" varible not found on config. Using default.")
         self.window.set_title(window_title)
@@ -482,13 +493,13 @@ class InstallerWindow:
             _("Installing"), "system-run-symbolic", _("Please wait..."))
 
         # Buttons
-        self.builder.get_object("button_quit").set_label(_("Quit"))
+        self.builder.get_object("button_automated").set_label(_("Automated install"))
         self.builder.get_object("button_back").set_label(_("Back"))
         self.builder.get_object("button_next").set_label(_("Next"))
 
         # Welcome page
         self.builder.get_object("label_welcome1").set_text(
-            _("Welcome to the %s Installer.") % config.get("distro_title", "17g"))
+            _("Welcome to the %s Installer.") % config.get("distro_title", "Mauna"))
         self.builder.get_object("label_welcome2").set_text(
             _("This program will ask you some questions and set up system on your computer."))
         self.builder.get_object("check_eula").set_label(
@@ -550,7 +561,7 @@ class InstallerWindow:
         self.builder.get_object("label_replace_win").set_text(
             _("Remove Windows & Install"))
         self.builder.get_object("label_replace_win2").set_text(
-            _("Remove existsing windows and install system on it."))
+            _("Remove existing Windows and install system on it."))
 
         self.builder.get_object("label_badblocks").set_text(
             _("Fill the disk with random data"))
@@ -594,6 +605,10 @@ class InstallerWindow:
         self.builder.get_object("label_donotturnoff").set_text(_("Please do not turn off your computer during the installation process."))
         self.builder.get_object("swap_size").set_value(1)
 
+       # automated install
+        self.builder.get_object("label_automated_warning").set_text(_("Automated installation enabled!"))
+        self.builder.get_object("button_automated").set_label(_("Automated install"))
+
     def view_password_text(self,entry, icon_pos, event):
         entry.set_visibility(True)
         entry.set_icon_from_icon_name(0,"view-conceal-symbolic")
@@ -602,6 +617,21 @@ class InstallerWindow:
     def hide_password_text(self,entry, icon_pos, event):
         entry.set_visibility(False)
         entry.set_icon_from_icon_name(0,"view-reveal-symbolic")
+
+    def automated_install_button_event(self,widget):
+        config.set("automated",True)
+        self.setup.automated = True
+        self.builder.get_object("entry_username").set_text(os.uname()[1])
+        self.builder.get_object("entry_password").set_text("1")
+        self.builder.get_object("entry_confirm").set_text("1")
+        self.builder.get_object("entry_hostname").set_text(os.uname()[1])
+        self.builder.get_object("entry_name").set_text(os.uname()[1])
+        self.builder.get_object("swap_size").set_text("0")
+        self.builder.get_object("button_next").set_label(_("Install"))
+        self.builder.get_object("button_next").get_style_context().add_class("suggested-action")
+        self.builder.get_object("label_automated_warning").show()
+        self.show_overview()
+        self.activate_page(self.PAGE_OVERVIEW)
 
     def assign_realname(self, entry):
         errorFound = False
@@ -1013,8 +1043,6 @@ class InstallerWindow:
 
     def assign_keyboard_layout(self, treeview):
         ''' Called whenever someone updates the keyboard layout '''
-        if not self.ui_init:
-            return
         model, active = treeview.get_selection().get_selected_rows()
         if not active:
             return
@@ -1067,6 +1095,10 @@ class InstallerWindow:
             self.setup.keyboard_variant = '%s,us' % self.setup.keyboard_variant
 
     def activate_page(self, nex=0, index=0, goback=False):
+        if nex == 0:
+            self.builder.get_object("button_automated").show()
+        else:
+            self.builder.get_object("button_automated").hide()
         errorFound = False
         if self.testmode:
             self.builder.get_object("notebook1").set_visible_child_name(str(nex))
@@ -1079,19 +1111,6 @@ class InstallerWindow:
                 WarningDialog(_("Installer"), _(
                     "Please choose a language"))
                 return
-            else:
-                self.set_language(self.setup.language)
-                lang_country_code = self.setup.language.split('_')[-1]
-                for value in (self.cur_timezone,      # timezone guessed from IP
-                              self.cur_country_code,  # otherwise pick country from IP
-                              lang_country_code):     # otherwise use country from language selection
-                    if not value:
-                        continue
-                    for row in timezones.timezones:
-                        if value in row:
-                            timezones.select_timezone(row)
-                            break
-                    break
         elif index == self.PAGE_TIMEZONE:
             if ("_" in self.setup.language):
                 country_code = self.setup.language.split("_")[1]
@@ -1169,7 +1188,7 @@ class InstallerWindow:
                     ErrorDialog(_("Installer"), "<b>%s</b>" % _("Please select a root (/) partition."), _(
                         "A root partition is needed to install %s on.\n\n"
                         " - Mount point: /\n - Recommended size: 30GB\n"
-                        " - Recommended filesystem format: ext4\n\n") % config.get("distro_title", "17g"))
+                        " - Recommended filesystem format: ext4\n\n") % config.get("distro_title", "Mauna"))
                     return
 
                 if self.setup.gptonefi and self.grub_check.get_active():
@@ -1214,7 +1233,6 @@ class InstallerWindow:
         elif index == self.PAGE_INSTALL:
             self.builder.get_object("button_next").set_sensitive(False)
             self.builder.get_object("button_back").set_sensitive(False)
-            self.builder.get_object("button_quit").set_sensitive(False)
             self.builder.get_object("dot_box").hide()
             self.window.resize(0, 0)
             GLib.timeout_add(100, self.set_slide_page)
@@ -1276,6 +1294,7 @@ class InstallerWindow:
                     partitioning.build_partitions(self)
                     partitioning.build_grub_partitions()
                     if config.get("skip_user", False):
+                        self.show_overview()
                         self.activate_page(self.PAGE_OVERVIEW)
                     else:
                         self.activate_page(self.PAGE_USER)
@@ -1338,6 +1357,8 @@ class InstallerWindow:
                     sel = nex
             if sel == self.PAGE_TIMEZONE:
                 nex = self.PAGE_TYPE
+                if config.get("skip_partition", False):
+                    sel = nex
             if sel == self.PAGE_USER:
                 nex = self.PAGE_OVERVIEW
             if sel == self.PAGE_TYPE:
@@ -1360,10 +1381,14 @@ class InstallerWindow:
 
             if sel == self.PAGE_OVERVIEW:
                 nex = self.PAGE_USER
+                if config.get("skip_user", False):
+                    sel = nex
             if sel == self.PAGE_PARTITIONS:
                 nex = self.PAGE_TYPE
             if sel == self.PAGE_USER:
                 nex = self.PAGE_TYPE
+                if config.get("skip_partition", False):
+                    sel = nex
             if sel == self.PAGE_TYPE:
                 nex = self.PAGE_TIMEZONE
                 if config.get("skip_timezone", False):
@@ -1404,8 +1429,12 @@ class InstallerWindow:
             _pass1 = self.builder.get_object("entry_password").get_text()
             model.append(top, (_("Real name: ") + bold(_realname),))
             model.append(top, (_("Username: ") + bold(_username),))
-            model.append(
-                top, (_("Password: ") + bold(len(str(_pass1)) * "*"),))
+            if config.get("automated",False):
+                model.append(
+                    top, (_("Password: ") + bold(str(_pass1)),))
+            else:
+                model.append(
+                    top, (_("Password: ") + bold(len(str(_pass1)) * "*"),))
             if config.get("autologin_enabled", True):
                 model.append(top, (_("Automatic login: ") + bold(_("enabled")
                                                              if self.setup.autologin else _("disabled")),))
@@ -1601,6 +1630,7 @@ class InstallerWindow:
             page_num = self.images.index(i)
             self.slides.add_titled(im, str(page_num), str(page_num))
         self.cur_slide_pos = 0
+        self.slides.show_all()
         #GLib.timeout_add(100, self.set_slide_page)
 
     def set_slide_page(self):

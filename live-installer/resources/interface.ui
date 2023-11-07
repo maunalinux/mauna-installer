@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.38.2 -->
+<!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.18"/>
   <object class="GtkSizeGroup">
@@ -68,7 +68,7 @@
                   <object class="GtkLabel" id="label_welcome1">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">Welcome to the 17g Installer.</property>
+                    <property name="label" translatable="yes">Welcome to the Mauna Installer.</property>
                     <property name="justify">center</property>
                     <attributes>
                       <attribute name="weight" value="bold"/>
@@ -497,7 +497,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="halign">start</property>
-                                <property name="label" translatable="yes">Erase a disk and install LMDE on it.</property>
+                                <property name="label" translatable="yes">Erase a disk and install Mauna on it.</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -897,7 +897,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="halign">start</property>
-                                <property name="label" translatable="yes">Manually create, resize or choose partitions for LMDE.</property>
+                                <property name="label" translatable="yes">Manually create, resize or choose partitions for Mauna.</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -962,7 +962,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="halign">start</property>
-                                <property name="label" translatable="yes">Remove windows &amp; Install</property>
+                                <property name="label" translatable="yes">Remove Windows &amp; Install</property>
                                 <attributes>
                                   <attribute name="weight" value="bold"/>
                                 </attributes>
@@ -978,7 +978,7 @@
                                 <property name="visible">True</property>
                                 <property name="can-focus">False</property>
                                 <property name="halign">start</property>
-                                <property name="label" translatable="yes">Remove existsing windows and install LMDE on it.</property>
+                                <property name="label" translatable="yes">Remove existing Windows and install Mauna on it.</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -1905,6 +1905,24 @@
                     <property name="position">0</property>
                   </packing>
                 </child>
+                <child>
+                  <object class="GtkLabel" id="label_automated_warning">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="margin-top">13</property>
+                    <property name="margin-bottom">13</property>
+                    <property name="label" translatable="yes">Automated installation enabled!</property>
+                    <attributes>
+                      <attribute name="weight" value="bold"/>
+                      <attribute name="foreground" value="#ffff00000000"/>
+                    </attributes>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
               </object>
               <packing>
                 <property name="name">8</property>
@@ -2063,7 +2081,7 @@
               <object class="GtkLabel" id="label_copyright">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">17g team</property>
+                <property name="label" translatable="yes">Mauna team</property>
                 <property name="xalign">0</property>
               </object>
               <packing>
@@ -2199,8 +2217,9 @@
                 <property name="spacing">6</property>
                 <property name="layout-style">end</property>
                 <child>
-                  <object class="GtkButton" id="button_quit">
-                    <property name="label">Quit</property>
+                  <object class="GtkButton" id="button_automated">
+                    <property name="label">Automated
+install</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
                     <property name="receives-default">True</property>

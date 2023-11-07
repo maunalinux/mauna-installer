@@ -31,7 +31,7 @@ class InstallerWindow:
 
     def page_welcome(self):
         self.d.set_background_title(
-            _("Welcome to the %s Installer.") % config.get("distro_title", "17g"))
+            _("Welcome to the %s Installer.") % config.get("distro_title", "Mauna"))
         self.d.msgbox(
             _("This program will ask you some questions and set up system on your computer."))
         return True

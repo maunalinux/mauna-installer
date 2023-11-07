@@ -58,7 +58,7 @@
                       <object class="GtkLabel" id="trylabel">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <property name="label" translatable="yes">Try 17g</property>
+                        <property name="label" translatable="yes">Try Mauna</property>
                         <attributes>
                           <attribute name="weight" value="bold"/>
                         </attributes>
@@ -163,7 +163,7 @@
                   <object class="GtkLabel" id="msglabel1">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">You are currently running 17g from live media.</property>
+                    <property name="label" translatable="yes">You are currently running Mauna from live media.</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -175,7 +175,7 @@
                   <object class="GtkLabel" id="msglabel2">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="label" translatable="yes">You can install 17g now, or chose "Install to Hard Drive" in the Appication Menu later.</property>
+                    <property name="label" translatable="yes">You can install Mauna now, or chose "Install to Hard Drive" in the Appication Menu later.</property>
                     <property name="justify">center</property>
                     <property name="single-line-mode">True</property>
                   </object>
@@ -203,7 +203,7 @@
           <object class="GtkLabel" id="copyright">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="label" translatable="yes">17g team</property>
+            <property name="label" translatable="yes">Mauna team</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -225,7 +225,7 @@
             <property name="can-focus">False</property>
             <property name="margin-top">10</property>
             <property name="margin-bottom">10</property>
-            <property name="label" translatable="yes">Welcome to 17g</property>
+            <property name="label" translatable="yes">Welcome to Mauna</property>
           </object>
         </child>
       </object>

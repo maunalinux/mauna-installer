@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: 17g
-Source: https://gitlab.com/ggggggggggggggggg/17g
+Upstream-Name: mauna-installer
+Source: https://github.com/maunalinux/mauna-installer
 
 
 Files: *

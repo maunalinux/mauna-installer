@@ -28,5 +28,3 @@ python3 main.py --expert
 Branding provide installer icon and and slideshow images. configs provide 17g config.
 
 **live-installer.desktop** file is mauna-installer launcher.
-
-

@@ -57,9 +57,9 @@ additional_user_groups:
 # manual_partition_enabled: true 
 use_swap: true
 swap_size: 4192
-# replace_windows_enabled: true
-#lvm_enabled: true
-#encryption_enabled: true
+replace_windows_enabled: true
+lvm_enabled: true
+encryption_enabled: true
 fill_disk_enabled: false
 # fullscreen: false
 # partition_editor: gparted
@@ -79,7 +79,7 @@ hide_keyboard_model: true
 # allow_uppercase_hostname: true
 allow_week_password: true
 # allow_auto_novariant: false
-# min_password_length: 1
+min_password_length: 8
 
 ## Pre/Post operations section
 # post_install_hook:
