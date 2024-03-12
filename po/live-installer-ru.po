@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-31 16:00+0300\n"
-"PO-Revision-Date: 2020-03-13 10:54+0000\n"
+"POT-Creation-Date: 2023-11-01 18:27-0300\n"
+"PO-Revision-Date: 2023-12-27 23:21-0300\n"
 "Last-Translator: Vlad Orlov <Unknown>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -16,21 +16,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: live-installer/resources/interface.ui:71
-#, fuzzy
-msgid "Welcome to the 17g Installer."
-msgstr "Добро пожаловать в программу установки 17G."
+msgid "Welcome to the Mauna Installer."
+msgstr ""
 
 #: live-installer/resources/interface.ui:88
 #: live-installer/frontend/gtk_interface.py:503
 #: live-installer/frontend/tui_interface.py:36
-#, fuzzy
 msgid ""
 "This program will ask you some questions and set up system on your computer."
 msgstr ""
-"Эта программа задаст вам несколько вопросов и установит 17G на ваш компьютер."
 
 #: live-installer/resources/interface.ui:143
 #: live-installer/frontend/gtk_interface.py:505
@@ -71,9 +68,8 @@ msgid "Automated Installation"
 msgstr "Автоматическая установка"
 
 #: live-installer/resources/interface.ui:500
-#, fuzzy
-msgid "Erase a disk and install LMDE on it."
-msgstr "Стереть диск и установить на нём 17G."
+msgid "Erase a disk and install Mauna on it."
+msgstr ""
 
 #: live-installer/resources/interface.ui:528
 #: live-installer/frontend/gtk_interface.py:543
@@ -134,16 +130,16 @@ msgid "Manual Partitioning"
 msgstr "Ручная разметка"
 
 #: live-installer/resources/interface.ui:900
-#, fuzzy
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Вручную создать, изменить размер или выбрать разделы для 17G."
+msgid "Manually create, resize or choose partitions for Mauna."
+msgstr ""
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove windows & Install"
+#: live-installer/frontend/gtk_interface.py:561
+msgid "Remove Windows & Install"
 msgstr ""
 
 #: live-installer/resources/interface.ui:981
-msgid "Remove existsing windows and install LMDE on it."
+msgid "Remove existing Windows and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:1033
@@ -280,7 +276,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:2084
 #: live-installer/resources/welcome.ui:206
-msgid "17g team"
+msgid "Mauna team"
 msgstr ""
 
 #: live-installer/resources/interface.ui:2288
@@ -298,7 +294,7 @@ msgid "read only"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:61
-msgid "Try 17g"
+msgid "Try Mauna"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:85
@@ -312,19 +308,18 @@ msgid "Install to Hard Drive"
 msgstr "Установка драйверов"
 
 #: live-installer/resources/welcome.ui:166
-msgid "You are currently running 17g from live media."
+msgid "You are currently running Mauna from live media."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
-"You can install 17g now, or chose \"Install to Hard Drive\" in the "
-"Appication Menu later."
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:228
-#, fuzzy
-msgid "Welcome to 17g"
-msgstr "Добро пожаловать"
+msgid "Welcome to Mauna"
+msgstr ""
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
@@ -633,9 +628,8 @@ msgstr "Тип установки"
 
 #: live-installer/frontend/gtk_interface.py:486
 #: live-installer/frontend/gtk_interface.py:488
-#, fuzzy
 msgid "Where do you want to install system?"
-msgstr "Куда вы хотите установить 17G?"
+msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:488
 msgid "Partitioning"
@@ -674,34 +668,28 @@ msgstr "Далее"
 
 #: live-installer/frontend/gtk_interface.py:501
 #: live-installer/frontend/tui_interface.py:34
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to the %s Installer."
-msgstr "Добро пожаловать в программу установки 17G."
+msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:516
 msgid "Type here to test your keyboard layout"
 msgstr "Поле для проверки вашей раскладки клавиатуры"
 
 #: live-installer/frontend/gtk_interface.py:542
-#, fuzzy
 msgid "Erase a disk and install system on it."
-msgstr "Стереть диск и установить на нём 17G."
+msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:555
-#, fuzzy
 msgid "Manually create, resize or choose partitions for system."
-msgstr "Вручную создать, изменить размер или выбрать разделы для 17G."
+msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:559
 msgid "The setup tool will not do partitioning"
 msgstr ""
 
-#: live-installer/frontend/gtk_interface.py:561
-msgid "Remove Windows & Install"
-msgstr ""
-
 #: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existsing windows and install system on it."
+msgid "Remove existing Windows and install system on it."
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:573
@@ -794,7 +782,7 @@ msgstr "Пожалуйста, выберите язык"
 
 #: live-installer/frontend/gtk_interface.py:1138
 #, fuzzy
-msgid "Please provide a kayboard layout for your computer."
+msgid "Please provide a keyboard layout for your computer."
 msgstr "Пожалуйста, укажите имя Вашего компьютера."
 
 #: live-installer/frontend/gtk_interface.py:1158
@@ -1052,8 +1040,8 @@ msgstr ""
 #: live-installer/frontend/welcome.py:38
 #, python-format
 msgid ""
-"You can install %s now, or chose \"Install to Hard Drive\" in the Appication "
-"Menu later."
+"You can install %s now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
 
 #: live-installer/frontend/welcome.py:39

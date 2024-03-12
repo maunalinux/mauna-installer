@@ -139,11 +139,11 @@ msgid "Manually create, resize or choose partitions for Mauna."
 msgstr "Luo, muuta kokoa tai valitse osioita Mauna:lle itsenäisesti."
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove windows & Install"
+msgid "Remove Windows & Install"
 msgstr ""
 
 #: live-installer/resources/interface.ui:981
-msgid "Remove existsing windows and install Mauna on it."
+msgid "Remove existing Windows and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:1033

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-31 16:00+0300\n"
-"PO-Revision-Date: 2020-03-09 22:55+0000\n"
+"POT-Creation-Date: 2023-11-01 18:27-0300\n"
+"PO-Revision-Date: 2023-12-24 16:04-0300\n"
 "Last-Translator: Pjotr12345 <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "Language: nl\n"
@@ -16,26 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: live-installer/resources/interface.ui:71
-#, fuzzy
-msgid "Welcome to the 17g Installer."
-msgstr "Welkom bij het installatieprogramma van 17G."
+msgid "Welcome to the Mauna Installer."
+msgstr "Welkom bij het Mauna-installatieprogramma."
 
 #: live-installer/resources/interface.ui:88
 #: live-installer/frontend/gtk_interface.py:503
 #: live-installer/frontend/tui_interface.py:36
-#, fuzzy
 msgid ""
 "This program will ask you some questions and set up system on your computer."
 msgstr ""
-"Dit programma zal u enkele vragen stellen en 17G installeren op uw computer."
+"Dit programma zal u enkele vragen stellen en het systeem op uw computer "
+"instellen."
 
 #: live-installer/resources/interface.ui:143
 #: live-installer/frontend/gtk_interface.py:505
 msgid "I accept the terms of the License Agreement"
-msgstr ""
+msgstr "Ik accepteer de voorwaarden van de Licentieovereenkomst"
 
 #: live-installer/resources/interface.ui:214
 #: live-installer/frontend/gtk_interface.py:514
@@ -43,9 +42,8 @@ msgid "Keyboard Model:"
 msgstr "Toetsenbordmodel:"
 
 #: live-installer/resources/interface.ui:321
-#, fuzzy
 msgid "Type here to test your keyboard"
-msgstr "Tik hier om uw toetsenbordindeling uit te proberen"
+msgstr "Typ hier om uw toetsenbord te testen"
 
 #: live-installer/resources/interface.ui:377
 #: live-installer/resources/interface.ui:1964
@@ -53,11 +51,11 @@ msgstr "Tik hier om uw toetsenbordindeling uit te proberen"
 #: live-installer/resources/interface.ui:2428
 #: live-installer/resources/interface.ui:2440
 msgid "label"
-msgstr ""
+msgstr "etiket"
 
 #: live-installer/resources/interface.ui:412
 msgid "Continent"
-msgstr ""
+msgstr "Continent"
 
 #: live-installer/resources/interface.ui:426
 #: live-installer/frontend/gtk_interface.py:480
@@ -71,9 +69,8 @@ msgid "Automated Installation"
 msgstr "Geautomatiseerde installatie"
 
 #: live-installer/resources/interface.ui:500
-#, fuzzy
-msgid "Erase a disk and install LMDE on it."
-msgstr "Wis een schijf en installeer 17G erop."
+msgid "Erase a disk and install Mauna on it."
+msgstr "Wis een schijf en installeer Mauna erop."
 
 #: live-installer/resources/interface.ui:528
 #: live-installer/frontend/gtk_interface.py:543
@@ -82,13 +79,12 @@ msgstr "Schijf:"
 
 #: live-installer/resources/interface.ui:573
 #: live-installer/frontend/gtk_interface.py:570
-#, fuzzy
 msgid "Create swap partition"
-msgstr "Partitie bewerken"
+msgstr "Maak een wisselpartitie aan"
 
 #: live-installer/resources/interface.ui:595
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: live-installer/resources/interface.ui:613
 #: live-installer/frontend/partitioning.py:72
@@ -133,33 +129,32 @@ msgid "Manual Partitioning"
 msgstr "Handmatige schijfindeling"
 
 #: live-installer/resources/interface.ui:900
-#, fuzzy
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Handmatig partities maken, kiezen of grootte veranderen voor 17G"
+msgid "Manually create, resize or choose partitions for Mauna."
+msgstr ""
+"Handmatig partities voor Mauna maken, vergroten of verkleinen of kiezen."
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove windows & Install"
-msgstr ""
+#: live-installer/frontend/gtk_interface.py:561
+msgid "Remove Windows & Install"
+msgstr "Windows verwijderen en installeren"
 
 #: live-installer/resources/interface.ui:981
-msgid "Remove existsing windows and install LMDE on it."
-msgstr ""
+msgid "Remove existing Windows and install Mauna on it."
+msgstr "Verwijder bestaande Windows en installeer Mauna erop."
 
 #: live-installer/resources/interface.ui:1033
 #: live-installer/frontend/gtk_interface.py:557
-#, fuzzy
 msgid "Expert Mode"
-msgstr "Expertmodus"
+msgstr "Expert modus"
 
 #: live-installer/resources/interface.ui:1049
 msgid "The setup tool will not do partitioning."
-msgstr ""
+msgstr "Het installatieprogramma kan geen partities maken."
 
 #: live-installer/resources/interface.ui:1111
 #: live-installer/frontend/gtk_interface.py:602
-#, fuzzy
 msgid "Minimal installation"
-msgstr "Geautomatiseerde installatie"
+msgstr "Minimale installatie"
 
 #: live-installer/resources/interface.ui:1127
 #: live-installer/frontend/gtk_interface.py:603
@@ -167,16 +162,18 @@ msgid ""
 "This will only install a minimal desktop environment with a browser and "
 "utilities."
 msgstr ""
+"Hiermee wordt alleen een minimale desktopomgeving met een browser en "
+"hulpprogramma's geïnstalleerd."
 
 #: live-installer/resources/interface.ui:1160
 #: live-installer/frontend/gtk_interface.py:600
 msgid "Install system with updates"
-msgstr ""
+msgstr "Installeer systeem met updates"
 
 #: live-installer/resources/interface.ui:1176
 #: live-installer/frontend/gtk_interface.py:601
 msgid "If you connect internet, updates will install."
-msgstr ""
+msgstr "Als u verbinding maakt met internet, worden updates geïnstalleerd."
 
 #: live-installer/resources/interface.ui:1278
 #: live-installer/frontend/gtk_interface.py:574
@@ -186,18 +183,17 @@ msgstr "Verversen"
 #: live-installer/resources/interface.ui:1325
 #: live-installer/frontend/gtk_interface.py:576
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: live-installer/resources/interface.ui:1372
 #: live-installer/frontend/gtk_interface.py:577
-#, fuzzy
 msgid "Format"
-msgstr "Formatteren als"
+msgstr "Formaat"
 
 #: live-installer/resources/interface.ui:1419
 #: live-installer/frontend/gtk_interface.py:578
 msgid "Create"
-msgstr ""
+msgstr "Creëren"
 
 #: live-installer/resources/interface.ui:1455
 #: live-installer/frontend/gtk_interface.py:591
@@ -205,13 +201,12 @@ msgid "Install the GRUB boot menu on:"
 msgstr "Grub-opstartmenu installeren op:"
 
 #: live-installer/resources/interface.ui:1528
-#, fuzzy
 msgid "Edit Partitions"
 msgstr "Partities bewerken"
 
 #: live-installer/resources/interface.ui:1552
 msgid "Legacy"
-msgstr ""
+msgstr "Nalatenschap"
 
 #: live-installer/resources/interface.ui:1610
 #: live-installer/frontend/gtk_interface.py:519
@@ -262,27 +257,26 @@ msgstr "Bevestig uw wachtwoord:"
 
 #: live-installer/resources/interface.ui:1841
 msgid "Length must be minimum 8 characters"
-msgstr ""
+msgstr "De lengte moet minimaal 8 tekens zijn"
 
 #: live-installer/resources/interface.ui:1914
 #: live-installer/frontend/gtk_interface.py:608
-#, fuzzy
 msgid "Automated installation enabled!"
-msgstr "Geautomatiseerde installatie op %s"
+msgstr "Automatische installatie ingeschakeld!"
 
 #: live-installer/resources/interface.ui:1983
 msgid "0.0"
-msgstr ""
+msgstr "0.0"
 
 #: live-installer/resources/interface.ui:2015
 #: live-installer/frontend/gtk_interface.py:604
 msgid "Please do not turn off your computer during the installation process."
-msgstr ""
+msgstr "Schakel uw computer niet uit tijdens het installatieproces."
 
 #: live-installer/resources/interface.ui:2084
 #: live-installer/resources/welcome.ui:206
-msgid "17g team"
-msgstr ""
+msgid "Mauna team"
+msgstr "Mauna-team"
 
 #: live-installer/resources/interface.ui:2288
 #: live-installer/resources/interface.ui:2328
@@ -292,15 +286,15 @@ msgstr "Welkom"
 
 #: live-installer/resources/interface.ui:2452
 msgid "/dev/sda1"
-msgstr ""
+msgstr "/dev/sda1"
 
 #: live-installer/resources/interface.ui:2504
 msgid "read only"
-msgstr ""
+msgstr "alleen lezen"
 
 #: live-installer/resources/welcome.ui:61
-msgid "Try 17g"
-msgstr ""
+msgid "Try Mauna"
+msgstr "Probeer Mauna"
 
 #: live-installer/resources/welcome.ui:85
 msgid " "
@@ -308,48 +302,44 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:121
 #: live-installer/frontend/welcome.py:34
-#, fuzzy
 msgid "Install to Hard Drive"
-msgstr "Stuurprogramma's installeren"
+msgstr "Installeer op harde schijf"
 
 #: live-installer/resources/welcome.ui:166
-msgid "You are currently running 17g from live media."
-msgstr ""
+msgid "You are currently running Mauna from live media."
+msgstr "Je gebruikt Mauna momenteel via live media."
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
-"You can install 17g now, or chose \"Install to Hard Drive\" in the "
-"Appication Menu later."
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
+"U kunt Mauna nu installeren, of later \"Installeren op harde schijf\" kiezen "
+"in het Applicatiemenu."
 
 #: live-installer/resources/welcome.ui:228
-#, fuzzy
-msgid "Welcome to 17g"
-msgstr "Welkom"
+msgid "Welcome to Mauna"
+msgstr "Welkom bij Mauna"
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
-msgstr "Geef a.u.b. een gebruikersnaam op."
+msgstr "Geef een gebruikersnaam op."
 
 #: live-installer/validate.py:14
-#, fuzzy
 msgid "Your username is invalid."
-msgstr "Uw gebruikersnaam mag geen hoofdletters bevatten."
+msgstr "Uw gebruikersnaam is ongeldig."
 
 #: live-installer/validate.py:16
-#, fuzzy
 msgid "Your username is too long"
-msgstr "Uw gebruikersnaam mag geen hoofdletters bevatten."
+msgstr "Uw gebruikersnaam is te lang"
 
 #: live-installer/validate.py:18
-#, fuzzy
 msgid "Your username is unavailable"
-msgstr "Uw gebruikersnaam mag geen hoofdletters bevatten."
+msgstr "Uw gebruikersnaam is niet beschikbaar"
 
 #: live-installer/validate.py:20
-#, fuzzy
 msgid "Your username cannot start with numbers."
-msgstr "Uw gebruikersnaam mag geen spaties bevatten."
+msgstr "Uw gebruikersnaam mag niet met cijfers beginnen."
 
 #: live-installer/validate.py:23
 msgid "Your username must be lower case."
@@ -361,22 +351,19 @@ msgstr "Uw gebruikersnaam mag geen spaties bevatten."
 
 #: live-installer/validate.py:33
 msgid "Please provide a name for your computer."
-msgstr "Geef a.u.b. een naam op voor uw computer."
+msgstr "Geef een naam op voor uw computer."
 
 #: live-installer/validate.py:35
-#, fuzzy
 msgid "The computer's name is invalid."
-msgstr "Uw gebruikersnaam mag geen hoofdletters bevatten."
+msgstr "De computernaam is ongeldig."
 
 #: live-installer/validate.py:37
-#, fuzzy
 msgid "The computer's name is too long."
-msgstr "De computernaam moet in kleine letters zijn (geen hoofdletters)."
+msgstr "De naam van de computer is te lang."
 
 #: live-installer/validate.py:39
-#, fuzzy
 msgid "The computer's name should not starts or ends with -"
-msgstr "De computernaam moet in kleine letters zijn (geen hoofdletters)."
+msgstr "De naam van de computer mag niet beginnen of eindigen met -"
 
 #: live-installer/validate.py:42
 msgid "The computer's name must be lower case."
@@ -387,57 +374,50 @@ msgid "The computer's name may not contain whitespace characters."
 msgstr "De computernaam mag geen spaties bevatten."
 
 #: live-installer/validate.py:48
-#, fuzzy
 msgid ""
 "The computer's name must consist of only a-z or A-Z or 0-9 or - characters"
-msgstr "De computernaam mag geen spaties bevatten."
+msgstr ""
+"De naam van de computer mag alleen uit a-z of A-Z of 0-9 of - tekens bestaan"
 
 #: live-installer/validate.py:59
-#, fuzzy
 msgid "Your passwords is too short."
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoorden zijn te kort."
 
 #: live-installer/validate.py:63
-#, fuzzy
 msgid "Your password is numeric"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord is numeriek"
 
 #: live-installer/validate.py:67
-#, fuzzy
 msgid "Your password must have big letters"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord moet grote brieven bevatten"
 
 #: live-installer/validate.py:71
-#, fuzzy
 msgid "Your password must have small letters"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord moet kleine brieven bevatten"
 
 #: live-installer/validate.py:75
-#, fuzzy
 msgid "Your password must not be the same as the user name"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord mag niet hetzelfde zijn als de gebruikersnaam"
 
 #: live-installer/validate.py:79
 msgid "Your password length must be minimum 8 characters"
-msgstr ""
+msgstr "Uw wachtwoordlengte moet minimaal 8 tekens lang zijn"
 
 #: live-installer/validate.py:99
-#, fuzzy
 msgid "Your password must have exclusive characters"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord moet exclusieve tekens bevatten"
 
 #: live-installer/validate.py:103
-#, fuzzy
 msgid "Your password must have numbers"
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoord moet cijfers bevatten"
 
 #: live-installer/validate.py:107
 msgid "Please provide a password for your user account."
-msgstr "Geef a.u.b. een wachtwoord op voor uw gebruikersaccount."
+msgstr "Geef een wachtwoord op voor uw gebruikersaccount."
 
 #: live-installer/main.py:38
 msgid "You must be root!"
-msgstr ""
+msgstr "Je moet root zijn!"
 
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
@@ -447,11 +427,11 @@ msgstr "Kopiëren /%s"
 #: live-installer/installer.py:140
 #, python-format
 msgid "rsync exited with return code: %s"
-msgstr ""
+msgstr "rsync afgesloten met retourcode: %s"
 
 #: live-installer/installer.py:144
 msgid "Extracting rootfs."
-msgstr ""
+msgstr "Rootfs extraheren."
 
 #: live-installer/installer.py:171
 msgid "Entering the system ..."
@@ -476,8 +456,7 @@ msgstr "Bezig met koppelen van %(partition)s aan %(mountpoint)s"
 #, python-format
 msgid "Filling %s with random data (please be patient, this can take hours...)"
 msgstr ""
-"Bezig met het vullen van %s met willekeurige gegevens (geduld a.u.b., dit "
-"kan uren duren...)"
+"%s vullen met willekeurige gegevens (wees geduldig, dit kan uren duren...)"
 
 #: live-installer/installer.py:300
 #, python-format
@@ -498,30 +477,28 @@ msgid "Setting locale"
 msgstr "Taal en land instellen"
 
 #: live-installer/installer.py:642
-#, fuzzy
 msgid "Setting timezone"
-msgstr "Computernaam instellen"
+msgstr "Tijdzone instellen"
 
 #: live-installer/installer.py:677
 msgid "Setting keyboard options"
 msgstr "Toetsenbordopties instellen"
 
 #: live-installer/installer.py:754
-#, fuzzy
 msgid "Removing extra packages"
-msgstr "Live-configuratie (pakketten) aan het verwijderen"
+msgstr "Extra pakketten verwijderen"
 
 #: live-installer/installer.py:760
 msgid "Clearing package manager"
-msgstr ""
+msgstr "Pakketbeheerder wissen"
 
 #: live-installer/installer.py:779
 msgid "Generating initramfs"
-msgstr ""
+msgstr "Initramfs genereren"
 
 #: live-installer/installer.py:784
 msgid "Preparing bootloader installation"
-msgstr ""
+msgstr "Installatie van de bootloader voorbereiden"
 
 #: live-installer/installer.py:804
 msgid "Installing bootloader"
@@ -541,7 +518,7 @@ msgstr ""
 
 #: live-installer/installer.py:830
 msgid "Trying to install updates"
-msgstr ""
+msgstr "Er wordt geprobeerd updates te installeren"
 
 #: live-installer/installer.py:863
 #: live-installer/frontend/gtk_interface.py:1496
@@ -554,7 +531,7 @@ msgstr "Opstartlader controleren"
 
 #: live-installer/installer.py:926
 msgid "Failed to run command (Exited with {}):"
-msgstr ""
+msgstr "Kan opdracht niet uitvoeren (afgesloten met {}):"
 
 #: live-installer/frontend/gtk_interface.py:109
 #: live-installer/frontend/gtk_interface.py:510
@@ -602,7 +579,7 @@ msgstr "Installatieprogramma"
 
 #: live-installer/frontend/gtk_interface.py:476
 msgid "License Agreement"
-msgstr ""
+msgstr "Licentieovereenkomst"
 
 #: live-installer/frontend/gtk_interface.py:478
 #: live-installer/frontend/tui_interface.py:40
@@ -636,9 +613,8 @@ msgstr "Installatietype"
 
 #: live-installer/frontend/gtk_interface.py:486
 #: live-installer/frontend/gtk_interface.py:488
-#, fuzzy
 msgid "Where do you want to install system?"
-msgstr "Waar wilt u 17G installeren?"
+msgstr "Waar wilt u het systeem installeren?"
 
 #: live-installer/frontend/gtk_interface.py:488
 msgid "Partitioning"
@@ -650,7 +626,7 @@ msgstr "Samenvatting"
 
 #: live-installer/frontend/gtk_interface.py:490
 msgid "Check that everything is correct"
-msgstr ""
+msgstr "Controleer of alles klopt"
 
 #: live-installer/frontend/gtk_interface.py:492
 msgid "Installing"
@@ -658,11 +634,10 @@ msgstr "Installeren"
 
 #: live-installer/frontend/gtk_interface.py:492
 msgid "Please wait..."
-msgstr ""
+msgstr "Even geduld aub..."
 
 #: live-installer/frontend/gtk_interface.py:495
 #: live-installer/frontend/gtk_interface.py:609
-#, fuzzy
 msgid "Automated install"
 msgstr "Geautomatiseerde installatie"
 
@@ -677,35 +652,31 @@ msgstr "Volgende"
 
 #: live-installer/frontend/gtk_interface.py:501
 #: live-installer/frontend/tui_interface.py:34
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to the %s Installer."
-msgstr "Welkom bij het installatieprogramma van 17G."
+msgstr "Welkom bij het %s-installatieprogramma."
 
 #: live-installer/frontend/gtk_interface.py:516
 msgid "Type here to test your keyboard layout"
 msgstr "Tik hier om uw toetsenbordindeling uit te proberen"
 
 #: live-installer/frontend/gtk_interface.py:542
-#, fuzzy
 msgid "Erase a disk and install system on it."
-msgstr "Wis een schijf en installeer 17G erop."
+msgstr "Wis een schijf en installeer het systeem erop."
 
 #: live-installer/frontend/gtk_interface.py:555
-#, fuzzy
 msgid "Manually create, resize or choose partitions for system."
-msgstr "Handmatig partities maken, kiezen of grootte veranderen voor 17G"
+msgstr ""
+"Handmatig partities voor het systeem maken, vergroten of verkleinen of "
+"kiezen."
 
 #: live-installer/frontend/gtk_interface.py:559
 msgid "The setup tool will not do partitioning"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:561
-msgid "Remove Windows & Install"
-msgstr ""
+msgstr "Het installatieprogramma kan geen partities maken"
 
 #: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existsing windows and install system on it."
-msgstr ""
+msgid "Remove existing Windows and install system on it."
+msgstr "Verwijder bestaande Windows en installeer het systeem erop."
 
 #: live-installer/frontend/gtk_interface.py:573
 #: live-installer/frontend/gtk_interface.py:575
@@ -747,7 +718,7 @@ msgstr "Vrije ruimte"
 #: live-installer/frontend/gtk_interface.py:594
 #: live-installer/frontend/partitioning.py:180
 msgid "Read only"
-msgstr ""
+msgstr "Alleen lezen"
 
 #: live-installer/frontend/gtk_interface.py:629
 #: live-installer/frontend/gtk_interface.py:1167
@@ -756,7 +727,7 @@ msgstr "Installeren"
 
 #: live-installer/frontend/gtk_interface.py:735
 msgid "Please provide a passphrase for the encryption."
-msgstr "Geef a.u.b. een wachtwoordzin op voor de versleuteling."
+msgstr "Geef een wachtwoordzin op voor de codering."
 
 #: live-installer/frontend/gtk_interface.py:737
 #: live-installer/frontend/gtk_interface.py:1153
@@ -777,58 +748,58 @@ msgstr "Weet u zeker dat u de installatie wil afbreken?"
 #: live-installer/frontend/gtk_interface.py:1163
 #: live-installer/frontend/gtk_interface.py:1288
 msgid "Are you sure?"
-msgstr ""
+msgstr "Weet je het zeker?"
 
 #: live-installer/frontend/gtk_interface.py:938
 msgid "New partition will created at {}"
-msgstr ""
+msgstr "Er wordt een nieuwe partitie gemaakt op {}"
 
 #: live-installer/frontend/gtk_interface.py:953
 msgid "Partition {} will removed from {}."
-msgstr ""
+msgstr "Partitie {} wordt verwijderd uit {}."
 
 #: live-installer/frontend/gtk_interface.py:967
 msgid "Partition {} will formated from {}."
-msgstr ""
+msgstr "Partitie {} wordt geformatteerd vanuit {}."
 
 #: live-installer/frontend/gtk_interface.py:1113
 msgid "Please choose a language"
-msgstr "Kies a.u.b. een taal."
+msgstr "Kies een taal"
 
 #: live-installer/frontend/gtk_interface.py:1138
-#, fuzzy
-msgid "Please provide a kayboard layout for your computer."
-msgstr "Geef a.u.b. een naam op voor uw computer."
+msgid "Please provide a keyboard layout for your computer."
+msgstr "Geef een toetsenbordindeling voor uw computer op."
 
 #: live-installer/frontend/gtk_interface.py:1158
 msgid "Please provide your full name."
-msgstr "Geef a.u.b. uw volledige naam op."
+msgstr "Geef uw volledige naam op."
 
 #: live-installer/frontend/gtk_interface.py:1163
 #: live-installer/frontend/gtk_interface.py:1288
-#, fuzzy
 msgid "Your passwords is not strong."
-msgstr "Uw wachtwoorden komen niet overeen."
+msgstr "Uw wachtwoorden zijn niet sterk."
 
 #: live-installer/frontend/gtk_interface.py:1181
 msgid ""
 "Root filesystem type not specified. Installation will continue without disk "
 "formatting. Do you want to continue?"
 msgstr ""
+"Type rootbestandssysteem niet gespecificeerd. De installatie zal doorgaan "
+"zonder schijfformattering. Wil je doorgaan?"
 
 #: live-installer/frontend/gtk_interface.py:1185
-#, fuzzy
 msgid ""
 "The root partition is too small. It should be at least 16GB. Do you want to "
 "continue?"
-msgstr "De EFI-partitie is te klein. Die moet tenminste 35 MB zijn."
+msgstr ""
+"De rootpartitie is te klein. Het moet minimaal 16GB zijn. Wil je doorgaan?"
 
 #: live-installer/frontend/gtk_interface.py:1189
 msgid "Please select a root (/) partition."
-msgstr "Kies a.u.b. een partitie voor root (/)."
+msgstr "Selecteer een rootpartitie (/)."
 
 #: live-installer/frontend/gtk_interface.py:1190
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "A root partition is needed to install %s on.\n"
 "\n"
@@ -837,26 +808,21 @@ msgid ""
 " - Recommended filesystem format: ext4\n"
 "\n"
 msgstr ""
-"Er is een rootpartitie nodig om Linux Mint op te installeren.\n"
+"Er is een rootpartitie nodig om %s op te installeren.\n"
 "\n"
 " - Koppelpunt: /\n"
-" - Aangeraden grootte: minimaal 30GB\n"
-" - Aangeraden formattering van bestandssysteem: EXT4\n"
+" - Aanbevolen maat: 30 GB\n"
+" - Aanbevolen bestandssysteemformaat: ext4\n"
 "\n"
-"Let op: de momentopnamefunctie van Timeshift voor btrfs vergt het gebruik "
-"van:\n"
-" - subvolume-koppelpunt /@\n"
-" - btrfs als formattering van het bestandssysteem\n"
 
 #: live-installer/frontend/gtk_interface.py:1204
-#, fuzzy
 msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr "De EFI-partitie is niet opstartbaar. Bewerk a.u.b. de partitievlaggen."
+msgstr ""
+"De EFI-partitie kan niet worden opgestart. Wilt u de opstartvlag instellen?"
 
 #: live-installer/frontend/gtk_interface.py:1210
-#, fuzzy
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "De EFI-partitie is te klein. Die moet tenminste 35 MB zijn."
+msgstr "De EFI-partitie is te klein. Het moet minimaal 100MB zijn."
 
 #: live-installer/frontend/gtk_interface.py:1216
 #: live-installer/frontend/gtk_interface.py:1221
@@ -865,10 +831,9 @@ msgstr "De EFI-partitie moet worden geformatteerd als vfat."
 
 #: live-installer/frontend/gtk_interface.py:1225
 msgid "Please select an EFI partition."
-msgstr "Kies a.u.b. een EFI-partitie."
+msgstr "Selecteer een EFI-partitie."
 
 #: live-installer/frontend/gtk_interface.py:1226
-#, fuzzy
 msgid ""
 "An EFI system partition is needed with the following requirements:\n"
 "\n"
@@ -881,20 +846,20 @@ msgid ""
 "partition of the disk as the EFI system partition.\n"
 " "
 msgstr ""
-"Er is een EFI-systeempartitie benodigd met de volgende kenmerken:\n"
+"Er is een EFI-systeempartitie nodig die aan de volgende vereisten voldoet:\n"
 "\n"
 " - Koppelpunt: /boot/efi\n"
-" - Partitievlaggen: Opstartbaar (Bootable)\n"
-" -Grootte: tenminste 35 MB (maar 100 MB wordt aangeraden)\n"
-" - Formattering: vfat of fat32\n"
+" - Partitievlaggen: opstartbaar\n"
+" - Grootte: minimaal 100 MB\n"
+" - Formaat: vfat of fat32\n"
 "\n"
-"To ensure compatibility with Windows we recommend you use the first "
-"partition of the disk as the EFI system partition.\n"
+"Om compatibiliteit met Windows te garanderen, raden we u aan de eerste "
+"partitie van de schijf te gebruiken als de EFI-systeempartitie.\n"
 " "
 
 #: live-installer/frontend/gtk_interface.py:1281
 msgid "Please select a disk."
-msgstr "Kies a.u.b. een schijf."
+msgstr "Selecteer een schijf."
 
 #: live-installer/frontend/gtk_interface.py:1293
 msgid "Warning"
@@ -906,9 +871,8 @@ msgid "This will delete all the data on %s. Are you sure?"
 msgstr "Dit zal alle gegevens op %s wissen. Weet u het zeker?"
 
 #: live-installer/frontend/gtk_interface.py:1373
-#, fuzzy
 msgid "Please provide a device to install grub."
-msgstr "Geef a.u.b. een gebruikersnaam op."
+msgstr "Geef een apparaat op om grub te installeren."
 
 #: live-installer/frontend/gtk_interface.py:1420
 msgid "Localization"
@@ -941,7 +905,7 @@ msgstr "Gebruikersnaam: "
 #: live-installer/frontend/gtk_interface.py:1435
 #: live-installer/frontend/gtk_interface.py:1438
 msgid "Password: "
-msgstr ""
+msgstr "Wachtwoord: "
 
 #: live-installer/frontend/gtk_interface.py:1440
 msgid "Automatic login: "
@@ -970,12 +934,11 @@ msgstr "Computernaam: "
 #: live-installer/frontend/gtk_interface.py:1447
 #: live-installer/frontend/gtk_interface.py:1449
 msgid "Bios type: "
-msgstr ""
+msgstr "Bios-type: "
 
 #: live-installer/frontend/gtk_interface.py:1451
-#, fuzzy
 msgid "Install updates after installation"
-msgstr "Geautomatiseerde installatie"
+msgstr "Installeer updates na installatie"
 
 #: live-installer/frontend/gtk_interface.py:1452
 msgid "Filesystem operations"
@@ -997,7 +960,7 @@ msgstr "Gebruik reeds aangekoppelde /target."
 #: live-installer/frontend/gtk_interface.py:1464
 #, python-format
 msgid " (with %s GB swap)"
-msgstr ""
+msgstr " (met %s GB-wissel)"
 
 #: live-installer/frontend/gtk_interface.py:1468
 #, python-format
@@ -1039,59 +1002,55 @@ msgstr "Installatiefout"
 
 #: live-installer/frontend/gtk_interface.py:1565
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: live-installer/frontend/welcome.py:32
 #, python-format
 msgid "Try %s"
-msgstr ""
+msgstr "Probeer %s"
 
 #: live-installer/frontend/welcome.py:36
 #, python-format
 msgid "You are currently running %s from live media."
-msgstr ""
+msgstr "Je gebruikt momenteel %s vanaf live media."
 
 #: live-installer/frontend/welcome.py:38
 #, python-format
 msgid ""
-"You can install %s now, or chose \"Install to Hard Drive\" in the Appication "
-"Menu later."
+"You can install %s now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
+"U kunt %s nu installeren, of later \"Installeren op harde schijf\" kiezen in "
+"het Applicatiemenu."
 
 #: live-installer/frontend/welcome.py:39
-#, fuzzy, python-format
+#, python-format
 msgid "Welcome to %s"
-msgstr "Welkom"
+msgstr "Welkom bij %s"
 
 #: live-installer/frontend/tui_interface.py:57
-#, fuzzy
 msgid "What keyboard would you like to use?"
-msgstr "Welke taal wilt u gebruiken?"
+msgstr "Welk toetsenbord wil je gebruiken?"
 
 #: live-installer/frontend/tui_interface.py:64
-#, fuzzy
 msgid "Keyboard Model"
-msgstr "Toetsenbordmodel:"
+msgstr "Toetsenbordmodel"
 
 #: live-installer/frontend/tui_interface.py:73
-#, fuzzy
 msgid "Installation type?"
-msgstr "Installatietype"
+msgstr "Installatietype?"
 
 #: live-installer/frontend/tui_interface.py:80
-#, fuzzy
 msgid "Select a disk?"
-msgstr "Kies a.u.b. een schijf."
+msgstr "Een schijf selecteren?"
 
 #: live-installer/frontend/tui_interface.py:84
-#, fuzzy
 msgid "Disk"
-msgstr "Schijf:"
+msgstr "Schijf"
 
 #: live-installer/frontend/timezones.py:140
-#, fuzzy
 msgid "Select timezone"
-msgstr "Tijdzone"
+msgstr "Selecteer tijdzone"
 
 #: live-installer/frontend/partitioning.py:72
 msgid "B"
@@ -1124,15 +1083,17 @@ msgstr "Bewerken"
 #: live-installer/frontend/partitioning.py:230
 #: live-installer/frontend/partitioning.py:237
 #: live-installer/frontend/partitioning.py:246
-#, fuzzy, python-format
+#, python-format
 msgid "Assign to %s"
-msgstr "Toewijzen aan /"
+msgstr "Toewijzen aan %s"
 
 #: live-installer/frontend/partitioning.py:302
 msgid ""
 "Disk: {} partition table broken or not exists. Do you want to create new "
 "partition table?"
 msgstr ""
+"Schijf: {} partitietabel kapot of bestaat niet. Wilt u een nieuwe "
+"partitietabel maken?"
 
 #: live-installer/frontend/partitioning.py:384
 #, python-format
@@ -1166,12 +1127,11 @@ msgstr "Onbekend"
 
 #: live-installer/frontend/partitioning.py:569
 msgid "bootloader/recovery"
-msgstr ""
+msgstr "bootloader/herstel"
 
 #: live-installer/frontend/partitioning.py:582
-#, fuzzy
 msgid "EFI System Partition"
-msgstr "Partitie bewerken"
+msgstr "EFI-systeempartitie"
 
 #: live-installer/frontend/partitioning.py:607
 msgid "Edit partition"

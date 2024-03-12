@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-31 16:00+0300\n"
-"PO-Revision-Date: 2018-08-10 04:22+0000\n"
+"POT-Creation-Date: 2023-11-01 18:27-0300\n"
+"PO-Revision-Date: 2023-12-25 19:15-0300\n"
 "Last-Translator: AlephAlpha <alephalpha911@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
-"Language: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: live-installer/resources/interface.ui:71
-msgid "Welcome to the 17g Installer."
+msgid "Welcome to the Mauna Installer."
 msgstr ""
 
 #: live-installer/resources/interface.ui:88
@@ -67,7 +67,7 @@ msgid "Automated Installation"
 msgstr ""
 
 #: live-installer/resources/interface.ui:500
-msgid "Erase a disk and install LMDE on it."
+msgid "Erase a disk and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:528
@@ -77,13 +77,12 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:573
 #: live-installer/frontend/gtk_interface.py:570
-#, fuzzy
 msgid "Create swap partition"
-msgstr "编辑分区"
+msgstr "创建交换分区"
 
 #: live-installer/resources/interface.ui:595
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: live-installer/resources/interface.ui:613
 #: live-installer/frontend/partitioning.py:72
@@ -127,22 +126,22 @@ msgid "Manual Partitioning"
 msgstr ""
 
 #: live-installer/resources/interface.ui:900
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Mauna."
 msgstr ""
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove windows & Install"
+#: live-installer/frontend/gtk_interface.py:561
+msgid "Remove Windows & Install"
 msgstr ""
 
 #: live-installer/resources/interface.ui:981
-msgid "Remove existsing windows and install LMDE on it."
+msgid "Remove existing Windows and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:1033
 #: live-installer/frontend/gtk_interface.py:557
-#, fuzzy
 msgid "Expert Mode"
-msgstr "专家模式"
+msgstr "专业级"
 
 #: live-installer/resources/interface.ui:1049
 msgid "The setup tool will not do partitioning."
@@ -182,9 +181,8 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:1372
 #: live-installer/frontend/gtk_interface.py:577
-#, fuzzy
 msgid "Format"
-msgstr "格式化为"
+msgstr "格式"
 
 #: live-installer/resources/interface.ui:1419
 #: live-installer/frontend/gtk_interface.py:578
@@ -197,7 +195,6 @@ msgid "Install the GRUB boot menu on:"
 msgstr ""
 
 #: live-installer/resources/interface.ui:1528
-#, fuzzy
 msgid "Edit Partitions"
 msgstr "编辑分区"
 
@@ -270,7 +267,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:2084
 #: live-installer/resources/welcome.ui:206
-msgid "17g team"
+msgid "Mauna team"
 msgstr ""
 
 #: live-installer/resources/interface.ui:2288
@@ -288,7 +285,7 @@ msgid "read only"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:61
-msgid "Try 17g"
+msgid "Try Mauna"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:85
@@ -297,22 +294,21 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:121
 #: live-installer/frontend/welcome.py:34
-#, fuzzy
 msgid "Install to Hard Drive"
-msgstr "正在安装驱动程序"
+msgstr "安装到硬盘"
 
 #: live-installer/resources/welcome.ui:166
-msgid "You are currently running 17g from live media."
+msgid "You are currently running Mauna from live media."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
-"You can install 17g now, or chose \"Install to Hard Drive\" in the "
-"Appication Menu later."
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:228
-msgid "Welcome to 17g"
+msgid "Welcome to Mauna"
 msgstr ""
 
 #: live-installer/validate.py:12
@@ -320,24 +316,20 @@ msgid "Please provide a username."
 msgstr "请输入一个用户名。"
 
 #: live-installer/validate.py:14
-#, fuzzy
 msgid "Your username is invalid."
-msgstr "您的用户名必须是小写。"
+msgstr "您的用户名无效。"
 
 #: live-installer/validate.py:16
-#, fuzzy
 msgid "Your username is too long"
-msgstr "您的用户名必须是小写。"
+msgstr "您的用户名太长"
 
 #: live-installer/validate.py:18
-#, fuzzy
 msgid "Your username is unavailable"
-msgstr "您的用户名必须是小写。"
+msgstr "您的用户名不可用"
 
 #: live-installer/validate.py:20
-#, fuzzy
 msgid "Your username cannot start with numbers."
-msgstr "您的用户名不能包括空格字符。"
+msgstr "您的用户名不能以数字开头。"
 
 #: live-installer/validate.py:23
 msgid "Your username must be lower case."
@@ -352,14 +344,12 @@ msgid "Please provide a name for your computer."
 msgstr ""
 
 #: live-installer/validate.py:35
-#, fuzzy
 msgid "The computer's name is invalid."
-msgstr "您的用户名必须是小写。"
+msgstr "计算机名称无效。"
 
 #: live-installer/validate.py:37
-#, fuzzy
 msgid "The computer's name is too long."
-msgstr "您的用户名必须是小写。"
+msgstr "计算机名称太长。"
 
 #: live-installer/validate.py:39
 msgid "The computer's name should not starts or ends with -"
@@ -379,43 +369,36 @@ msgid ""
 msgstr ""
 
 #: live-installer/validate.py:59
-#, fuzzy
 msgid "Your passwords is too short."
-msgstr "您的密码不匹配。"
+msgstr "您的密码太短。"
 
 #: live-installer/validate.py:63
-#, fuzzy
 msgid "Your password is numeric"
-msgstr "您的密码不匹配。"
+msgstr "您的密码是数字"
 
 #: live-installer/validate.py:67
-#, fuzzy
 msgid "Your password must have big letters"
-msgstr "您的密码不匹配。"
+msgstr "您的密码必须是大写字母"
 
 #: live-installer/validate.py:71
-#, fuzzy
 msgid "Your password must have small letters"
-msgstr "您的密码不匹配。"
+msgstr "您的密码必须是小写字母"
 
 #: live-installer/validate.py:75
-#, fuzzy
 msgid "Your password must not be the same as the user name"
-msgstr "您的密码不匹配。"
+msgstr "您的密码不能与用户名相同"
 
 #: live-installer/validate.py:79
 msgid "Your password length must be minimum 8 characters"
 msgstr ""
 
 #: live-installer/validate.py:99
-#, fuzzy
 msgid "Your password must have exclusive characters"
-msgstr "您的密码不匹配。"
+msgstr "您的密码必须包含唯一字符"
 
 #: live-installer/validate.py:103
-#, fuzzy
 msgid "Your password must have numbers"
-msgstr "您的密码不匹配。"
+msgstr "您的密码必须包含数字"
 
 #: live-installer/validate.py:107
 msgid "Please provide a password for your user account."
@@ -480,18 +463,16 @@ msgid "Setting locale"
 msgstr "正在设置区域"
 
 #: live-installer/installer.py:642
-#, fuzzy
 msgid "Setting timezone"
-msgstr "正在设置主机名"
+msgstr "设置时区"
 
 #: live-installer/installer.py:677
 msgid "Setting keyboard options"
 msgstr "正在设置键盘选项"
 
 #: live-installer/installer.py:754
-#, fuzzy
 msgid "Removing extra packages"
-msgstr "正在移除 live 配置(包)"
+msgstr "删除多余的包"
 
 #: live-installer/installer.py:760
 msgid "Clearing package manager"
@@ -616,9 +597,8 @@ msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:486
 #: live-installer/frontend/gtk_interface.py:488
-#, fuzzy
 msgid "Where do you want to install system?"
-msgstr "您确定要退出安装程序吗？"
+msgstr "您想在哪里安装系统？"
 
 #: live-installer/frontend/gtk_interface.py:488
 msgid "Partitioning"
@@ -676,12 +656,8 @@ msgstr ""
 msgid "The setup tool will not do partitioning"
 msgstr ""
 
-#: live-installer/frontend/gtk_interface.py:561
-msgid "Remove Windows & Install"
-msgstr ""
-
 #: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existsing windows and install system on it."
+msgid "Remove existing Windows and install system on it."
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:573
@@ -773,9 +749,8 @@ msgid "Please choose a language"
 msgstr "请选择一种语言"
 
 #: live-installer/frontend/gtk_interface.py:1138
-#, fuzzy
-msgid "Please provide a kayboard layout for your computer."
-msgstr "请为您的帐号输入一个密码。"
+msgid "Please provide a keyboard layout for your computer."
+msgstr "请提供适合您计算机的键盘布局。"
 
 #: live-installer/frontend/gtk_interface.py:1158
 msgid "Please provide your full name."
@@ -783,9 +758,8 @@ msgstr "请输入您的全名。"
 
 #: live-installer/frontend/gtk_interface.py:1163
 #: live-installer/frontend/gtk_interface.py:1288
-#, fuzzy
 msgid "Your passwords is not strong."
-msgstr "您的密码不匹配。"
+msgstr "您的密码强度不高。"
 
 #: live-installer/frontend/gtk_interface.py:1181
 msgid ""
@@ -794,11 +768,10 @@ msgid ""
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1185
-#, fuzzy
 msgid ""
 "The root partition is too small. It should be at least 16GB. Do you want to "
 "continue?"
-msgstr "EFI 分区无法开机启动。请编辑分区表。"
+msgstr "根分区太小。 至少应为 16GB。 你想继续吗？"
 
 #: live-installer/frontend/gtk_interface.py:1189
 msgid "Please select a root (/) partition."
@@ -816,14 +789,12 @@ msgid ""
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1204
-#, fuzzy
 msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr "EFI 分区无法开机启动。请编辑分区表。"
+msgstr "EFI 分区不可启动。 您想设置启动标志吗？"
 
 #: live-installer/frontend/gtk_interface.py:1210
-#, fuzzy
 msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "EFI 分区必须被格式化成 vfat。"
+msgstr "EFI分区太小。 它必须至少为 100MB。"
 
 #: live-installer/frontend/gtk_interface.py:1216
 #: live-installer/frontend/gtk_interface.py:1221
@@ -862,9 +833,8 @@ msgid "This will delete all the data on %s. Are you sure?"
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1373
-#, fuzzy
 msgid "Please provide a device to install grub."
-msgstr "请输入一个用户名。"
+msgstr "请提供一个用于安装 grub 的设备。"
 
 #: live-installer/frontend/gtk_interface.py:1420
 msgid "Localization"
@@ -1007,8 +977,8 @@ msgstr ""
 #: live-installer/frontend/welcome.py:38
 #, python-format
 msgid ""
-"You can install %s now, or chose \"Install to Hard Drive\" in the Appication "
-"Menu later."
+"You can install %s now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
 
 #: live-installer/frontend/welcome.py:39
@@ -1021,14 +991,12 @@ msgid "What keyboard would you like to use?"
 msgstr ""
 
 #: live-installer/frontend/tui_interface.py:64
-#, fuzzy
 msgid "Keyboard Model"
-msgstr "键盘布局"
+msgstr "键盘型号"
 
 #: live-installer/frontend/tui_interface.py:73
-#, fuzzy
 msgid "Installation type?"
-msgstr "安装暂停"
+msgstr "安装类型？"
 
 #: live-installer/frontend/tui_interface.py:80
 msgid "Select a disk?"
@@ -1039,9 +1007,8 @@ msgid "Disk"
 msgstr ""
 
 #: live-installer/frontend/timezones.py:140
-#, fuzzy
 msgid "Select timezone"
-msgstr "时区"
+msgstr "选择时区"
 
 #: live-installer/frontend/partitioning.py:72
 msgid "B"
@@ -1074,9 +1041,9 @@ msgstr "编辑"
 #: live-installer/frontend/partitioning.py:230
 #: live-installer/frontend/partitioning.py:237
 #: live-installer/frontend/partitioning.py:246
-#, fuzzy, python-format
+#, python-format
 msgid "Assign to %s"
-msgstr "分配到 /"
+msgstr "分配给 %s"
 
 #: live-installer/frontend/partitioning.py:302
 msgid ""
@@ -1115,9 +1082,8 @@ msgid "bootloader/recovery"
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:582
-#, fuzzy
 msgid "EFI System Partition"
-msgstr "编辑分区"
+msgstr "EFI系统分区"
 
 #: live-installer/frontend/partitioning.py:607
 msgid "Edit partition"

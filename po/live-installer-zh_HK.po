@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
 
 #: live-installer/resources/interface.ui:71
-msgid "Welcome to the 17g Installer."
+msgid "Welcome to the Mauna Installer."
 msgstr ""
 
 #: live-installer/resources/interface.ui:88
@@ -67,7 +67,7 @@ msgid "Automated Installation"
 msgstr ""
 
 #: live-installer/resources/interface.ui:500
-msgid "Erase a disk and install LMDE on it."
+msgid "Erase a disk and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:528
@@ -127,15 +127,15 @@ msgid "Manual Partitioning"
 msgstr ""
 
 #: live-installer/resources/interface.ui:900
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Mauna."
 msgstr ""
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove windows & Install"
+msgid "Remove Windows & Install"
 msgstr ""
 
 #: live-installer/resources/interface.ui:981
-msgid "Remove existsing windows and install LMDE on it."
+msgid "Remove existing Windows and install Mauna on it."
 msgstr ""
 
 #: live-installer/resources/interface.ui:1033
@@ -270,7 +270,7 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:2084
 #: live-installer/resources/welcome.ui:206
-msgid "17g team"
+msgid "Mauna team"
 msgstr ""
 
 #: live-installer/resources/interface.ui:2288
@@ -288,7 +288,7 @@ msgid "read only"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:61
-msgid "Try 17g"
+msgid "Try Mauna"
 msgstr ""
 
 #: live-installer/resources/welcome.ui:85
@@ -302,17 +302,17 @@ msgid "Install to Hard Drive"
 msgstr "正在安裝驅動程式"
 
 #: live-installer/resources/welcome.ui:166
-msgid "You are currently running 17g from live media."
+msgid "You are currently running Mauna from live media."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
-"You can install 17g now, or chose \"Install to Hard Drive\" in the "
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
 "Appication Menu later."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:228
-msgid "Welcome to 17g"
+msgid "Welcome to Mauna"
 msgstr ""
 
 #: live-installer/validate.py:12
