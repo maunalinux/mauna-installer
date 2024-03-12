@@ -1,3 +1,11 @@
+mauna-installer (2.0.3) mauna; urgency=medium
+
+  * New upstream release
+  * l10n: update translations
+  * update custom script
+
+ -- Mauna Linux <dev@maunalinux.top>  Thu, 21 Dec 2023 22:33:01 -0300
+
 mauna-installer (2.0.2) mauna; urgency=medium
 
   * New upstream release
