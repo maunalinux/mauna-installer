@@ -1134,7 +1134,7 @@ class InstallerWindow:
                 os.system("setxkbmap -layout us -variant ''")
             if not goback and self.setup.keyboard_variant is None:
                 WarningDialog(_("Installer"), _(
-                    "Please provide a kayboard layout for your computer."))
+                    "Please provide a keyboard layout for your computer."))
                 return
         elif index == self.PAGE_USER and not goback:
             errorMessage = ""

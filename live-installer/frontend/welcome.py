@@ -35,7 +35,7 @@ class welcome:
         self.builder.get_object("msglabel1").set_text(
             _("You are currently running %s from live media.") % config.get("distro_title", "Mauna"))
         self.builder.get_object("msglabel2").set_text(
-            _("You can install %s now, or chose \"Install to Hard Drive\" in the Appication Menu later.") % config.get("distro_title", "Mauna"))
+            _("You can install %s now, or chose \"Install to Hard Drive\" in the Application Menu later.") % config.get("distro_title", "Mauna"))
         self.builder.get_object("title").set_text(_("Welcome to %s") %
                                                   config.get("distro_title", "Mauna"))
         self.builder.get_object("copyright").set_text(
