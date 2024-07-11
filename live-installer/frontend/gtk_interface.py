@@ -12,6 +12,7 @@ from frontend import *
 from frontend.dialogs import QuestionDialog, ErrorDialog, WarningDialog
 from frontend.keyboardview import kbdpreview
 from installer import InstallerEngine, Setup, NON_LATIN_KB_LAYOUTS
+from logger import _file as LOG_FILE_PATH
 
 gettext.bindtextdomain('xkeyboard-config', '/usr/share/locale')
 gettext.textdomain('xkeyboard-config')
@@ -271,7 +272,6 @@ class InstallerWindow:
         self.grub_check = self.builder.get_object("checkbutton_grub")
         self.grub_box = self.builder.get_object("combobox_grub")
         self.grub_check.connect("toggled", self.assign_grub_install)
-        self.grub_box.connect("changed", self.assign_grub_device)
 
         # install Grub by default
         self.grub_check.set_active(True)
@@ -315,12 +315,23 @@ class InstallerWindow:
         # install page
         self.builder.get_object("label_install_progress").set_text(
             _("Calculating file indexes ..."))
+        self.builder.get_object("button_logs").connect_after(
+            "toggled", self.show_logs)
+
         img = self.builder.get_object("image_welcome")
         pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(
             "branding/welcome.png", 832, 468, False)
         img.set_from_pixbuf(pixbuf)
         self.gtkimages.append(img)
         self.gtkpixbufs.append(pixbuf)
+        self.buffer = Gtk.TextBuffer()
+        self.text_logs = self.builder.get_object("text_logs")
+        self.text_logs_container = self.builder.get_object("text_logs_container")
+        self.slidebox = self.builder.get_object("slidebox")
+        self.log_file = open(LOG_FILE_PATH, "r")
+        threading.Thread(target=self.monitor_logs,daemon=True).start()
+        self.size_allocation_handler = self.text_logs.connect("size-allocate", self.scroll_to_bottom)
+        self.text_logs.connect("map", self.scroll_to_bottom)
 
         # build partition list
         self.should_pulse = False
@@ -373,31 +384,10 @@ class InstallerWindow:
         self.assign_password(None)
 
         self.builder.get_object("box_replace_win").hide()
-        if config.get("replace_windows_enabled", True):
-            if not os.path.exists("/tmp/winroot"):
-                os.mkdir("/tmp/winroot")
-            for disk_path in partitioning.get_partitions():
-                log("Searching: {}".format(disk_path))
-                if 0 == os.system(
-                        "mount -o ro {} /tmp/winroot".format(disk_path)):
-                    if os.path.exists(
-                            "/tmp/winroot/Windows/System32/ntoskrnl.exe"):
-                        self.setup.winroot = disk_path
-                        log("Found windows rootfs: {}".format(disk_path))
-                    elif os.path.exists("/tmp/winroot/EFI/Microsoft/Boot/bootmgfw.efi"):
-                        self.setup.winefi = disk_path
-                        log("Found windows efifs: {}".format(disk_path))
-                    elif os.path.exists("/tmp/winroot/bootmgr"):
-                        self.setup.winboot = disk_path
-                        log("Found windows boot: {}".format(disk_path))
-                while 0 == os.system("umount -lf /tmp/winroot"):
-                    True # dummy action
-            if self.setup.winroot and (
-                    not self.setup.gptonefi or self.setup.winefi):
-                self.builder.get_object("box_replace_win").show()
+        self.winroot_init()
 
         self.builder.get_object("label_copyright").set_label(
-            config.get("copyright", "17g Developer Team"))
+            config.get("copyright", "Mauna Developer Team"))
 
         if config.get("hide_keyboard_model", False):
             self.builder.get_object("hbox10").hide()
@@ -423,6 +413,31 @@ class InstallerWindow:
 
         if self.testmode:
             self.builder.get_object("label_install_progress").set_text("text "*100)
+
+    @asynchronous
+    def winroot_init(self):
+        if config.get("replace_windows_enabled", True):
+            if not os.path.exists("/tmp/winroot"):
+                os.mkdir("/tmp/winroot")
+            for disk_path in partitioning.get_partitions():
+                log("Searching: {}".format(disk_path))
+                if 0 == os.system(
+                        "mount -o ro {} /tmp/winroot".format(disk_path)):
+                    if os.path.exists(
+                            "/tmp/winroot/Windows/System32/ntoskrnl.exe"):
+                        self.setup.winroot = disk_path
+                        log("Found windows rootfs: {}".format(disk_path))
+                    elif os.path.exists("/tmp/winroot/EFI/Microsoft/Boot/bootmgfw.efi"):
+                        self.setup.winefi = disk_path
+                        log("Found windows efifs: {}".format(disk_path))
+                    elif os.path.exists("/tmp/winroot/bootmgr"):
+                        self.setup.winboot = disk_path
+                        log("Found windows boot: {}".format(disk_path))
+                while 0 == os.system("umount -lf /tmp/winroot"):
+                    True # dummy action
+            if self.setup.winroot and (
+                    not self.setup.gptonefi or self.setup.winefi):
+                self.builder.get_object("box_replace_win").show()
 
     def timezone_init(self):
         lang_country_code = self.setup.language.split('_')[-1]
@@ -493,7 +508,7 @@ class InstallerWindow:
             _("Installing"), "system-run-symbolic", _("Please wait..."))
 
         # Buttons
-        self.builder.get_object("button_automated").set_label(_("Automated install"))
+        self.builder.get_object("button_automated").set_label(_("Automated Install"))
         self.builder.get_object("button_back").set_label(_("Back"))
         self.builder.get_object("button_next").set_label(_("Next"))
 
@@ -607,7 +622,7 @@ class InstallerWindow:
 
        # automated install
         self.builder.get_object("label_automated_warning").set_text(_("Automated installation enabled!"))
-        self.builder.get_object("button_automated").set_label(_("Automated install"))
+        self.builder.get_object("button_automated").set_label(_("Automated Install"))
 
     def view_password_text(self,entry, icon_pos, event):
         entry.set_visibility(True)
@@ -618,14 +633,33 @@ class InstallerWindow:
         entry.set_visibility(False)
         entry.set_icon_from_icon_name(0,"view-reveal-symbolic")
 
+
     def automated_install_button_event(self,widget):
+        if not QuestionDialog(_("Warning"), 
+            _("This will delete all the data on %s. Are you sure?") % self.setup.diskname):
+            return
+        def find_realname_current():
+            with open("/etc/passwd","r") as f:
+                for line in f.read().split("\n"):
+                    if ":" in line:
+                        user = line.split(":")[0]
+                        real = line.split(":")[4]
+                        uid = line.split(":")[2]
+                        if real == "":
+                            real = user
+                        if real.endswith(",,,"):
+                            real = real[:-3]
+                        if int(uid) > 999 and int(uid) < 9999:
+                            return (user, real)
+            return "user", "Linux User"
         config.set("automated",True)
         self.setup.automated = True
-        self.builder.get_object("entry_username").set_text(os.uname()[1])
+        (user, real) = find_realname_current()
+        self.builder.get_object("entry_name").set_text(real)
+        self.builder.get_object("entry_username").set_text(user)
         self.builder.get_object("entry_password").set_text("1")
         self.builder.get_object("entry_confirm").set_text("1")
         self.builder.get_object("entry_hostname").set_text(os.uname()[1])
-        self.builder.get_object("entry_name").set_text(os.uname()[1])
         self.builder.get_object("swap_size").set_text("0")
         self.builder.get_object("button_next").set_label(_("Install"))
         self.builder.get_object("button_next").get_style_context().add_class("suggested-action")
@@ -703,7 +737,33 @@ class InstallerWindow:
             self.builder.get_object("combo_disk").set_active(-1)
             self.builder.get_object("entry_passphrase").set_text("")
             self.builder.get_object("entry_passphrase2").set_text("")
+            model = self.builder.get_object("combobox_grub").get_model()
+            active = self.builder.get_object("combobox_grub").get_active()
+            self.setup.disk = None
+            if(active > -1):
+                row = model[active]
+                self.setup.grub_device = row[0]
 
+        model = self.builder.get_object("combo_disk").get_model()
+        active = self.builder.get_object("combo_disk").get_active()
+        if _auto:
+            if(active <= -1):
+                self.builder.get_object("combo_disk").set_active(0)
+                active = 0
+            row = model[active]
+            self.setup.disk = row[1]
+            self.setup.diskname = row[0]
+            self.setup.grub_disk = row[1]
+
+
+
+        if not _auto:
+            if not self.builder.get_object("checkbutton_grub").get_active():
+                self.setup.grub_device = None
+            elif self.builder.get_object("radio_replace_win").get_active():
+                self.setup.grub_device = partitioning.find_mbr(self.setup.winroot)
+        else:
+            self.setup.grub_device = self.setup.disk
 
         if not _lvm:
             # Force LVM for LUKs
@@ -728,16 +788,31 @@ class InstallerWindow:
 
         self.builder.get_object("swap_size").set_range(1,32)
         self.builder.get_object("swap_size").set_sensitive(_swap)
+        self.assign_passphrase(None)
+        print(self.setup.grub_device, _auto, self.setup.disk)
 
     def assign_passphrase(self, widget=None):
         _pass1 = self.builder.get_object("entry_passphrase").get_text()
         _pass2 = self.builder.get_object("entry_passphrase2").get_text()
+        if not self.builder.get_object("check_encrypt").get_active():
+            self.builder.get_object("button_next").set_sensitive(True)
+            self.builder.get_object("lux_warning").hide()
+            return
+
         if _pass1 == "":
-            return _("Please provide a passphrase for the encryption."), ""
+            self.builder.get_object("button_next").set_sensitive(False)
+            self.builder.get_object("lux_warning").show()
+            self.builder.get_object("lux_warning").set_text(
+                _("Please provide a passphrase for the encryption."))
+            return
         if _pass1 != _pass2:
-            return _("Your passwords do not match."), ""
-        password_error, weekMessage, weeklevel = validate.password(_pass1,"")
-        return password_error, weekMessage
+            self.builder.get_object("button_next").set_sensitive(False)
+            self.builder.get_object("lux_warning").show()
+            self.builder.get_object("lux_warning").set_text(
+                _("Your passwords do not match."))
+            return
+        self.builder.get_object("button_next").set_sensitive(True)
+        self.builder.get_object("lux_warning").hide()
 
     def quit_cb(self, widget, data=None):
         if QuestionDialog(_("Quit?"), _(
@@ -767,12 +842,6 @@ class InstallerWindow:
         self.setup.install_updates = self.builder.get_object("check_updates").get_active()
         self.setup.minimal_installation = self.builder.get_object("check_minimal").get_active()
         self.setup.create_swap = self.builder.get_object("check_swap").get_active()
-        model = self.builder.get_object("combo_disk").get_model()
-        active = self.builder.get_object("combo_disk").get_active()
-        if(active > -1):
-            row = model[active]
-            self.setup.disk = row[1]
-            self.setup.diskname = row[0]
         self.setup.password1 = self.builder.get_object("entry_password").get_text()
         self.setup.password2 = self.builder.get_object("entry_confirm").get_text()
         self.setup.passphrase1 = self.builder.get_object("entry_passphrase").get_text()
@@ -781,6 +850,7 @@ class InstallerWindow:
         self.setup.username = self.builder.get_object("entry_username").get_text()
         self.setup.real_name = self.builder.get_object("entry_name").get_text()
         self.setup.swap_size = int(self.builder.get_object("swap_size").get_text())*1024
+
 
     def build_lang_list(self):
 
@@ -919,15 +989,25 @@ class InstallerWindow:
 
     def partition_change_event(self,widget):
         model, itervar = widget.get_selection().get_selected()
+        self.builder.get_object("label_new").set_label(_("Create"))
+
         self.builder.get_object("button_add_partition").set_sensitive(False)
         self.builder.get_object("button_remove_partition").set_sensitive(False)
         self.builder.get_object("button_format_partition").set_sensitive(False)
         if itervar:
             self.selected_partition = model.get_value(itervar, partitioning.IDX_PART_OBJECT) # partition opject
             fstype = model.get_value(itervar, partitioning.IDX_PART_TYPE).replace("<span>","").replace("</span>","").strip()
+            format_as = model.get_value(itervar,partitioning.IDX_PART_FORMAT_AS)
             if fstype == _('Free space'):
                 self.builder.get_object("button_add_partition").set_sensitive(True)
+            elif fstype == _('btrfs subvolume'):
+                self.builder.get_object("button_remove_partition").set_sensitive(True)
             elif len(fstype) > 0:
+                if (fstype == 'btrfs' and (format_as == "" or format_as == 'btrfs' or format_as == None)) or (fstype != 'btrfs' and format_as == 'btrfs'):
+                    self.builder.get_object(
+                        "button_add_partition").set_sensitive(True)
+                    self.builder.get_object("label_new").set_label(
+                        _("Create a subvolume"))
                 self.builder.get_object("button_remove_partition").set_sensitive(True)
                 self.builder.get_object("button_format_partition").set_sensitive(True)
 
@@ -935,7 +1015,9 @@ class InstallerWindow:
         start = self.selected_partition.partition.geometry.start
         end = self.selected_partition.partition.geometry.end
         mbr = self.selected_partition.mbr
-        if QuestionDialog(_("Are you sure?"),
+        if self.builder.get_object("label_new").get_label() == _("Create a subvolume"):
+            partitioning.create_subvolume_dialog(widget)
+        elif QuestionDialog(_("Are you sure?"),
             _("New partition will created at {}").format(mbr)):
             command = "parted -s {} mkpart primary ext4 {}s {}s".format(mbr,start,end)
             def update_partition_menu(pid, status):
@@ -947,6 +1029,22 @@ class InstallerWindow:
             GLib.child_watch_add(GLib.PRIORITY_DEFAULT, pid, update_partition_menu)
 
     def part_remove_button_event(self,widget):
+        if self.selected_partition.type == _("btrfs subvolume"):
+            subvolume = self.selected_partition
+            if QuestionDialog(_("Are you sure?"),
+                              _("subvolume {} will removed from {}.").format(subvolume.name, subvolume.parent.path)):
+                model, itervar = self.builder.get_object(
+                    "treeview_disks").get_selection().get_selected()
+                subvolume.parent.subvolumes.remove(subvolume)
+                model.remove(itervar)
+                if subvolume.exists_on_disk:
+                    mount_point = getoutput("mktemp -d").decode("utf-8").strip()
+                    os.system("mount -t btrfs %s %s" %
+                              (subvolume.parent.path, mount_point))
+                    os.system("btrfs subvolume delete %s/%s" %
+                              (mount_point, subvolume.name))
+                    os.system("umount --force %s" % mount_point)
+            return
         path = self.selected_partition.path
         mbr = self.selected_partition.mbr
         partnum = partitioning.find_partition_number(path)
@@ -954,7 +1052,8 @@ class InstallerWindow:
             _("Partition {} will removed from {}.").format(path,mbr)):
             def update_partition_menu(pid, status):
                 partitioning.build_partitions(self)
-            command = "parted -s {} rm {}".format(mbr,partnum)
+            #  Use wipefs to ensure that filesystem signature is removed so that partition will not be restored after create new partition with same blocks
+            command = "wipefs -a {} && parted -s {} rm {}".format(path,mbr,partnum)
             pid, stdin, stdout, stderr = GLib.spawn_async(["/bin/bash", "-c", command],
             flags=GLib.SPAWN_DO_NOT_REAP_CHILD,
             standard_output=True,
@@ -1020,18 +1119,7 @@ class InstallerWindow:
 
     def assign_grub_install(self, checkbox, data=None):
         self.grub_box.set_sensitive(checkbox.get_active())
-        if checkbox.get_active():
-            self.assign_grub_device(self.grub_box)
-        else:
-            self.setup.grub_device = None
 
-    def assign_grub_device(self, combobox, data=None):
-        ''' Called whenever someone updates the grub device '''
-        model = combobox.get_model()
-        active = combobox.get_active()
-        if(active > -1):
-            row = model[active]
-            self.setup.grub_device = row[0]
 
     def assign_keyboard_model(self, combobox):
         ''' Called whenever someone updates the keyboard model '''
@@ -1134,7 +1222,7 @@ class InstallerWindow:
                 os.system("setxkbmap -layout us -variant ''")
             if not goback and self.setup.keyboard_variant is None:
                 WarningDialog(_("Installer"), _(
-                    "Please provide a keyboard layout for your computer."))
+                    "Please provide a kayboard layout for your computer."))
                 return
         elif index == self.PAGE_USER and not goback:
             errorMessage = ""
@@ -1183,6 +1271,20 @@ class InstallerWindow:
                             if not QuestionDialog(_("Installer"), _(
                                 "The root partition is too small. It should be at least 16GB. Do you want to continue?")):
                                 return
+                if not found_root_partition:
+                    for partition in self.setup.partitions:
+                        for subvolume in partition.subvolumes:
+                            print("subvolume",subvolume.mount_as, "name", subvolume.name)
+                            if(subvolume.mount_as == "/"):
+                                found_root_partition = True
+                                if subvolume.exists_on_disk and (not subvolume.format or subvolume.format is None):
+                                    if not QuestionDialog(_("Installer"), _(
+                                        "Root filesystem type not specified. Installation will continue without disk formatting. Do you want to continue?")):
+                                        return
+                                if int(float(partition.partition.getLength('GB'))) < 16:
+                                    if not QuestionDialog(_("Installer"), _(
+                                        "The root partition is too small. It should be at least 16GB. Do you want to continue?")):
+                                        return
 
                 if not found_root_partition:
                     ErrorDialog(_("Installer"), "<b>%s</b>" % _("Please select a root (/) partition."), _(
@@ -1231,8 +1333,9 @@ class InstallerWindow:
                 self.builder.get_object("button_next").get_style_context().remove_class("suggested-action")
             self.show_overview()
         elif index == self.PAGE_INSTALL:
-            self.builder.get_object("button_next").set_sensitive(False)
-            self.builder.get_object("button_back").set_sensitive(False)
+            self.builder.get_object("button_next").hide()
+            self.builder.get_object("button_back").hide()
+            self.builder.get_object("button_automated").hide()
             self.builder.get_object("dot_box").hide()
             self.window.resize(0, 0)
             GLib.timeout_add(100, self.set_slide_page)
@@ -1278,14 +1381,6 @@ class InstallerWindow:
             if self.setup.disk is None:
                 errorFound = True
                 errorMessage = _("Please select a disk.")
-            self.setup.grub_device = self.setup.disk
-            if self.setup.luks:
-                errorMessage , weekMessage = self.assign_passphrase()
-                if errorMessage != None:
-                    errorFound = True
-                if weekMessage != "":
-                    if not QuestionDialog(_("Your passwords is not strong."), weekMessage + "\n"+_("Are you sure?")):
-                        return
             if (errorFound):
                 WarningDialog(_("Installer"), errorMessage)
             else:
@@ -1310,8 +1405,6 @@ class InstallerWindow:
                 efifs.format_as = 'vfat'
                 efifs.mount_as = '/boot/efi'
                 self.setup.partitions.append(efifs)
-            self.setup.grub_device = partitioning.find_mbr(
-                self.setup.winroot)
             if self.setup.winboot:
                 boot = partitioning.PartitionBase()
                 boot.path = self.setup.winboot
@@ -1412,6 +1505,7 @@ class InstallerWindow:
         self.activate_page(nex, sel, goback)
 
     def show_overview(self):
+        self.assign_options(None, None)
         def bold(strvar):
             return '<b>' + str(strvar) + '</b>'
         model = Gtk.TreeStore(str)
@@ -1425,7 +1519,7 @@ class InstallerWindow:
         if not config.get("skip_user", False):
             top = model.append(None, (_("User settings"),))
             _realname = self.builder.get_object("entry_name").get_text()
-            _username = self.builder.get_object("entry_name").get_text()
+            _username = self.builder.get_object("entry_username").get_text()
             _pass1 = self.builder.get_object("entry_password").get_text()
             model.append(top, (_("Real name: ") + bold(_realname),))
             model.append(top, (_("Username: ") + bold(_username),))
@@ -1474,6 +1568,15 @@ class InstallerWindow:
                 if p.mount_as:
                     model.append(top, (bold(_("Mount %(path)s as %(mount)s") % {
                                  'path': p.path, 'mount': p.mount_as}),))
+            for p in self.setup.partitions:
+                if (p.type == "btrfs" or p.format_as == "btrfs") and p.subvolumes != []:
+                    for subvol in p.subvolumes:
+                        model.append(top, (bold(_("Create btrfs subvolume %(path)s under %(parentPath)s ") % {
+                                     'path': subvol.name, 'parentPath': p.path}),))
+                    for subvol in p.subvolumes:
+                        if subvol.mount_as:
+                            model.append(top, (bold(_("Mount %(path)s subvolume as %(mount)s") % {
+                                         'path': subvol.name, 'mount': subvol.mount_as}),))
         if config.get("lvm_enabled", True):
             _lvm = self.builder.get_object("check_lvm").get_active()
             _lux = self.builder.get_object("check_encrypt").get_active()
@@ -1483,6 +1586,48 @@ class InstallerWindow:
             model.append(top, (_("Disk Encryption: ") +
                                    bold(_("enabled") if _lux else _("disabled")),))
         self.builder.get_object("treeview_overview").expand_all()
+
+    def continuously_read_file(self, file_path):
+        with open(file_path, 'r') as file:
+            file.seek(0,2)
+            while True:
+                line = file.readline()
+                if not line:
+                    time.sleep(0.1)
+                    continue
+                yield line
+
+    def monitor_logs(self):
+        for line in self.continuously_read_file(LOG_FILE_PATH):
+            self.buffer.insert(self.buffer.get_end_iter(), line)
+            self.text_logs.set_buffer(self.buffer)
+            # This is neccecary to prevent a bug that sometimes causes the text_logs_containers not scrolling to the bottom
+            time.sleep(0.1)
+
+            # Scroll to the bottom of the text_logs_container if necessary
+            adj = self.text_logs_container.get_vadjustment()
+            adj_value = adj.get_upper() - adj.get_page_size()
+            if adj_value - adj.get_page_size() < adj.get_value():
+                GLib.idle_add(adj.set_value, adj_value)
+
+    def show_logs(self, widget):
+        if widget.get_active():
+            self.slidebox.set_visible(False)
+            self.text_logs_container.set_visible(True)
+            # Scroll to the bottom of the text_logs GtkTextView when the text_logs_container is visible
+            self.text_logs.handler_unblock(self.size_allocation_handler)
+        else:
+            self.text_logs_container.set_visible(False)
+            self.slidebox.set_visible(True)
+            # This will prevent a bug that sometimes causes the text_logs_containers not scrolling to the bottom
+            self.text_logs.handler_unblock(self.size_allocation_handler)
+    
+    def scroll_to_bottom(self, widget, *args):
+        adj = self.text_logs_container.get_vadjustment()
+        adj_value = adj.get_upper() - adj.get_page_size()
+        GLib.idle_add(adj.set_value, adj_value)
+        # Blocking the handler allows the user to scroll to the top of the text_logs_container
+        self.text_logs.handler_block(self.size_allocation_handler)
 
     @idle
     def show_error_dialog(self, message, detail):
