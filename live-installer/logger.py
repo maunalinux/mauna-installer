@@ -7,7 +7,7 @@ _file = "/var/log/17g-installer"
 def set_logfile(path):
     if os.getuid() != 0:
         return
-    global logfile
+    global logfile, _file
     if logfile:
         logfile.flush()
         logfile.close()
