@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-01 18:27-0300\n"
-"PO-Revision-Date: 2023-12-22 21:04-0300\n"
+"POT-Creation-Date: 2024-07-21 16:51-0300\n"
+"PO-Revision-Date: 2024-07-21 22:39-0300\n"
 "Last-Translator: Arief Setiadi Wibowo <q_thrynx@yahoo.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "Language: id\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: live-installer/resources/interface.ui:71
 msgid "Welcome to the Mauna Installer."
 msgstr "Selamat datang di Pemasang Mauna."
 
 #: live-installer/resources/interface.ui:88
-#: live-installer/frontend/gtk_interface.py:503
 #: live-installer/frontend/tui_interface.py:36
+#: live-installer/frontend/gtk_interface.py:507
 msgid ""
 "This program will ask you some questions and set up system on your computer."
 msgstr ""
@@ -32,12 +32,12 @@ msgstr ""
 "komputer Anda."
 
 #: live-installer/resources/interface.ui:143
-#: live-installer/frontend/gtk_interface.py:505
+#: live-installer/frontend/gtk_interface.py:509
 msgid "I accept the terms of the License Agreement"
 msgstr "Saya menerima ketentuan Perjanjian Lisensi"
 
 #: live-installer/resources/interface.ui:214
-#: live-installer/frontend/gtk_interface.py:514
+#: live-installer/frontend/gtk_interface.py:518
 msgid "Keyboard Model:"
 msgstr "Model Papan Ketik:"
 
@@ -46,10 +46,12 @@ msgid "Type here to test your keyboard"
 msgstr "Ketik di sini untuk menguji keyboard Anda"
 
 #: live-installer/resources/interface.ui:377
-#: live-installer/resources/interface.ui:1964
-#: live-installer/resources/interface.ui:2416
-#: live-installer/resources/interface.ui:2428
-#: live-installer/resources/interface.ui:2440
+#: live-installer/resources/interface.ui:1965
+#: live-installer/resources/interface.ui:2417
+#: live-installer/resources/interface.ui:2429
+#: live-installer/resources/interface.ui:2441
+#: live-installer/resources/interface.ui:2622
+#: live-installer/resources/interface.ui:2634
 msgid "label"
 msgstr "label"
 
@@ -58,13 +60,13 @@ msgid "Continent"
 msgstr "Benua"
 
 #: live-installer/resources/interface.ui:426
-#: live-installer/frontend/gtk_interface.py:480
 #: live-installer/frontend/tui_interface.py:53
+#: live-installer/frontend/gtk_interface.py:484
 msgid "Timezone"
 msgstr "Wilayah waktu"
 
 #: live-installer/resources/interface.ui:484
-#: live-installer/frontend/gtk_interface.py:540
+#: live-installer/frontend/gtk_interface.py:544
 msgid "Automated Installation"
 msgstr "Instalasi Otomatis"
 
@@ -73,12 +75,12 @@ msgid "Erase a disk and install Mauna on it."
 msgstr "Hapus disk dan instal Mauna di dalamnya."
 
 #: live-installer/resources/interface.ui:528
-#: live-installer/frontend/gtk_interface.py:543
+#: live-installer/frontend/gtk_interface.py:547
 msgid "Disk:"
 msgstr "Disk:"
 
 #: live-installer/resources/interface.ui:573
-#: live-installer/frontend/gtk_interface.py:570
+#: live-installer/frontend/gtk_interface.py:574
 msgid "Create swap partition"
 msgstr "Buat partisi swap"
 
@@ -88,42 +90,42 @@ msgstr "1"
 
 #: live-installer/resources/interface.ui:613
 #: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:443
+#: live-installer/frontend/partitioning.py:604
 msgid "GB"
 msgstr "GB"
 
 #: live-installer/resources/interface.ui:658
-#: live-installer/frontend/gtk_interface.py:551
+#: live-installer/frontend/gtk_interface.py:555
 msgid "Use LVM (Logical Volume Management)"
 msgstr "Gunakan LVM (Manajemen Volume Logis)"
 
 #: live-installer/resources/interface.ui:705
-#: live-installer/frontend/gtk_interface.py:545
+#: live-installer/frontend/gtk_interface.py:549
 msgid "Encrypt the operating system"
 msgstr "Enkripsi sistem operasi"
 
 #: live-installer/resources/interface.ui:735
-#: live-installer/frontend/gtk_interface.py:547
+#: live-installer/frontend/gtk_interface.py:551
 msgid "Passphrase"
 msgstr "Frasa sandi"
 
 #: live-installer/resources/interface.ui:751
-#: live-installer/frontend/gtk_interface.py:549
+#: live-installer/frontend/gtk_interface.py:553
 msgid "Confirm passphrase"
 msgstr "Konfirmasikan frasa sandi"
 
 #: live-installer/resources/interface.ui:785
-#: live-installer/frontend/gtk_interface.py:568
+#: live-installer/frontend/gtk_interface.py:572
 msgid "This provides extra security but it can take hours."
 msgstr "Ini memberikan keamanan ekstra tetapi bisa memakan waktu berjam-jam."
 
 #: live-installer/resources/interface.ui:799
-#: live-installer/frontend/gtk_interface.py:566
+#: live-installer/frontend/gtk_interface.py:570
 msgid "Fill the disk with random data"
 msgstr "Isi disk dengan data acak"
 
 #: live-installer/resources/interface.ui:884
-#: live-installer/frontend/gtk_interface.py:553
+#: live-installer/frontend/gtk_interface.py:557
 msgid "Manual Partitioning"
 msgstr "Partisi Manual"
 
@@ -132,7 +134,7 @@ msgid "Manually create, resize or choose partitions for Mauna."
 msgstr "Buat, ubah ukuran, atau pilih partisi untuk Mauna secara manual."
 
 #: live-installer/resources/interface.ui:965
-#: live-installer/frontend/gtk_interface.py:561
+#: live-installer/frontend/gtk_interface.py:565
 msgid "Remove Windows & Install"
 msgstr "Hapus Windows dan Instal"
 
@@ -141,7 +143,7 @@ msgid "Remove existing Windows and install Mauna on it."
 msgstr "Hapus Windows yang ada dan instal Mauna di dalamnya."
 
 #: live-installer/resources/interface.ui:1033
-#: live-installer/frontend/gtk_interface.py:557
+#: live-installer/frontend/gtk_interface.py:561
 msgid "Expert Mode"
 msgstr "Mode ahli"
 
@@ -150,12 +152,12 @@ msgid "The setup tool will not do partitioning."
 msgstr "Alat setup tidak akan melakukan partisi."
 
 #: live-installer/resources/interface.ui:1111
-#: live-installer/frontend/gtk_interface.py:602
+#: live-installer/frontend/gtk_interface.py:606
 msgid "Minimal installation"
 msgstr "Instalasi minimal"
 
 #: live-installer/resources/interface.ui:1127
-#: live-installer/frontend/gtk_interface.py:603
+#: live-installer/frontend/gtk_interface.py:607
 msgid ""
 "This will only install a minimal desktop environment with a browser and "
 "utilities."
@@ -164,129 +166,140 @@ msgstr ""
 "utilitas."
 
 #: live-installer/resources/interface.ui:1160
-#: live-installer/frontend/gtk_interface.py:600
+#: live-installer/frontend/gtk_interface.py:604
 msgid "Install system with updates"
 msgstr "Instal sistem dengan pembaruan"
 
 #: live-installer/resources/interface.ui:1176
-#: live-installer/frontend/gtk_interface.py:601
+#: live-installer/frontend/gtk_interface.py:605
 msgid "If you connect internet, updates will install."
 msgstr "Jika Anda terhubung ke internet, pembaruan akan diinstal."
 
 #: live-installer/resources/interface.ui:1278
-#: live-installer/frontend/gtk_interface.py:574
+#: live-installer/frontend/gtk_interface.py:578
 msgid "Refresh"
 msgstr "Segarkan"
 
 #: live-installer/resources/interface.ui:1325
-#: live-installer/frontend/gtk_interface.py:576
+#: live-installer/frontend/gtk_interface.py:580
 msgid "Delete"
 msgstr "Menghapus"
 
 #: live-installer/resources/interface.ui:1372
-#: live-installer/frontend/gtk_interface.py:577
+#: live-installer/frontend/gtk_interface.py:581
 msgid "Format"
 msgstr "Format"
 
 #: live-installer/resources/interface.ui:1419
-#: live-installer/frontend/gtk_interface.py:578
+#: live-installer/frontend/partitioning.py:282
+#: live-installer/frontend/gtk_interface.py:582
+#: live-installer/frontend/gtk_interface.py:966
 msgid "Create"
 msgstr "Membuat"
 
 #: live-installer/resources/interface.ui:1455
-#: live-installer/frontend/gtk_interface.py:591
+#: live-installer/frontend/gtk_interface.py:595
 msgid "Install the GRUB boot menu on:"
 msgstr "Instal menu boot GRUB pada:"
 
-#: live-installer/resources/interface.ui:1528
+#: live-installer/resources/interface.ui:1529
 msgid "Edit Partitions"
 msgstr "Sunting Partisi"
 
-#: live-installer/resources/interface.ui:1552
+#: live-installer/resources/interface.ui:1553
 msgid "Legacy"
 msgstr "Warisan"
 
-#: live-installer/resources/interface.ui:1610
-#: live-installer/frontend/gtk_interface.py:519
+#: live-installer/resources/interface.ui:1611
+#: live-installer/frontend/gtk_interface.py:523
 msgid "Your name:"
 msgstr "Namamu:"
 
-#: live-installer/resources/interface.ui:1653
-#: live-installer/frontend/gtk_interface.py:521
+#: live-installer/resources/interface.ui:1654
+#: live-installer/frontend/gtk_interface.py:525
 msgid "Your computer's name:"
 msgstr "Nama komputer Anda:"
 
-#: live-installer/resources/interface.ui:1668
-#: live-installer/frontend/gtk_interface.py:525
+#: live-installer/resources/interface.ui:1669
+#: live-installer/frontend/gtk_interface.py:529
 msgid "Pick a username:"
 msgstr "Pilih nama pengguna:"
 
-#: live-installer/resources/interface.ui:1681
-#: live-installer/frontend/gtk_interface.py:523
+#: live-installer/resources/interface.ui:1682
+#: live-installer/frontend/gtk_interface.py:527
 msgid "The name it uses when it talks to other computers."
 msgstr "Nama yang digunakannya ketika berbicara dengan komputer lain."
 
-#: live-installer/resources/interface.ui:1714
-#: live-installer/frontend/gtk_interface.py:527
+#: live-installer/resources/interface.ui:1715
+#: live-installer/frontend/gtk_interface.py:531
 msgid "Choose a password:"
 msgstr "Pilih sebuah kata kunci:"
 
-#: live-installer/resources/interface.ui:1758
-#: live-installer/frontend/gtk_interface.py:532
+#: live-installer/resources/interface.ui:1759
+#: live-installer/frontend/gtk_interface.py:536
 msgid "Log in automatically"
 msgstr "Login secara otomatis"
 
-#: live-installer/resources/interface.ui:1773
-#: live-installer/frontend/gtk_interface.py:534
+#: live-installer/resources/interface.ui:1774
+#: live-installer/frontend/gtk_interface.py:538
 msgid "Require my password to log in"
 msgstr "Memerlukan kata sandi saya untuk masuk"
 
-#: live-installer/resources/interface.ui:1788
-#: live-installer/frontend/gtk_interface.py:536
+#: live-installer/resources/interface.ui:1789
+#: live-installer/frontend/gtk_interface.py:540
 msgid "Encrypt my home folder"
 msgstr "Enkripsi folder rumah saya"
 
-#: live-installer/resources/interface.ui:1812
-#: live-installer/frontend/gtk_interface.py:529
+#: live-installer/resources/interface.ui:1813
+#: live-installer/frontend/gtk_interface.py:533
 msgid "Confirm your password:"
 msgstr "Konfirmasi password Anda:"
 
-#: live-installer/resources/interface.ui:1841
+#: live-installer/resources/interface.ui:1842
 msgid "Length must be minimum 8 characters"
 msgstr "Panjangnya harus minimal 8 karakter"
 
-#: live-installer/resources/interface.ui:1914
-#: live-installer/frontend/gtk_interface.py:608
+#: live-installer/resources/interface.ui:1915
+#: live-installer/frontend/gtk_interface.py:612
 msgid "Automated installation enabled!"
 msgstr "Instalasi otomatis diaktifkan!"
 
-#: live-installer/resources/interface.ui:1983
+#: live-installer/resources/interface.ui:1984
 msgid "0.0"
 msgstr "0.0"
 
-#: live-installer/resources/interface.ui:2015
-#: live-installer/frontend/gtk_interface.py:604
+#: live-installer/resources/interface.ui:2016
+#: live-installer/frontend/gtk_interface.py:608
 msgid "Please do not turn off your computer during the installation process."
 msgstr "Harap jangan mematikan komputer Anda selama proses instalasi."
 
-#: live-installer/resources/interface.ui:2084
+#: live-installer/resources/interface.ui:2085
 #: live-installer/resources/welcome.ui:206
 msgid "Mauna team"
 msgstr "Tim Mauna"
 
-#: live-installer/resources/interface.ui:2288
-#: live-installer/resources/interface.ui:2328
-#: live-installer/frontend/gtk_interface.py:474
+#: live-installer/resources/interface.ui:2289
+#: live-installer/resources/interface.ui:2329
+#: live-installer/frontend/gtk_interface.py:478
 msgid "Welcome"
 msgstr "Selamat datang"
 
-#: live-installer/resources/interface.ui:2452
+#: live-installer/resources/interface.ui:2453
 msgid "/dev/sda1"
 msgstr "/dev/sda1"
 
-#: live-installer/resources/interface.ui:2504
+#: live-installer/resources/interface.ui:2505
 msgid "read only"
 msgstr "hanya baca"
+
+#: live-installer/resources/interface.ui:2518
+msgid "Use default Btrfs subvolumes"
+msgstr "Gunakan subvolume Btrfs default"
+
+#: live-installer/resources/interface.ui:2678
+#: live-installer/frontend/partitioning.py:888
+msgid "Format subvolume"
+msgstr "Format subvolume"
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try Mauna"
@@ -316,6 +329,727 @@ msgstr ""
 #: live-installer/resources/welcome.ui:228
 msgid "Welcome to Mauna"
 msgstr "Selamat datang di Mauna"
+
+#: live-installer/frontend/dialogs.py:35 live-installer/frontend/dialogs.py:48
+#: live-installer/frontend/dialogs.py:54
+#: live-installer/frontend/partitioning.py:798
+#: live-installer/frontend/partitioning.py:893
+msgid "OK"
+msgstr "OK"
+
+#: live-installer/frontend/dialogs.py:41
+msgid "No"
+msgstr "Tidak"
+
+#: live-installer/frontend/dialogs.py:42
+msgid "Yes"
+msgstr "Ya"
+
+#: live-installer/frontend/timezones.py:140
+msgid "Select timezone"
+msgstr "Pilih zona waktu"
+
+#: live-installer/frontend/tui_interface.py:34
+#: live-installer/frontend/gtk_interface.py:505
+#, python-format
+msgid "Welcome to the %s Installer."
+msgstr "Selamat datang di Pemasang %s."
+
+#: live-installer/frontend/tui_interface.py:40
+#: live-installer/frontend/gtk_interface.py:482
+msgid "What language would you like to use?"
+msgstr "Bahasa apa yang ingin Anda gunakan?"
+
+#: live-installer/frontend/tui_interface.py:45
+#: live-installer/frontend/gtk_interface.py:118
+#: live-installer/frontend/gtk_interface.py:482
+#: live-installer/frontend/gtk_interface.py:513
+msgid "Language"
+msgstr "Bahasa"
+
+#: live-installer/frontend/tui_interface.py:49
+#: live-installer/frontend/gtk_interface.py:484
+msgid "Where are you?"
+msgstr "Kamu ada di mana?"
+
+#: live-installer/frontend/tui_interface.py:57
+msgid "What keyboard would you like to use?"
+msgstr "Papan ketik apa yang ingin Anda gunakan?"
+
+#: live-installer/frontend/tui_interface.py:64
+msgid "Keyboard Model"
+msgstr "Model Papan Ketik"
+
+#: live-installer/frontend/tui_interface.py:73
+msgid "Installation type?"
+msgstr "Jenis instalasi?"
+
+#: live-installer/frontend/tui_interface.py:77
+#: live-installer/frontend/gtk_interface.py:585
+msgid "Type"
+msgstr "Tipe"
+
+#: live-installer/frontend/tui_interface.py:80
+msgid "Select a disk?"
+msgstr "Pilih disk?"
+
+#: live-installer/frontend/tui_interface.py:84
+msgid "Disk"
+msgstr "Disk"
+
+#: live-installer/frontend/welcome.py:32
+#, python-format
+msgid "Try %s"
+msgstr "Coba %s"
+
+#: live-installer/frontend/welcome.py:36
+#, python-format
+msgid "You are currently running %s from live media."
+msgstr "Anda sedang menjalankan %s dari media langsung."
+
+#: live-installer/frontend/welcome.py:38
+#, python-format
+msgid ""
+"You can install %s now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
+msgstr ""
+"Anda dapat menginstal %s sekarang, atau memilih \"Instal ke Hard Drive\" di "
+"Menu Aplikasi nanti."
+
+#: live-installer/frontend/welcome.py:39
+#, python-format
+msgid "Welcome to %s"
+msgstr "Selamat datang di %s"
+
+#: live-installer/frontend/partitioning.py:72
+msgid "B"
+msgstr "B"
+
+#: live-installer/frontend/partitioning.py:72
+#: live-installer/frontend/partitioning.py:603
+msgid "kB"
+msgstr "kB"
+
+#: live-installer/frontend/partitioning.py:72
+#: live-installer/frontend/partitioning.py:603
+msgid "MB"
+msgstr "MB"
+
+#: live-installer/frontend/partitioning.py:73
+#: live-installer/frontend/partitioning.py:604
+msgid "TB"
+msgstr "TB"
+
+#: live-installer/frontend/partitioning.py:80
+msgid "Removable:"
+msgstr "Removable:"
+
+#: live-installer/frontend/partitioning.py:190
+#: live-installer/frontend/partitioning.py:199
+#: live-installer/frontend/partitioning.py:201
+#: live-installer/frontend/partitioning.py:236
+#: live-installer/frontend/partitioning.py:278
+#: live-installer/frontend/partitioning.py:340
+#: live-installer/frontend/partitioning.py:352
+#: live-installer/frontend/partitioning.py:356
+#: live-installer/frontend/partitioning.py:776
+#: live-installer/frontend/gtk_interface.py:977
+#: live-installer/frontend/gtk_interface.py:1006
+msgid "btrfs subvolume"
+msgstr "subvolume btrfs"
+
+#: live-installer/frontend/partitioning.py:195
+msgid "Edit Subvolume"
+msgstr "Sunting Subvolume"
+
+#: live-installer/frontend/partitioning.py:213
+#: live-installer/frontend/gtk_interface.py:598
+msgid "Read only"
+msgstr "Hanya baca"
+
+#: live-installer/frontend/partitioning.py:241
+msgid "The name of a subvolume must not start or end with a forward slash"
+msgstr "Nama subvolume tidak boleh diawali atau diakhiri dengan garis miring"
+
+#: live-installer/frontend/partitioning.py:245
+msgid "The name of a subvolume must not be blank or contain a space"
+msgstr "Nama subvolume tidak boleh kosong atau mengandung spasi"
+
+#: live-installer/frontend/partitioning.py:249
+msgid "The mount point of a subvolume must not contain a space"
+msgstr "Titik pemasangan subvolume tidak boleh mengandung spasi"
+
+#: live-installer/frontend/partitioning.py:256
+#, python-format
+msgid "Subvolume with name '%s' already exists"
+msgstr "Subvolume dengan nama '%s' sudah ada"
+
+#: live-installer/frontend/partitioning.py:291
+#: live-installer/frontend/gtk_interface.py:984
+#: live-installer/frontend/gtk_interface.py:992
+msgid "Create a subvolume"
+msgstr "Buat subvolume"
+
+#: live-installer/frontend/partitioning.py:345
+msgid "Edit"
+msgstr "Sunting"
+
+#: live-installer/frontend/partitioning.py:357
+#: live-installer/frontend/partitioning.py:364
+#: live-installer/frontend/partitioning.py:368
+#: live-installer/frontend/partitioning.py:375
+#: live-installer/frontend/partitioning.py:384
+#, python-format
+msgid "Assign to %s"
+msgstr "Tetapkan ke %s"
+
+#: live-installer/frontend/partitioning.py:391
+msgid "Create btrfs subvolume"
+msgstr "Buat subvolume btrfs"
+
+#: live-installer/frontend/partitioning.py:446
+#: live-installer/frontend/partitioning.py:529
+#: live-installer/frontend/gtk_interface.py:467
+#: live-installer/frontend/gtk_interface.py:470
+#: live-installer/frontend/gtk_interface.py:1173
+#: live-installer/frontend/gtk_interface.py:1198
+#: live-installer/frontend/gtk_interface.py:1221
+#: live-installer/frontend/gtk_interface.py:1241
+#: live-installer/frontend/gtk_interface.py:1245
+#: live-installer/frontend/gtk_interface.py:1255
+#: live-installer/frontend/gtk_interface.py:1259
+#: live-installer/frontend/gtk_interface.py:1264
+#: live-installer/frontend/gtk_interface.py:1278
+#: live-installer/frontend/gtk_interface.py:1284
+#: live-installer/frontend/gtk_interface.py:1290
+#: live-installer/frontend/gtk_interface.py:1295
+#: live-installer/frontend/gtk_interface.py:1300
+#: live-installer/frontend/gtk_interface.py:1365
+#: live-installer/frontend/gtk_interface.py:1444
+msgid "Installer"
+msgstr "Pemasang"
+
+#: live-installer/frontend/partitioning.py:447
+msgid ""
+"Disk: {} partition table broken or not exists. Do you want to create new "
+"partition table?"
+msgstr ""
+"Disk: {} tabel partisi rusak atau tidak ada. Apakah Anda ingin membuat tabel "
+"partisi baru?"
+
+#: live-installer/frontend/partitioning.py:469
+#: live-installer/frontend/partitioning.py:687
+#: live-installer/frontend/gtk_interface.py:590
+#: live-installer/frontend/gtk_interface.py:975
+msgid "Free space"
+msgstr "Ruang kosong"
+
+#: live-installer/frontend/partitioning.py:545
+#, python-format
+msgid ""
+"The partition table couldn't be written for %s. Restart the computer and try "
+"again."
+msgstr ""
+"Tabel partisi tidak dapat ditulis untuk %s. Nyalakan kembali komputer dan "
+"coba lagi."
+
+#: live-installer/frontend/partitioning.py:590
+#, python-format
+msgid ""
+"The partition %s could not be created. The installation will stop. Restart "
+"the computer and try again."
+msgstr ""
+"Partisi %s tidak dapat dibuat. Instalasi akan berhenti. Nyalakan kembali "
+"komputer dan coba lagi."
+
+#: live-installer/frontend/partitioning.py:685
+msgid "Logical partition"
+msgstr "Partisi Logical"
+
+#: live-installer/frontend/partitioning.py:686
+msgid "Extended partition"
+msgstr "Partisi Extended"
+
+#: live-installer/frontend/partitioning.py:690
+#: live-installer/frontend/partitioning.py:824
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: live-installer/frontend/partitioning.py:741
+msgid "bootloader/recovery"
+msgstr "bootloader/pemulihan"
+
+#: live-installer/frontend/partitioning.py:754
+msgid "EFI System Partition"
+msgstr "Partisi Sistem EFI"
+
+#: live-installer/frontend/partitioning.py:790
+msgid "Edit partition"
+msgstr "Sunting Partisi"
+
+#: live-installer/frontend/partitioning.py:792
+msgid "Device:"
+msgstr "Perangkat:"
+
+#: live-installer/frontend/partitioning.py:794
+msgid "Format as:"
+msgstr "Format sebagai:"
+
+#: live-installer/frontend/partitioning.py:796
+#: live-installer/frontend/partitioning.py:883
+msgid "Mount point:"
+msgstr "Titik mount:"
+
+#: live-installer/frontend/partitioning.py:797
+#: live-installer/frontend/partitioning.py:892
+msgid "Cancel"
+msgstr "Batal"
+
+#: live-installer/frontend/partitioning.py:874
+msgid "Create Subvolume"
+msgstr "Buat Subvolume"
+
+#: live-installer/frontend/partitioning.py:881
+msgid "Name:"
+msgstr "Nama:"
+
+#: live-installer/frontend/gtk_interface.py:109
+#: live-installer/frontend/gtk_interface.py:514
+msgid "Country"
+msgstr "Negara"
+
+#: live-installer/frontend/gtk_interface.py:290
+msgid "Layout"
+msgstr "Tata letak"
+
+#: live-installer/frontend/gtk_interface.py:298
+msgid "Variant"
+msgstr "Varian"
+
+#: live-installer/frontend/gtk_interface.py:316
+msgid "Calculating file indexes ..."
+msgstr "Menghitung indeks file..."
+
+#: live-installer/frontend/gtk_interface.py:480
+msgid "License Agreement"
+msgstr "Perjanjian lisensi"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "Keyboard layout"
+msgstr "Tata letak papan ketik"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "What is your keyboard layout?"
+msgstr "Apa tata letak papan ketik Anda?"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "User account"
+msgstr "Akun pengguna"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "Who are you?"
+msgstr "Siapa kamu?"
+
+#: live-installer/frontend/gtk_interface.py:490
+msgid "Installation Type"
+msgstr "Tipe Instalasi"
+
+#: live-installer/frontend/gtk_interface.py:490
+#: live-installer/frontend/gtk_interface.py:492
+msgid "Where do you want to install system?"
+msgstr "Di mana Anda ingin menginstal sistem?"
+
+#: live-installer/frontend/gtk_interface.py:492
+msgid "Partitioning"
+msgstr "Pembagian"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Summary"
+msgstr "Ringkasan"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Check that everything is correct"
+msgstr "Periksa apakah semuanya sudah benar"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Installing"
+msgstr "Menginstal"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Please wait..."
+msgstr "Harap tunggu..."
+
+#: live-installer/frontend/gtk_interface.py:499
+#: live-installer/frontend/gtk_interface.py:613
+msgid "Automated Install"
+msgstr "Instalasi Otomatis"
+
+#: live-installer/frontend/gtk_interface.py:500
+msgid "Back"
+msgstr "Mundur"
+
+#: live-installer/frontend/gtk_interface.py:501
+#: live-installer/frontend/gtk_interface.py:1306
+msgid "Next"
+msgstr "Berikutnya"
+
+#: live-installer/frontend/gtk_interface.py:520
+msgid "Type here to test your keyboard layout"
+msgstr "Ketik di sini untuk menguji tata letak papan ketik Anda"
+
+#: live-installer/frontend/gtk_interface.py:546
+msgid "Erase a disk and install system on it."
+msgstr "Hapus disk dan instal sistem di dalamnya."
+
+#: live-installer/frontend/gtk_interface.py:559
+msgid "Manually create, resize or choose partitions for system."
+msgstr "Buat, ubah ukuran, atau pilih partisi untuk sistem secara manual."
+
+#: live-installer/frontend/gtk_interface.py:563
+msgid "The setup tool will not do partitioning"
+msgstr "Alat setup tidak akan melakukan partisi"
+
+#: live-installer/frontend/gtk_interface.py:567
+msgid "Remove existing Windows and install system on it."
+msgstr "Hapus Windows yang ada dan instal sistem di dalamnya."
+
+#: live-installer/frontend/gtk_interface.py:577
+#: live-installer/frontend/gtk_interface.py:579
+msgid "Edit partitions"
+msgstr "Edit partisi"
+
+#: live-installer/frontend/gtk_interface.py:584
+msgid "Device"
+msgstr "Perangkat"
+
+#: live-installer/frontend/gtk_interface.py:586
+msgid "Operating system"
+msgstr "Sistem operasi"
+
+#: live-installer/frontend/gtk_interface.py:587
+msgid "Mount point"
+msgstr "Titik kait"
+
+#: live-installer/frontend/gtk_interface.py:588
+msgid "Format as"
+msgstr "Format sebagai"
+
+#: live-installer/frontend/gtk_interface.py:589
+msgid "Size"
+msgstr "Ukuran"
+
+#: live-installer/frontend/gtk_interface.py:626
+#: live-installer/frontend/gtk_interface.py:1367
+msgid "Warning"
+msgstr "Peringatan"
+
+#: live-installer/frontend/gtk_interface.py:627
+#: live-installer/frontend/gtk_interface.py:1368
+#, python-format
+msgid "This will delete all the data on %s. Are you sure?"
+msgstr "Ini akan menghapus semua data di %s. Apa kamu yakin?"
+
+#: live-installer/frontend/gtk_interface.py:652
+#: live-installer/frontend/gtk_interface.py:1228
+msgid "Install"
+msgstr "Pasang"
+
+#: live-installer/frontend/gtk_interface.py:785
+msgid "Please provide a passphrase for the encryption."
+msgstr "Harap berikan frasa sandi untuk enkripsi."
+
+#: live-installer/frontend/gtk_interface.py:787
+#: live-installer/frontend/gtk_interface.py:1214
+msgid "Your passwords do not match."
+msgstr "Password anda tidak sesuai."
+
+#: live-installer/frontend/gtk_interface.py:792
+msgid "Quit?"
+msgstr "Berhenti?"
+
+#: live-installer/frontend/gtk_interface.py:793
+msgid "Are you sure you want to quit the installer?"
+msgstr "Anda yakin ingin menghentikan installer?"
+
+#: live-installer/frontend/gtk_interface.py:994
+#: live-installer/frontend/gtk_interface.py:1008
+#: live-installer/frontend/gtk_interface.py:1025
+#: live-installer/frontend/gtk_interface.py:1040
+#: live-installer/frontend/gtk_interface.py:1224
+#: live-installer/frontend/gtk_interface.py:1362
+msgid "Are you sure?"
+msgstr "Apa kamu yakin?"
+
+#: live-installer/frontend/gtk_interface.py:995
+msgid "New partition will created at {}"
+msgstr "Partisi baru akan dibuat di {}"
+
+#: live-installer/frontend/gtk_interface.py:1009
+msgid "subvolume {} will removed from {}."
+msgstr "subvolume {} akan dihapus dari {}."
+
+#: live-installer/frontend/gtk_interface.py:1026
+msgid "Partition {} will removed from {}."
+msgstr "Partisi {} akan dihapus dari {}."
+
+#: live-installer/frontend/gtk_interface.py:1041
+msgid "Partition {} will formated from {}."
+msgstr "Partisi {} akan diformat dari {}."
+
+#: live-installer/frontend/gtk_interface.py:1174
+msgid "Please choose a language"
+msgstr "Silakan pilih bahasa"
+
+#: live-installer/frontend/gtk_interface.py:1199
+msgid "Please provide a keyboard layout for your computer."
+msgstr "Harap berikan tata letak papan ketik untuk komputer Anda."
+
+#: live-installer/frontend/gtk_interface.py:1219
+msgid "Please provide your full name."
+msgstr "Silakan masukkan nama lengkap anda."
+
+#: live-installer/frontend/gtk_interface.py:1224
+#: live-installer/frontend/gtk_interface.py:1362
+msgid "Your passwords is not strong."
+msgstr "Kata sandi Anda tidak kuat."
+
+#: live-installer/frontend/gtk_interface.py:1242
+#: live-installer/frontend/gtk_interface.py:1256
+msgid ""
+"Root filesystem type not specified. Installation will continue without disk "
+"formatting. Do you want to continue?"
+msgstr ""
+"Jenis sistem file root tidak ditentukan. Instalasi akan dilanjutkan tanpa "
+"memformat disk. Apakah Anda ingin melanjutkan?"
+
+#: live-installer/frontend/gtk_interface.py:1246
+#: live-installer/frontend/gtk_interface.py:1260
+msgid ""
+"The root partition is too small. It should be at least 16GB. Do you want to "
+"continue?"
+msgstr ""
+"Partisi root terlalu kecil. Setidaknya harus 16GB. Apakah Anda ingin "
+"melanjutkan?"
+
+#: live-installer/frontend/gtk_interface.py:1264
+msgid "Please select a root (/) partition."
+msgstr "Silakan pilih sebuah partisi root (/)."
+
+#: live-installer/frontend/gtk_interface.py:1265
+#, python-format
+msgid ""
+"A root partition is needed to install %s on.\n"
+"\n"
+" - Mount point: /\n"
+" - Recommended size: 30GB\n"
+" - Recommended filesystem format: ext4\n"
+"\n"
+msgstr ""
+"Partisi root diperlukan untuk menginstal %s.\n"
+"\n"
+" - Titik pemasangan: /\n"
+" - Ukuran yang disarankan: 30GB\n"
+" - Format sistem file yang disarankan: ext4\n"
+"\n"
+
+#: live-installer/frontend/gtk_interface.py:1279
+msgid "The EFI partition is not bootable. Do you want to set boot flag?"
+msgstr ""
+"Partisi EFI tidak dapat di-boot. Apakah Anda ingin menyetel tanda boot?"
+
+#: live-installer/frontend/gtk_interface.py:1285
+msgid "The EFI partition is too small. It must be at least 100MB."
+msgstr "Partisi EFI terlalu kecil. Minimal harus 100 MB."
+
+#: live-installer/frontend/gtk_interface.py:1291
+#: live-installer/frontend/gtk_interface.py:1296
+msgid "The EFI partition must be formatted as vfat."
+msgstr "Partisi EFI harus diformat dalam vfat."
+
+#: live-installer/frontend/gtk_interface.py:1300
+msgid "Please select an EFI partition."
+msgstr "Silakan pilih partisi EFI."
+
+#: live-installer/frontend/gtk_interface.py:1301
+msgid ""
+"An EFI system partition is needed with the following requirements:\n"
+"\n"
+" - Mount point: /boot/efi\n"
+" - Partition flags: Bootable\n"
+" - Size: at least 100MB \n"
+" - Format: vfat or fat32\n"
+"\n"
+"To ensure compatibility with Windows we recommend you use the first "
+"partition of the disk as the EFI system partition.\n"
+" "
+msgstr ""
+"Partisi sistem EFI diperlukan dengan persyaratan sebagai berikut:\n"
+"\n"
+" - Titik pemasangan: /boot/efi\n"
+" - Bendera partisi: Dapat di-boot\n"
+" - Ukuran: minimal 100MB\n"
+" - Format: vfat atau fat32\n"
+"\n"
+"Untuk memastikan kompatibilitas dengan Windows, kami menyarankan Anda "
+"menggunakan partisi pertama pada disk sebagai partisi sistem EFI.\n"
+" "
+
+#: live-installer/frontend/gtk_interface.py:1356
+msgid "Please select a disk."
+msgstr "Silakan pilih disk."
+
+#: live-installer/frontend/gtk_interface.py:1445
+msgid "Please provide a device to install grub."
+msgstr "Harap sediakan perangkat untuk menginstal grub."
+
+#: live-installer/frontend/gtk_interface.py:1493
+msgid "Localization"
+msgstr "Pengaturan Kedaerahan"
+
+#: live-installer/frontend/gtk_interface.py:1494
+msgid "Language: "
+msgstr "Bahasa: "
+
+#: live-installer/frontend/gtk_interface.py:1495
+msgid "Timezone: "
+msgstr "Zona Waktu "
+
+#: live-installer/frontend/gtk_interface.py:1496
+msgid "Keyboard layout: "
+msgstr "Susunan papan ketik "
+
+#: live-installer/frontend/gtk_interface.py:1500
+msgid "User settings"
+msgstr "Pengaturan pengguna"
+
+#: live-installer/frontend/gtk_interface.py:1504
+msgid "Real name: "
+msgstr "Nama asli "
+
+#: live-installer/frontend/gtk_interface.py:1505
+msgid "Username: "
+msgstr "Nama Pengguna: "
+
+#: live-installer/frontend/gtk_interface.py:1508
+#: live-installer/frontend/gtk_interface.py:1511
+msgid "Password: "
+msgstr "Kata sandi: "
+
+#: live-installer/frontend/gtk_interface.py:1513
+msgid "Automatic login: "
+msgstr "Login otomatis: "
+
+#: live-installer/frontend/gtk_interface.py:1513
+#: live-installer/frontend/gtk_interface.py:1563
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "enabled"
+msgstr "diaktifkan"
+
+#: live-installer/frontend/gtk_interface.py:1514
+#: live-installer/frontend/gtk_interface.py:1564
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "disabled"
+msgstr "dinonaktifkan"
+
+#: live-installer/frontend/gtk_interface.py:1515
+msgid "System settings"
+msgstr "Pengaturan-pengaturan sistem"
+
+#: live-installer/frontend/gtk_interface.py:1517
+msgid "Computer's name: "
+msgstr "Nama komputer: "
+
+#: live-installer/frontend/gtk_interface.py:1520
+#: live-installer/frontend/gtk_interface.py:1522
+msgid "Bios type: "
+msgstr "Tipe bios: "
+
+#: live-installer/frontend/gtk_interface.py:1524
+msgid "Install updates after installation"
+msgstr "Instal pembaruan setelah instalasi"
+
+#: live-installer/frontend/gtk_interface.py:1525
+msgid "Filesystem operations"
+msgstr "Pekerjaan-pekerjaan sistem berkas"
+
+#: live-installer/frontend/gtk_interface.py:1526
+#, python-format
+msgid "Install bootloader on %s"
+msgstr "Install bootloader pada %s"
+
+#: live-installer/frontend/gtk_interface.py:1527
+msgid "Do not install bootloader"
+msgstr "Jangan pasang bootloader"
+
+#: live-installer/frontend/gtk_interface.py:1529
+msgid "Use already-mounted /target."
+msgstr "Gunakan /target yang sudah terpasang."
+
+#: live-installer/frontend/gtk_interface.py:1537
+#, python-format
+msgid " (with %s GB swap)"
+msgstr "(dengan pertukaran %s GB)"
+
+#: live-installer/frontend/gtk_interface.py:1541
+#, python-format
+msgid "Automated installation on %s"
+msgstr "Instalasi otomatis pada %s"
+
+#: live-installer/frontend/gtk_interface.py:1545
+#, python-format
+msgid "Format %(path)s as %(filesystem)s"
+msgstr "Format %(path)s sebagai %(filesystem)s"
+
+#: live-installer/frontend/gtk_interface.py:1549
+#, python-format
+msgid "Mount %(path)s as %(mount)s"
+msgstr "Mount %(path)s as %(mount)s"
+
+#: live-installer/frontend/gtk_interface.py:1554
+#, python-format
+msgid "Create btrfs subvolume %(path)s under %(parentPath)s "
+msgstr "Buat subvolume btrfs %(path)s di bawah %(parentPath)s "
+
+#: live-installer/frontend/gtk_interface.py:1558
+#, python-format
+msgid "Mount %(path)s subvolume as %(mount)s"
+msgstr "Pasang subvolume %(path)s sebagai %(mount)s"
+
+#: live-installer/frontend/gtk_interface.py:1563
+msgid "LVM: "
+msgstr "LVM: "
+
+#: live-installer/frontend/gtk_interface.py:1566
+msgid "Disk Encryption: "
+msgstr "Enkripsi Disk: "
+
+#: live-installer/frontend/gtk_interface.py:1578
+#: live-installer/installer.py:881
+msgid "Installation finished"
+msgstr "Instalasi selesai"
+
+#: live-installer/frontend/gtk_interface.py:1579
+msgid ""
+"The installation is now complete. Do you want to restart your computer to "
+"use the new system?"
+msgstr ""
+"Instalasi sekarang telah lengkap. Apakah anda ingin me-restart komputer anda "
+"untuk menggunakan sistem baru?"
+
+#: live-installer/frontend/gtk_interface.py:1611
+#: live-installer/frontend/gtk_interface.py:1615
+#: live-installer/frontend/gtk_interface.py:1624
+#: live-installer/frontend/gtk_interface.py:1633
+msgid "Installation error"
+msgstr "Instalasi mengalami gangguan"
+
+#: live-installer/frontend/gtk_interface.py:1647
+msgid "Error"
+msgstr "Kesalahan"
+
+#: live-installer/main.py:38
+msgid "You must be root!"
+msgstr "Anda harus menjadi root!"
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
@@ -411,10 +1145,6 @@ msgstr "Kata sandi Anda harus memiliki angka"
 msgid "Please provide a password for your user account."
 msgstr "Silakan masukkan kata sandi untuk akun pengguna anda."
 
-#: live-installer/main.py:38
-msgid "You must be root!"
-msgstr "Anda harus menjadi root!"
-
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
 msgid "Copying /%s"
@@ -441,7 +1171,7 @@ msgstr "Menambahkan pengguna baru ke sistem"
 msgid "Writing filesystem mount information to /etc/fstab"
 msgstr "Menuliskan informasi mount filesystem ke /etc/fstab"
 
-#: live-installer/installer.py:257 live-installer/installer.py:413
+#: live-installer/installer.py:257 live-installer/installer.py:404
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
 msgstr "Mengaitkan %(partition)s pada %(mountpoint)s"
@@ -463,47 +1193,47 @@ msgstr "Membuat partisi pada %s"
 msgid "Formatting %(partition)s as %(format)s ..."
 msgstr "Memformat %(partition)s sebagai %(format)s ..."
 
-#: live-installer/installer.py:577
+#: live-installer/installer.py:594
 msgid "Setting hostname"
 msgstr "Pengaturan hostname"
 
-#: live-installer/installer.py:602
+#: live-installer/installer.py:619
 msgid "Setting locale"
 msgstr "Pengaturan lokal"
 
-#: live-installer/installer.py:642
+#: live-installer/installer.py:659
 msgid "Setting timezone"
 msgstr "Mengatur zona waktu"
 
-#: live-installer/installer.py:677
+#: live-installer/installer.py:694
 msgid "Setting keyboard options"
 msgstr "Pengaturan pilihan keyboard"
 
-#: live-installer/installer.py:754
+#: live-installer/installer.py:771
 msgid "Removing extra packages"
 msgstr "Menghapus paket tambahan"
 
-#: live-installer/installer.py:760
+#: live-installer/installer.py:777
 msgid "Clearing package manager"
 msgstr "Menghapus manajer paket"
 
-#: live-installer/installer.py:779
+#: live-installer/installer.py:796
 msgid "Generating initramfs"
 msgstr "Menghasilkan initramfs"
 
-#: live-installer/installer.py:784
+#: live-installer/installer.py:801
 msgid "Preparing bootloader installation"
 msgstr "Mempersiapkan instalasi bootloader"
 
-#: live-installer/installer.py:804
+#: live-installer/installer.py:821
 msgid "Installing bootloader"
 msgstr "Memasang bootloader"
 
-#: live-installer/installer.py:816
+#: live-installer/installer.py:833
 msgid "Configuring bootloader"
 msgstr "Mengkonfigurasi bootloader"
 
-#: live-installer/installer.py:824
+#: live-installer/installer.py:841
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
@@ -511,655 +1241,17 @@ msgstr ""
 "PERINGATAN: grub bootloader tidak dikonfigurasi sebagaimana mestinya! Anda "
 "perlu mengkonfigurasinya secara manual."
 
-#: live-installer/installer.py:830
+#: live-installer/installer.py:854
 msgid "Trying to install updates"
 msgstr "Mencoba menginstal pembaruan"
 
-#: live-installer/installer.py:863
-#: live-installer/frontend/gtk_interface.py:1496
-msgid "Installation finished"
-msgstr "Instalasi selesai"
-
-#: live-installer/installer.py:889
+#: live-installer/installer.py:907
 msgid "Checking bootloader"
 msgstr "Mengecek bootloader"
 
-#: live-installer/installer.py:926
+#: live-installer/installer.py:944
 msgid "Failed to run command (Exited with {}):"
 msgstr "Gagal menjalankan perintah (Keluar dengan {}):"
-
-#: live-installer/frontend/gtk_interface.py:109
-#: live-installer/frontend/gtk_interface.py:510
-msgid "Country"
-msgstr "Negara"
-
-#: live-installer/frontend/gtk_interface.py:118
-#: live-installer/frontend/gtk_interface.py:478
-#: live-installer/frontend/gtk_interface.py:509
-#: live-installer/frontend/tui_interface.py:45
-msgid "Language"
-msgstr "Bahasa"
-
-#: live-installer/frontend/gtk_interface.py:289
-msgid "Layout"
-msgstr "Tata letak"
-
-#: live-installer/frontend/gtk_interface.py:297
-msgid "Variant"
-msgstr "Varian"
-
-#: live-installer/frontend/gtk_interface.py:315
-msgid "Calculating file indexes ..."
-msgstr "Menghitung indeks file..."
-
-#: live-installer/frontend/gtk_interface.py:463
-#: live-installer/frontend/gtk_interface.py:466
-#: live-installer/frontend/gtk_interface.py:1112
-#: live-installer/frontend/gtk_interface.py:1137
-#: live-installer/frontend/gtk_interface.py:1160
-#: live-installer/frontend/gtk_interface.py:1180
-#: live-installer/frontend/gtk_interface.py:1184
-#: live-installer/frontend/gtk_interface.py:1189
-#: live-installer/frontend/gtk_interface.py:1203
-#: live-installer/frontend/gtk_interface.py:1209
-#: live-installer/frontend/gtk_interface.py:1215
-#: live-installer/frontend/gtk_interface.py:1220
-#: live-installer/frontend/gtk_interface.py:1225
-#: live-installer/frontend/gtk_interface.py:1291
-#: live-installer/frontend/gtk_interface.py:1372
-#: live-installer/frontend/partitioning.py:301
-#: live-installer/frontend/partitioning.py:368
-msgid "Installer"
-msgstr "Pemasang"
-
-#: live-installer/frontend/gtk_interface.py:476
-msgid "License Agreement"
-msgstr "Perjanjian lisensi"
-
-#: live-installer/frontend/gtk_interface.py:478
-#: live-installer/frontend/tui_interface.py:40
-msgid "What language would you like to use?"
-msgstr "Bahasa apa yang ingin Anda gunakan?"
-
-#: live-installer/frontend/gtk_interface.py:480
-#: live-installer/frontend/tui_interface.py:49
-msgid "Where are you?"
-msgstr "Kamu ada di mana?"
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "Keyboard layout"
-msgstr "Tata letak papan ketik"
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "What is your keyboard layout?"
-msgstr "Apa tata letak papan ketik Anda?"
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "User account"
-msgstr "Akun pengguna"
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "Who are you?"
-msgstr "Siapa kamu?"
-
-#: live-installer/frontend/gtk_interface.py:486
-msgid "Installation Type"
-msgstr "Tipe Instalasi"
-
-#: live-installer/frontend/gtk_interface.py:486
-#: live-installer/frontend/gtk_interface.py:488
-msgid "Where do you want to install system?"
-msgstr "Di mana Anda ingin menginstal sistem?"
-
-#: live-installer/frontend/gtk_interface.py:488
-msgid "Partitioning"
-msgstr "Pembagian"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Summary"
-msgstr "Ringkasan"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Check that everything is correct"
-msgstr "Periksa apakah semuanya sudah benar"
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Installing"
-msgstr "Menginstal"
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Please wait..."
-msgstr "Harap tunggu..."
-
-#: live-installer/frontend/gtk_interface.py:495
-#: live-installer/frontend/gtk_interface.py:609
-msgid "Automated install"
-msgstr "Instalasi otomatis"
-
-#: live-installer/frontend/gtk_interface.py:496
-msgid "Back"
-msgstr "Mundur"
-
-#: live-installer/frontend/gtk_interface.py:497
-#: live-installer/frontend/gtk_interface.py:1231
-msgid "Next"
-msgstr "Berikutnya"
-
-#: live-installer/frontend/gtk_interface.py:501
-#: live-installer/frontend/tui_interface.py:34
-#, python-format
-msgid "Welcome to the %s Installer."
-msgstr "Selamat datang di Pemasang %s."
-
-#: live-installer/frontend/gtk_interface.py:516
-msgid "Type here to test your keyboard layout"
-msgstr "Ketik di sini untuk menguji tata letak papan ketik Anda"
-
-#: live-installer/frontend/gtk_interface.py:542
-msgid "Erase a disk and install system on it."
-msgstr "Hapus disk dan instal sistem di dalamnya."
-
-#: live-installer/frontend/gtk_interface.py:555
-msgid "Manually create, resize or choose partitions for system."
-msgstr "Buat, ubah ukuran, atau pilih partisi untuk sistem secara manual."
-
-#: live-installer/frontend/gtk_interface.py:559
-msgid "The setup tool will not do partitioning"
-msgstr "Alat setup tidak akan melakukan partisi"
-
-#: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existing Windows and install system on it."
-msgstr "Hapus Windows yang ada dan instal sistem di dalamnya."
-
-#: live-installer/frontend/gtk_interface.py:573
-#: live-installer/frontend/gtk_interface.py:575
-msgid "Edit partitions"
-msgstr "Edit partisi"
-
-#: live-installer/frontend/gtk_interface.py:580
-msgid "Device"
-msgstr "Perangkat"
-
-#: live-installer/frontend/gtk_interface.py:581
-#: live-installer/frontend/tui_interface.py:77
-msgid "Type"
-msgstr "Tipe"
-
-#: live-installer/frontend/gtk_interface.py:582
-msgid "Operating system"
-msgstr "Sistem operasi"
-
-#: live-installer/frontend/gtk_interface.py:583
-msgid "Mount point"
-msgstr "Titik kait"
-
-#: live-installer/frontend/gtk_interface.py:584
-msgid "Format as"
-msgstr "Format sebagai"
-
-#: live-installer/frontend/gtk_interface.py:585
-msgid "Size"
-msgstr "Ukuran"
-
-#: live-installer/frontend/gtk_interface.py:586
-#: live-installer/frontend/gtk_interface.py:927
-#: live-installer/frontend/partitioning.py:324
-#: live-installer/frontend/partitioning.py:515
-msgid "Free space"
-msgstr "Ruang kosong"
-
-#: live-installer/frontend/gtk_interface.py:594
-#: live-installer/frontend/partitioning.py:180
-msgid "Read only"
-msgstr "Hanya baca"
-
-#: live-installer/frontend/gtk_interface.py:629
-#: live-installer/frontend/gtk_interface.py:1167
-msgid "Install"
-msgstr "Pasang"
-
-#: live-installer/frontend/gtk_interface.py:735
-msgid "Please provide a passphrase for the encryption."
-msgstr "Harap berikan frasa sandi untuk enkripsi."
-
-#: live-installer/frontend/gtk_interface.py:737
-#: live-installer/frontend/gtk_interface.py:1153
-msgid "Your passwords do not match."
-msgstr "Password anda tidak sesuai."
-
-#: live-installer/frontend/gtk_interface.py:742
-msgid "Quit?"
-msgstr "Berhenti?"
-
-#: live-installer/frontend/gtk_interface.py:743
-msgid "Are you sure you want to quit the installer?"
-msgstr "Anda yakin ingin menghentikan installer?"
-
-#: live-installer/frontend/gtk_interface.py:937
-#: live-installer/frontend/gtk_interface.py:952
-#: live-installer/frontend/gtk_interface.py:966
-#: live-installer/frontend/gtk_interface.py:1163
-#: live-installer/frontend/gtk_interface.py:1288
-msgid "Are you sure?"
-msgstr "Apa kamu yakin?"
-
-#: live-installer/frontend/gtk_interface.py:938
-msgid "New partition will created at {}"
-msgstr "Partisi baru akan dibuat di {}"
-
-#: live-installer/frontend/gtk_interface.py:953
-msgid "Partition {} will removed from {}."
-msgstr "Partisi {} akan dihapus dari {}."
-
-#: live-installer/frontend/gtk_interface.py:967
-msgid "Partition {} will formated from {}."
-msgstr "Partisi {} akan diformat dari {}."
-
-#: live-installer/frontend/gtk_interface.py:1113
-msgid "Please choose a language"
-msgstr "Silakan pilih bahasa"
-
-#: live-installer/frontend/gtk_interface.py:1138
-msgid "Please provide a keyboard layout for your computer."
-msgstr "Harap berikan tata letak papan ketik untuk komputer Anda."
-
-#: live-installer/frontend/gtk_interface.py:1158
-msgid "Please provide your full name."
-msgstr "Silakan masukkan nama lengkap anda."
-
-#: live-installer/frontend/gtk_interface.py:1163
-#: live-installer/frontend/gtk_interface.py:1288
-msgid "Your passwords is not strong."
-msgstr "Kata sandi Anda tidak kuat."
-
-#: live-installer/frontend/gtk_interface.py:1181
-msgid ""
-"Root filesystem type not specified. Installation will continue without disk "
-"formatting. Do you want to continue?"
-msgstr ""
-"Jenis sistem file root tidak ditentukan. Instalasi akan dilanjutkan tanpa "
-"memformat disk. Apakah Anda ingin melanjutkan?"
-
-#: live-installer/frontend/gtk_interface.py:1185
-msgid ""
-"The root partition is too small. It should be at least 16GB. Do you want to "
-"continue?"
-msgstr ""
-"Partisi root terlalu kecil. Setidaknya harus 16GB. Apakah Anda ingin "
-"melanjutkan?"
-
-#: live-installer/frontend/gtk_interface.py:1189
-msgid "Please select a root (/) partition."
-msgstr "Silakan pilih sebuah partisi root (/)."
-
-#: live-installer/frontend/gtk_interface.py:1190
-#, python-format
-msgid ""
-"A root partition is needed to install %s on.\n"
-"\n"
-" - Mount point: /\n"
-" - Recommended size: 30GB\n"
-" - Recommended filesystem format: ext4\n"
-"\n"
-msgstr ""
-"Partisi root diperlukan untuk menginstal %s.\n"
-"\n"
-" - Titik pemasangan: /\n"
-" - Ukuran yang disarankan: 30GB\n"
-" - Format sistem file yang disarankan: ext4\n"
-"\n"
-
-#: live-installer/frontend/gtk_interface.py:1204
-msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr ""
-"Partisi EFI tidak dapat di-boot. Apakah Anda ingin menyetel tanda boot?"
-
-#: live-installer/frontend/gtk_interface.py:1210
-msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "Partisi EFI terlalu kecil. Minimal harus 100 MB."
-
-#: live-installer/frontend/gtk_interface.py:1216
-#: live-installer/frontend/gtk_interface.py:1221
-msgid "The EFI partition must be formatted as vfat."
-msgstr "Partisi EFI harus diformat dalam vfat."
-
-#: live-installer/frontend/gtk_interface.py:1225
-msgid "Please select an EFI partition."
-msgstr "Silakan pilih partisi EFI."
-
-#: live-installer/frontend/gtk_interface.py:1226
-msgid ""
-"An EFI system partition is needed with the following requirements:\n"
-"\n"
-" - Mount point: /boot/efi\n"
-" - Partition flags: Bootable\n"
-" - Size: at least 100MB \n"
-" - Format: vfat or fat32\n"
-"\n"
-"To ensure compatibility with Windows we recommend you use the first "
-"partition of the disk as the EFI system partition.\n"
-" "
-msgstr ""
-"Partisi sistem EFI diperlukan dengan persyaratan sebagai berikut:\n"
-"\n"
-" - Titik pemasangan: /boot/efi\n"
-" - Bendera partisi: Dapat di-boot\n"
-" - Ukuran: minimal 100MB\n"
-" - Format: vfat atau fat32\n"
-"\n"
-"Untuk memastikan kompatibilitas dengan Windows, kami menyarankan Anda "
-"menggunakan partisi pertama pada disk sebagai partisi sistem EFI.\n"
-" "
-
-#: live-installer/frontend/gtk_interface.py:1281
-msgid "Please select a disk."
-msgstr "Silakan pilih disk."
-
-#: live-installer/frontend/gtk_interface.py:1293
-msgid "Warning"
-msgstr "Peringatan"
-
-#: live-installer/frontend/gtk_interface.py:1294
-#, python-format
-msgid "This will delete all the data on %s. Are you sure?"
-msgstr "Ini akan menghapus semua data di %s. Apa kamu yakin?"
-
-#: live-installer/frontend/gtk_interface.py:1373
-msgid "Please provide a device to install grub."
-msgstr "Harap sediakan perangkat untuk menginstal grub."
-
-#: live-installer/frontend/gtk_interface.py:1420
-msgid "Localization"
-msgstr "Pengaturan Kedaerahan"
-
-#: live-installer/frontend/gtk_interface.py:1421
-msgid "Language: "
-msgstr "Bahasa: "
-
-#: live-installer/frontend/gtk_interface.py:1422
-msgid "Timezone: "
-msgstr "Zona Waktu "
-
-#: live-installer/frontend/gtk_interface.py:1423
-msgid "Keyboard layout: "
-msgstr "Susunan papan ketik "
-
-#: live-installer/frontend/gtk_interface.py:1427
-msgid "User settings"
-msgstr "Pengaturan pengguna"
-
-#: live-installer/frontend/gtk_interface.py:1431
-msgid "Real name: "
-msgstr "Nama asli "
-
-#: live-installer/frontend/gtk_interface.py:1432
-msgid "Username: "
-msgstr "Nama Pengguna: "
-
-#: live-installer/frontend/gtk_interface.py:1435
-#: live-installer/frontend/gtk_interface.py:1438
-msgid "Password: "
-msgstr "Kata sandi: "
-
-#: live-installer/frontend/gtk_interface.py:1440
-msgid "Automatic login: "
-msgstr "Login otomatis: "
-
-#: live-installer/frontend/gtk_interface.py:1440
-#: live-installer/frontend/gtk_interface.py:1481
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "enabled"
-msgstr "diaktifkan"
-
-#: live-installer/frontend/gtk_interface.py:1441
-#: live-installer/frontend/gtk_interface.py:1482
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "disabled"
-msgstr "dinonaktifkan"
-
-#: live-installer/frontend/gtk_interface.py:1442
-msgid "System settings"
-msgstr "Pengaturan-pengaturan sistem"
-
-#: live-installer/frontend/gtk_interface.py:1444
-msgid "Computer's name: "
-msgstr "Nama komputer: "
-
-#: live-installer/frontend/gtk_interface.py:1447
-#: live-installer/frontend/gtk_interface.py:1449
-msgid "Bios type: "
-msgstr "Tipe bios: "
-
-#: live-installer/frontend/gtk_interface.py:1451
-msgid "Install updates after installation"
-msgstr "Instal pembaruan setelah instalasi"
-
-#: live-installer/frontend/gtk_interface.py:1452
-msgid "Filesystem operations"
-msgstr "Pekerjaan-pekerjaan sistem berkas"
-
-#: live-installer/frontend/gtk_interface.py:1453
-#, python-format
-msgid "Install bootloader on %s"
-msgstr "Install bootloader pada %s"
-
-#: live-installer/frontend/gtk_interface.py:1454
-msgid "Do not install bootloader"
-msgstr "Jangan pasang bootloader"
-
-#: live-installer/frontend/gtk_interface.py:1456
-msgid "Use already-mounted /target."
-msgstr "Gunakan /target yang sudah terpasang."
-
-#: live-installer/frontend/gtk_interface.py:1464
-#, python-format
-msgid " (with %s GB swap)"
-msgstr "(dengan pertukaran %s GB)"
-
-#: live-installer/frontend/gtk_interface.py:1468
-#, python-format
-msgid "Automated installation on %s"
-msgstr "Instalasi otomatis pada %s"
-
-#: live-installer/frontend/gtk_interface.py:1472
-#, python-format
-msgid "Format %(path)s as %(filesystem)s"
-msgstr "Format %(path)s sebagai %(filesystem)s"
-
-#: live-installer/frontend/gtk_interface.py:1476
-#, python-format
-msgid "Mount %(path)s as %(mount)s"
-msgstr "Mount %(path)s as %(mount)s"
-
-#: live-installer/frontend/gtk_interface.py:1481
-msgid "LVM: "
-msgstr "LVM: "
-
-#: live-installer/frontend/gtk_interface.py:1484
-msgid "Disk Encryption: "
-msgstr "Enkripsi Disk: "
-
-#: live-installer/frontend/gtk_interface.py:1497
-msgid ""
-"The installation is now complete. Do you want to restart your computer to "
-"use the new system?"
-msgstr ""
-"Instalasi sekarang telah lengkap. Apakah anda ingin me-restart komputer anda "
-"untuk menggunakan sistem baru?"
-
-#: live-installer/frontend/gtk_interface.py:1529
-#: live-installer/frontend/gtk_interface.py:1533
-#: live-installer/frontend/gtk_interface.py:1542
-#: live-installer/frontend/gtk_interface.py:1551
-msgid "Installation error"
-msgstr "Instalasi mengalami gangguan"
-
-#: live-installer/frontend/gtk_interface.py:1565
-msgid "Error"
-msgstr "Kesalahan"
-
-#: live-installer/frontend/welcome.py:32
-#, python-format
-msgid "Try %s"
-msgstr "Coba %s"
-
-#: live-installer/frontend/welcome.py:36
-#, python-format
-msgid "You are currently running %s from live media."
-msgstr "Anda sedang menjalankan %s dari media langsung."
-
-#: live-installer/frontend/welcome.py:38
-#, python-format
-msgid ""
-"You can install %s now, or chose \"Install to Hard Drive\" in the "
-"Application Menu later."
-msgstr ""
-"Anda dapat menginstal %s sekarang, atau memilih \"Instal ke Hard Drive\" di "
-"Menu Aplikasi nanti."
-
-#: live-installer/frontend/welcome.py:39
-#, python-format
-msgid "Welcome to %s"
-msgstr "Selamat datang di %s"
-
-#: live-installer/frontend/tui_interface.py:57
-msgid "What keyboard would you like to use?"
-msgstr "Papan ketik apa yang ingin Anda gunakan?"
-
-#: live-installer/frontend/tui_interface.py:64
-msgid "Keyboard Model"
-msgstr "Model Papan Ketik"
-
-#: live-installer/frontend/tui_interface.py:73
-msgid "Installation type?"
-msgstr "Jenis instalasi?"
-
-#: live-installer/frontend/tui_interface.py:80
-msgid "Select a disk?"
-msgstr "Pilih disk?"
-
-#: live-installer/frontend/tui_interface.py:84
-msgid "Disk"
-msgstr "Disk"
-
-#: live-installer/frontend/timezones.py:140
-msgid "Select timezone"
-msgstr "Pilih zona waktu"
-
-#: live-installer/frontend/partitioning.py:72
-msgid "B"
-msgstr "B"
-
-#: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:442
-msgid "kB"
-msgstr "kB"
-
-#: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:442
-msgid "MB"
-msgstr "MB"
-
-#: live-installer/frontend/partitioning.py:73
-#: live-installer/frontend/partitioning.py:443
-msgid "TB"
-msgstr "TB"
-
-#: live-installer/frontend/partitioning.py:80
-msgid "Removable:"
-msgstr "Removable:"
-
-#: live-installer/frontend/partitioning.py:221
-msgid "Edit"
-msgstr "Sunting"
-
-#: live-installer/frontend/partitioning.py:226
-#: live-installer/frontend/partitioning.py:230
-#: live-installer/frontend/partitioning.py:237
-#: live-installer/frontend/partitioning.py:246
-#, python-format
-msgid "Assign to %s"
-msgstr "Tetapkan ke %s"
-
-#: live-installer/frontend/partitioning.py:302
-msgid ""
-"Disk: {} partition table broken or not exists. Do you want to create new "
-"partition table?"
-msgstr ""
-"Disk: {} tabel partisi rusak atau tidak ada. Apakah Anda ingin membuat tabel "
-"partisi baru?"
-
-#: live-installer/frontend/partitioning.py:384
-#, python-format
-msgid ""
-"The partition table couldn't be written for %s. Restart the computer and try "
-"again."
-msgstr ""
-"Tabel partisi tidak dapat ditulis untuk %s. Nyalakan kembali komputer dan "
-"coba lagi."
-
-#: live-installer/frontend/partitioning.py:429
-#, python-format
-msgid ""
-"The partition %s could not be created. The installation will stop. Restart "
-"the computer and try again."
-msgstr ""
-"Partisi %s tidak dapat dibuat. Instalasi akan berhenti. Nyalakan kembali "
-"komputer dan coba lagi."
-
-#: live-installer/frontend/partitioning.py:513
-msgid "Logical partition"
-msgstr "Partisi Logical"
-
-#: live-installer/frontend/partitioning.py:514
-msgid "Extended partition"
-msgstr "Partisi Extended"
-
-#: live-installer/frontend/partitioning.py:518
-msgid "Unknown"
-msgstr "Tidak diketahui"
-
-#: live-installer/frontend/partitioning.py:569
-msgid "bootloader/recovery"
-msgstr "bootloader/pemulihan"
-
-#: live-installer/frontend/partitioning.py:582
-msgid "EFI System Partition"
-msgstr "Partisi Sistem EFI"
-
-#: live-installer/frontend/partitioning.py:607
-msgid "Edit partition"
-msgstr "Sunting Partisi"
-
-#: live-installer/frontend/partitioning.py:609
-msgid "Device:"
-msgstr "Perangkat:"
-
-#: live-installer/frontend/partitioning.py:611
-msgid "Format as:"
-msgstr "Format sebagai:"
-
-#: live-installer/frontend/partitioning.py:613
-msgid "Mount point:"
-msgstr "Titik mount:"
-
-#: live-installer/frontend/partitioning.py:614
-msgid "Cancel"
-msgstr "Batal"
-
-#: live-installer/frontend/partitioning.py:615
-#: live-installer/frontend/dialogs.py:35 live-installer/frontend/dialogs.py:48
-#: live-installer/frontend/dialogs.py:54
-msgid "OK"
-msgstr "OK"
-
-#: live-installer/frontend/dialogs.py:41
-msgid "No"
-msgstr "Tidak"
-
-#: live-installer/frontend/dialogs.py:42
-msgid "Yes"
-msgstr "Ya"
 
 #~ msgid "Quit"
 #~ msgstr "Keluar"

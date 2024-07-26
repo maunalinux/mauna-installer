@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-01 18:27-0300\n"
-"PO-Revision-Date: 2023-12-22 19:00-0300\n"
+"POT-Creation-Date: 2024-07-21 16:51-0300\n"
+"PO-Revision-Date: 2024-07-21 22:34-0300\n"
 "Last-Translator: Panwar <Unknown>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "Language: hi\n"
@@ -16,22 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: live-installer/resources/interface.ui:71
 msgid "Welcome to the Mauna Installer."
 msgstr "मौना इंस्टॉलर में आपका स्वागत है।"
 
-#: live-installer/resources/interface.ui:88 live-installer/frontend/gtk_interface.py:503
-#: live-installer/frontend/tui_interface.py:36
+#: live-installer/resources/interface.ui:88 live-installer/frontend/tui_interface.py:36
+#: live-installer/frontend/gtk_interface.py:507
 msgid "This program will ask you some questions and set up system on your computer."
 msgstr "यह प्रोग्राम आपसे कुछ प्रश्न पूछेगा और आपके कंप्यूटर पर सिस्टम सेट करेगा।"
 
-#: live-installer/resources/interface.ui:143 live-installer/frontend/gtk_interface.py:505
+#: live-installer/resources/interface.ui:143 live-installer/frontend/gtk_interface.py:509
 msgid "I accept the terms of the License Agreement"
 msgstr "मैं लाइसेंस अनुबंध की शर्तों को स्वीकार करता हूं"
 
-#: live-installer/resources/interface.ui:214 live-installer/frontend/gtk_interface.py:514
+#: live-installer/resources/interface.ui:214 live-installer/frontend/gtk_interface.py:518
 msgid "Keyboard Model:"
 msgstr "कीबोर्ड मॉडल:"
 
@@ -39,9 +39,10 @@ msgstr "कीबोर्ड मॉडल:"
 msgid "Type here to test your keyboard"
 msgstr "अपने कीबोर्ड का परीक्षण करने के लिए यहां टाइप करें"
 
-#: live-installer/resources/interface.ui:377 live-installer/resources/interface.ui:1964
-#: live-installer/resources/interface.ui:2416 live-installer/resources/interface.ui:2428
-#: live-installer/resources/interface.ui:2440
+#: live-installer/resources/interface.ui:377 live-installer/resources/interface.ui:1965
+#: live-installer/resources/interface.ui:2417 live-installer/resources/interface.ui:2429
+#: live-installer/resources/interface.ui:2441 live-installer/resources/interface.ui:2622
+#: live-installer/resources/interface.ui:2634
 msgid "label"
 msgstr "लेबल"
 
@@ -49,12 +50,12 @@ msgstr "लेबल"
 msgid "Continent"
 msgstr "महाद्वीप"
 
-#: live-installer/resources/interface.ui:426 live-installer/frontend/gtk_interface.py:480
-#: live-installer/frontend/tui_interface.py:53
+#: live-installer/resources/interface.ui:426 live-installer/frontend/tui_interface.py:53
+#: live-installer/frontend/gtk_interface.py:484
 msgid "Timezone"
 msgstr "समय क्षेत्र"
 
-#: live-installer/resources/interface.ui:484 live-installer/frontend/gtk_interface.py:540
+#: live-installer/resources/interface.ui:484 live-installer/frontend/gtk_interface.py:544
 msgid "Automated Installation"
 msgstr "स्वचालित स्थापना"
 
@@ -62,11 +63,11 @@ msgstr "स्वचालित स्थापना"
 msgid "Erase a disk and install Mauna on it."
 msgstr "एक डिस्क मिटाएँ और उस पर मौना स्थापित करें।"
 
-#: live-installer/resources/interface.ui:528 live-installer/frontend/gtk_interface.py:543
+#: live-installer/resources/interface.ui:528 live-installer/frontend/gtk_interface.py:547
 msgid "Disk:"
 msgstr "डिस्क:"
 
-#: live-installer/resources/interface.ui:573 live-installer/frontend/gtk_interface.py:570
+#: live-installer/resources/interface.ui:573 live-installer/frontend/gtk_interface.py:574
 msgid "Create swap partition"
 msgstr "स्वैप विभाजन बनाएँ"
 
@@ -75,35 +76,35 @@ msgid "1"
 msgstr "1"
 
 #: live-installer/resources/interface.ui:613 live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:443
+#: live-installer/frontend/partitioning.py:604
 msgid "GB"
 msgstr "GB"
 
-#: live-installer/resources/interface.ui:658 live-installer/frontend/gtk_interface.py:551
+#: live-installer/resources/interface.ui:658 live-installer/frontend/gtk_interface.py:555
 msgid "Use LVM (Logical Volume Management)"
 msgstr "एलवीएम (लॉजिकल वॉल्यूम मैनेजमेंट) का उपयोग करें"
 
-#: live-installer/resources/interface.ui:705 live-installer/frontend/gtk_interface.py:545
+#: live-installer/resources/interface.ui:705 live-installer/frontend/gtk_interface.py:549
 msgid "Encrypt the operating system"
 msgstr "ऑपरेटिंग सिस्टम को एन्क्रिप्ट करें"
 
-#: live-installer/resources/interface.ui:735 live-installer/frontend/gtk_interface.py:547
+#: live-installer/resources/interface.ui:735 live-installer/frontend/gtk_interface.py:551
 msgid "Passphrase"
 msgstr "पदबंध"
 
-#: live-installer/resources/interface.ui:751 live-installer/frontend/gtk_interface.py:549
+#: live-installer/resources/interface.ui:751 live-installer/frontend/gtk_interface.py:553
 msgid "Confirm passphrase"
 msgstr "पासफ़्रेज़ की पुष्टि करें"
 
-#: live-installer/resources/interface.ui:785 live-installer/frontend/gtk_interface.py:568
+#: live-installer/resources/interface.ui:785 live-installer/frontend/gtk_interface.py:572
 msgid "This provides extra security but it can take hours."
 msgstr "यह अतिरिक्त सुरक्षा प्रदान करता है लेकिन इसमें घंटों लग सकते हैं।"
 
-#: live-installer/resources/interface.ui:799 live-installer/frontend/gtk_interface.py:566
+#: live-installer/resources/interface.ui:799 live-installer/frontend/gtk_interface.py:570
 msgid "Fill the disk with random data"
 msgstr "डिस्क को यादृच्छिक डेटा से भरें"
 
-#: live-installer/resources/interface.ui:884 live-installer/frontend/gtk_interface.py:553
+#: live-installer/resources/interface.ui:884 live-installer/frontend/gtk_interface.py:557
 msgid "Manual Partitioning"
 msgstr "मैनुअल विभाजन"
 
@@ -111,7 +112,7 @@ msgstr "मैनुअल विभाजन"
 msgid "Manually create, resize or choose partitions for Mauna."
 msgstr "मौना के लिए मैन्युअल रूप से विभाजन बनाएं, आकार बदलें या चुनें।"
 
-#: live-installer/resources/interface.ui:965 live-installer/frontend/gtk_interface.py:561
+#: live-installer/resources/interface.ui:965 live-installer/frontend/gtk_interface.py:565
 msgid "Remove Windows & Install"
 msgstr "विंडोज़ निकालें और इंस्टॉल करें"
 
@@ -119,7 +120,7 @@ msgstr "विंडोज़ निकालें और इंस्टॉल
 msgid "Remove existing Windows and install Mauna on it."
 msgstr "मौजूदा विंडोज़ को हटा दें और उस पर मौना स्थापित करें।"
 
-#: live-installer/resources/interface.ui:1033 live-installer/frontend/gtk_interface.py:557
+#: live-installer/resources/interface.ui:1033 live-installer/frontend/gtk_interface.py:561
 msgid "Expert Mode"
 msgstr "विशेषज्ञ विधा"
 
@@ -127,118 +128,127 @@ msgstr "विशेषज्ञ विधा"
 msgid "The setup tool will not do partitioning."
 msgstr "सेटअप टूल विभाजन नहीं करेगा."
 
-#: live-installer/resources/interface.ui:1111 live-installer/frontend/gtk_interface.py:602
+#: live-installer/resources/interface.ui:1111 live-installer/frontend/gtk_interface.py:606
 msgid "Minimal installation"
 msgstr "न्यूनतम स्थापना"
 
-#: live-installer/resources/interface.ui:1127 live-installer/frontend/gtk_interface.py:603
+#: live-installer/resources/interface.ui:1127 live-installer/frontend/gtk_interface.py:607
 msgid "This will only install a minimal desktop environment with a browser and utilities."
 msgstr "यह केवल ब्राउज़र और उपयोगिताओं के साथ एक न्यूनतम डेस्कटॉप वातावरण स्थापित करेगा।"
 
-#: live-installer/resources/interface.ui:1160 live-installer/frontend/gtk_interface.py:600
+#: live-installer/resources/interface.ui:1160 live-installer/frontend/gtk_interface.py:604
 msgid "Install system with updates"
 msgstr "अद्यतनों के साथ सिस्टम स्थापित करें"
 
-#: live-installer/resources/interface.ui:1176 live-installer/frontend/gtk_interface.py:601
+#: live-installer/resources/interface.ui:1176 live-installer/frontend/gtk_interface.py:605
 msgid "If you connect internet, updates will install."
 msgstr "यदि आप इंटरनेट कनेक्ट करते हैं, तो अपडेट इंस्टॉल हो जाएंगे।"
 
-#: live-installer/resources/interface.ui:1278 live-installer/frontend/gtk_interface.py:574
+#: live-installer/resources/interface.ui:1278 live-installer/frontend/gtk_interface.py:578
 msgid "Refresh"
 msgstr "रिफ्रेश करें"
 
-#: live-installer/resources/interface.ui:1325 live-installer/frontend/gtk_interface.py:576
+#: live-installer/resources/interface.ui:1325 live-installer/frontend/gtk_interface.py:580
 msgid "Delete"
 msgstr "मिटाना"
 
-#: live-installer/resources/interface.ui:1372 live-installer/frontend/gtk_interface.py:577
+#: live-installer/resources/interface.ui:1372 live-installer/frontend/gtk_interface.py:581
 msgid "Format"
 msgstr "प्रारूप"
 
-#: live-installer/resources/interface.ui:1419 live-installer/frontend/gtk_interface.py:578
+#: live-installer/resources/interface.ui:1419 live-installer/frontend/partitioning.py:282
+#: live-installer/frontend/gtk_interface.py:582 live-installer/frontend/gtk_interface.py:966
 msgid "Create"
 msgstr "बनाएं"
 
-#: live-installer/resources/interface.ui:1455 live-installer/frontend/gtk_interface.py:591
+#: live-installer/resources/interface.ui:1455 live-installer/frontend/gtk_interface.py:595
 msgid "Install the GRUB boot menu on:"
 msgstr "GRUB बूट मेनू को यहां स्थापित करें:"
 
-#: live-installer/resources/interface.ui:1528
+#: live-installer/resources/interface.ui:1529
 msgid "Edit Partitions"
 msgstr "विभाजन संपादित करें"
 
-#: live-installer/resources/interface.ui:1552
+#: live-installer/resources/interface.ui:1553
 msgid "Legacy"
 msgstr "परंपरा"
 
-#: live-installer/resources/interface.ui:1610 live-installer/frontend/gtk_interface.py:519
+#: live-installer/resources/interface.ui:1611 live-installer/frontend/gtk_interface.py:523
 msgid "Your name:"
 msgstr "आपका नाम:"
 
-#: live-installer/resources/interface.ui:1653 live-installer/frontend/gtk_interface.py:521
+#: live-installer/resources/interface.ui:1654 live-installer/frontend/gtk_interface.py:525
 msgid "Your computer's name:"
 msgstr "आपके कंप्यूटर का नाम:"
 
-#: live-installer/resources/interface.ui:1668 live-installer/frontend/gtk_interface.py:525
+#: live-installer/resources/interface.ui:1669 live-installer/frontend/gtk_interface.py:529
 msgid "Pick a username:"
 msgstr "प्रयोक्ता नाम उठाओ:"
 
-#: live-installer/resources/interface.ui:1681 live-installer/frontend/gtk_interface.py:523
+#: live-installer/resources/interface.ui:1682 live-installer/frontend/gtk_interface.py:527
 msgid "The name it uses when it talks to other computers."
 msgstr "यह वह नाम है जिसका उपयोग यह अन्य कंप्यूटरों से बात करते समय करता है।"
 
-#: live-installer/resources/interface.ui:1714 live-installer/frontend/gtk_interface.py:527
+#: live-installer/resources/interface.ui:1715 live-installer/frontend/gtk_interface.py:531
 msgid "Choose a password:"
 msgstr "एक पासवर्ड चुनें:"
 
-#: live-installer/resources/interface.ui:1758 live-installer/frontend/gtk_interface.py:532
+#: live-installer/resources/interface.ui:1759 live-installer/frontend/gtk_interface.py:536
 msgid "Log in automatically"
 msgstr "स्वतः लॉग इन करें"
 
-#: live-installer/resources/interface.ui:1773 live-installer/frontend/gtk_interface.py:534
+#: live-installer/resources/interface.ui:1774 live-installer/frontend/gtk_interface.py:538
 msgid "Require my password to log in"
 msgstr "लॉग इन करने के लिए मेरे पासवर्ड की आवश्यकता है"
 
-#: live-installer/resources/interface.ui:1788 live-installer/frontend/gtk_interface.py:536
+#: live-installer/resources/interface.ui:1789 live-installer/frontend/gtk_interface.py:540
 msgid "Encrypt my home folder"
 msgstr "मेरे होम फ़ोल्डर को एन्क्रिप्ट करें"
 
-#: live-installer/resources/interface.ui:1812 live-installer/frontend/gtk_interface.py:529
+#: live-installer/resources/interface.ui:1813 live-installer/frontend/gtk_interface.py:533
 msgid "Confirm your password:"
 msgstr "अपने पासवर्ड की पुष्टि करें:"
 
-#: live-installer/resources/interface.ui:1841
+#: live-installer/resources/interface.ui:1842
 msgid "Length must be minimum 8 characters"
 msgstr "लंबाई कम से कम 8 अक्षर होनी चाहिए"
 
-#: live-installer/resources/interface.ui:1914 live-installer/frontend/gtk_interface.py:608
+#: live-installer/resources/interface.ui:1915 live-installer/frontend/gtk_interface.py:612
 msgid "Automated installation enabled!"
 msgstr "स्वचालित स्थापना सक्षम!"
 
-#: live-installer/resources/interface.ui:1983
+#: live-installer/resources/interface.ui:1984
 msgid "0.0"
 msgstr "0.0"
 
-#: live-installer/resources/interface.ui:2015 live-installer/frontend/gtk_interface.py:604
+#: live-installer/resources/interface.ui:2016 live-installer/frontend/gtk_interface.py:608
 msgid "Please do not turn off your computer during the installation process."
 msgstr "कृपया इंस्टॉलेशन प्रक्रिया के दौरान अपना कंप्यूटर बंद न करें।"
 
-#: live-installer/resources/interface.ui:2084 live-installer/resources/welcome.ui:206
+#: live-installer/resources/interface.ui:2085 live-installer/resources/welcome.ui:206
 msgid "Mauna team"
 msgstr "मौना टीम"
 
-#: live-installer/resources/interface.ui:2288 live-installer/resources/interface.ui:2328
-#: live-installer/frontend/gtk_interface.py:474
+#: live-installer/resources/interface.ui:2289 live-installer/resources/interface.ui:2329
+#: live-installer/frontend/gtk_interface.py:478
 msgid "Welcome"
 msgstr "स्वागत"
 
-#: live-installer/resources/interface.ui:2452
+#: live-installer/resources/interface.ui:2453
 msgid "/dev/sda1"
 msgstr "/dev/sda1"
 
-#: live-installer/resources/interface.ui:2504
+#: live-installer/resources/interface.ui:2505
 msgid "read only"
 msgstr "केवल पढ़ने के लिए"
+
+#: live-installer/resources/interface.ui:2518
+msgid "Use default Btrfs subvolumes"
+msgstr "डिफ़ॉल्ट Btrfs सबवॉल्यूम का उपयोग करें"
+
+#: live-installer/resources/interface.ui:2678 live-installer/frontend/partitioning.py:888
+msgid "Format subvolume"
+msgstr "सबवॉल्यूम को प्रारूपित करें"
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try Mauna"
@@ -258,12 +268,655 @@ msgstr "आप वर्तमान में लाइव मीडिया �
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
-"You can install Mauna now, or chose \"Install to Hard Drive\" in the Appication Menu later."
-msgstr "आप अभी मौना इंस्टॉल कर सकते हैं, या बाद में एप्लिकेशन मेनू में \"हार्ड ड्राइव पर इंस्टॉल करें\" चुन सकते हैं।"
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the Application Menu later."
+msgstr "आप मौना को अभी इंस्टॉल कर सकते हैं, या बाद में एप्लीकेशन मेनू में \"हार्ड ड्राइव पर इंस्टॉल करें\" चुन सकते हैं।"
 
 #: live-installer/resources/welcome.ui:228
 msgid "Welcome to Mauna"
 msgstr "मौना में आपका स्वागत है"
+
+#: live-installer/frontend/dialogs.py:35 live-installer/frontend/dialogs.py:48
+#: live-installer/frontend/dialogs.py:54 live-installer/frontend/partitioning.py:798
+#: live-installer/frontend/partitioning.py:893
+msgid "OK"
+msgstr "ठीक है"
+
+#: live-installer/frontend/dialogs.py:41
+msgid "No"
+msgstr "नहीं"
+
+#: live-installer/frontend/dialogs.py:42
+msgid "Yes"
+msgstr "हाँ"
+
+#: live-installer/frontend/timezones.py:140
+msgid "Select timezone"
+msgstr "समयक्षेत्र चुनें"
+
+#: live-installer/frontend/tui_interface.py:34 live-installer/frontend/gtk_interface.py:505
+#, python-format
+msgid "Welcome to the %s Installer."
+msgstr "%s इंस्टॉलर में आपका स्वागत है."
+
+#: live-installer/frontend/tui_interface.py:40 live-installer/frontend/gtk_interface.py:482
+msgid "What language would you like to use?"
+msgstr "आप किस भाषा का उपयोग करना चाहेंगे?"
+
+#: live-installer/frontend/tui_interface.py:45 live-installer/frontend/gtk_interface.py:118
+#: live-installer/frontend/gtk_interface.py:482 live-installer/frontend/gtk_interface.py:513
+msgid "Language"
+msgstr "भाषा"
+
+#: live-installer/frontend/tui_interface.py:49 live-installer/frontend/gtk_interface.py:484
+msgid "Where are you?"
+msgstr "आप कहां हैं?"
+
+#: live-installer/frontend/tui_interface.py:57
+msgid "What keyboard would you like to use?"
+msgstr "आप किस कीबोर्ड का उपयोग करना चाहेंगे?"
+
+#: live-installer/frontend/tui_interface.py:64
+msgid "Keyboard Model"
+msgstr "कीबोर्ड मॉडल"
+
+#: live-installer/frontend/tui_interface.py:73
+msgid "Installation type?"
+msgstr "स्थापना प्रकार?"
+
+#: live-installer/frontend/tui_interface.py:77 live-installer/frontend/gtk_interface.py:585
+msgid "Type"
+msgstr "प्रकार"
+
+#: live-installer/frontend/tui_interface.py:80
+msgid "Select a disk?"
+msgstr "कोई डिस्क चुनें?"
+
+#: live-installer/frontend/tui_interface.py:84
+msgid "Disk"
+msgstr "डिस्क"
+
+#: live-installer/frontend/welcome.py:32
+#, python-format
+msgid "Try %s"
+msgstr "%s प्रयास करें"
+
+#: live-installer/frontend/welcome.py:36
+#, python-format
+msgid "You are currently running %s from live media."
+msgstr "आप वर्तमान में लाइव मीडिया से %s चला रहे हैं।"
+
+#: live-installer/frontend/welcome.py:38
+#, python-format
+msgid "You can install %s now, or chose \"Install to Hard Drive\" in the Application Menu later."
+msgstr "आप %s को अभी इंस्टॉल कर सकते हैं, या बाद में एप्लिकेशन मेनू में \"हार्ड ड्राइव पर इंस्टॉल करें\" चुन सकते हैं।"
+
+#: live-installer/frontend/welcome.py:39
+#, python-format
+msgid "Welcome to %s"
+msgstr "%s में आपका स्वागत है"
+
+#: live-installer/frontend/partitioning.py:72
+msgid "B"
+msgstr "B"
+
+#: live-installer/frontend/partitioning.py:72 live-installer/frontend/partitioning.py:603
+msgid "kB"
+msgstr "kB"
+
+#: live-installer/frontend/partitioning.py:72 live-installer/frontend/partitioning.py:603
+msgid "MB"
+msgstr "MB"
+
+#: live-installer/frontend/partitioning.py:73 live-installer/frontend/partitioning.py:604
+msgid "TB"
+msgstr "TB"
+
+#: live-installer/frontend/partitioning.py:80
+msgid "Removable:"
+msgstr "निराकरणीय:"
+
+#: live-installer/frontend/partitioning.py:190 live-installer/frontend/partitioning.py:199
+#: live-installer/frontend/partitioning.py:201 live-installer/frontend/partitioning.py:236
+#: live-installer/frontend/partitioning.py:278 live-installer/frontend/partitioning.py:340
+#: live-installer/frontend/partitioning.py:352 live-installer/frontend/partitioning.py:356
+#: live-installer/frontend/partitioning.py:776 live-installer/frontend/gtk_interface.py:977
+#: live-installer/frontend/gtk_interface.py:1006
+msgid "btrfs subvolume"
+msgstr "btrfs सबवॉल्यूम"
+
+#: live-installer/frontend/partitioning.py:195
+msgid "Edit Subvolume"
+msgstr "सबवॉल्यूम संपादित करें"
+
+#: live-installer/frontend/partitioning.py:213 live-installer/frontend/gtk_interface.py:598
+msgid "Read only"
+msgstr "केवल पढ़ने के लिए"
+
+#: live-installer/frontend/partitioning.py:241
+msgid "The name of a subvolume must not start or end with a forward slash"
+msgstr "सबवॉल्यूम का नाम फ़ॉरवर्ड स्लैश से शुरू या ख़त्म नहीं होना चाहिए"
+
+#: live-installer/frontend/partitioning.py:245
+msgid "The name of a subvolume must not be blank or contain a space"
+msgstr "सबवॉल्यूम का नाम रिक्त नहीं होना चाहिए या उसमें कोई स्थान नहीं होना चाहिए"
+
+#: live-installer/frontend/partitioning.py:249
+msgid "The mount point of a subvolume must not contain a space"
+msgstr "सबवॉल्यूम के माउंट पॉइंट में कोई रिक्त स्थान नहीं होना चाहिए"
+
+#: live-installer/frontend/partitioning.py:256
+#, python-format
+msgid "Subvolume with name '%s' already exists"
+msgstr "'%s' नाम वाला उपवॉल्यूम पहले से मौजूद है"
+
+#: live-installer/frontend/partitioning.py:291 live-installer/frontend/gtk_interface.py:984
+#: live-installer/frontend/gtk_interface.py:992
+msgid "Create a subvolume"
+msgstr "सबवॉल्यूम बनाएं"
+
+#: live-installer/frontend/partitioning.py:345
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: live-installer/frontend/partitioning.py:357 live-installer/frontend/partitioning.py:364
+#: live-installer/frontend/partitioning.py:368 live-installer/frontend/partitioning.py:375
+#: live-installer/frontend/partitioning.py:384
+#, python-format
+msgid "Assign to %s"
+msgstr "%s को असाइन करें"
+
+#: live-installer/frontend/partitioning.py:391
+msgid "Create btrfs subvolume"
+msgstr "btrfs सबवॉल्यूम बनाएं"
+
+#: live-installer/frontend/partitioning.py:446 live-installer/frontend/partitioning.py:529
+#: live-installer/frontend/gtk_interface.py:467 live-installer/frontend/gtk_interface.py:470
+#: live-installer/frontend/gtk_interface.py:1173 live-installer/frontend/gtk_interface.py:1198
+#: live-installer/frontend/gtk_interface.py:1221 live-installer/frontend/gtk_interface.py:1241
+#: live-installer/frontend/gtk_interface.py:1245 live-installer/frontend/gtk_interface.py:1255
+#: live-installer/frontend/gtk_interface.py:1259 live-installer/frontend/gtk_interface.py:1264
+#: live-installer/frontend/gtk_interface.py:1278 live-installer/frontend/gtk_interface.py:1284
+#: live-installer/frontend/gtk_interface.py:1290 live-installer/frontend/gtk_interface.py:1295
+#: live-installer/frontend/gtk_interface.py:1300 live-installer/frontend/gtk_interface.py:1365
+#: live-installer/frontend/gtk_interface.py:1444
+msgid "Installer"
+msgstr "इंस्टालर"
+
+#: live-installer/frontend/partitioning.py:447
+msgid "Disk: {} partition table broken or not exists. Do you want to create new partition table?"
+msgstr "डिस्क: {} विभाजन तालिका टूटी हुई है या मौजूद नहीं है। क्या आप नई विभाजन तालिका बनाना चाहते हैं?"
+
+#: live-installer/frontend/partitioning.py:469 live-installer/frontend/partitioning.py:687
+#: live-installer/frontend/gtk_interface.py:590 live-installer/frontend/gtk_interface.py:975
+msgid "Free space"
+msgstr "ख़ाली स्पेस"
+
+#: live-installer/frontend/partitioning.py:545
+#, python-format
+msgid "The partition table couldn't be written for %s. Restart the computer and try again."
+msgstr "%s के लिए विभाजन तालिका नहीं लिखी जा सकी. कंप्यूटर को पुनरारंभ करें और पुनः प्रयास करें।"
+
+#: live-installer/frontend/partitioning.py:590
+#, python-format
+msgid ""
+"The partition %s could not be created. The installation will stop. Restart the computer and try "
+"again."
+msgstr "विभाजन %s नहीं बनाया जा सका. इंस्टालेशन रुक जाएगा. कंप्यूटर को पुनरारंभ करें और पुनः प्रयास करें।"
+
+#: live-installer/frontend/partitioning.py:685
+msgid "Logical partition"
+msgstr "तार्किक विभाजन"
+
+#: live-installer/frontend/partitioning.py:686
+msgid "Extended partition"
+msgstr "विस्तृत विभाजन"
+
+#: live-installer/frontend/partitioning.py:690 live-installer/frontend/partitioning.py:824
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: live-installer/frontend/partitioning.py:741
+msgid "bootloader/recovery"
+msgstr "बूटलोडर/रिकवरी"
+
+#: live-installer/frontend/partitioning.py:754
+msgid "EFI System Partition"
+msgstr "ईएफआई सिस्टम विभाजन"
+
+#: live-installer/frontend/partitioning.py:790
+msgid "Edit partition"
+msgstr "विभाजन संपादित करें"
+
+#: live-installer/frontend/partitioning.py:792
+msgid "Device:"
+msgstr "डिवाइस :"
+
+#: live-installer/frontend/partitioning.py:794
+msgid "Format as:"
+msgstr "के रूप में फॉर्मेट करें :"
+
+#: live-installer/frontend/partitioning.py:796 live-installer/frontend/partitioning.py:883
+msgid "Mount point:"
+msgstr "माउंट पॉइंट :"
+
+#: live-installer/frontend/partitioning.py:797 live-installer/frontend/partitioning.py:892
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: live-installer/frontend/partitioning.py:874
+msgid "Create Subvolume"
+msgstr "सबवॉल्यूम बनाएं"
+
+#: live-installer/frontend/partitioning.py:881
+msgid "Name:"
+msgstr "नाम:"
+
+#: live-installer/frontend/gtk_interface.py:109 live-installer/frontend/gtk_interface.py:514
+msgid "Country"
+msgstr "देश"
+
+#: live-installer/frontend/gtk_interface.py:290
+msgid "Layout"
+msgstr "अभिन्यास"
+
+#: live-installer/frontend/gtk_interface.py:298
+msgid "Variant"
+msgstr "प्रकार"
+
+#: live-installer/frontend/gtk_interface.py:316
+msgid "Calculating file indexes ..."
+msgstr "फ़ाइल अनुक्रमणिका की गणना की जा रही है ..."
+
+#: live-installer/frontend/gtk_interface.py:480
+msgid "License Agreement"
+msgstr "लाइसेंस समझौता"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "Keyboard layout"
+msgstr "कुंजीपटल अभिन्यास"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "What is your keyboard layout?"
+msgstr "आपका कीबोर्ड लेआउट क्या है?"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "User account"
+msgstr "उपभोक्ता खाता"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "Who are you?"
+msgstr "आप कौन हैं?"
+
+#: live-installer/frontend/gtk_interface.py:490
+msgid "Installation Type"
+msgstr "स्थापना प्रकार"
+
+#: live-installer/frontend/gtk_interface.py:490 live-installer/frontend/gtk_interface.py:492
+msgid "Where do you want to install system?"
+msgstr "आप सिस्टम कहाँ स्थापित करना चाहते हैं?"
+
+#: live-installer/frontend/gtk_interface.py:492
+msgid "Partitioning"
+msgstr "डिस्क विभाजन किया जा रहा है"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Summary"
+msgstr "सार"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Check that everything is correct"
+msgstr "जांचें कि सब कुछ सही है"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Installing"
+msgstr "स्थापित कर रहा है"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Please wait..."
+msgstr "कृपया प्रतीक्षा करें..."
+
+#: live-installer/frontend/gtk_interface.py:499 live-installer/frontend/gtk_interface.py:613
+msgid "Automated Install"
+msgstr "स्वचालित स्थापना"
+
+#: live-installer/frontend/gtk_interface.py:500
+msgid "Back"
+msgstr "वापस जाएँ"
+
+#: live-installer/frontend/gtk_interface.py:501 live-installer/frontend/gtk_interface.py:1306
+msgid "Next"
+msgstr "अगला"
+
+#: live-installer/frontend/gtk_interface.py:520
+msgid "Type here to test your keyboard layout"
+msgstr "अपने कीबोर्ड लेआउट का परीक्षण करने के लिए यहां टाइप करें"
+
+#: live-installer/frontend/gtk_interface.py:546
+msgid "Erase a disk and install system on it."
+msgstr "एक डिस्क मिटाएँ और उस पर सिस्टम स्थापित करें।"
+
+#: live-installer/frontend/gtk_interface.py:559
+msgid "Manually create, resize or choose partitions for system."
+msgstr "सिस्टम के लिए मैन्युअल रूप से विभाजन बनाएं, आकार बदलें या चुनें।"
+
+#: live-installer/frontend/gtk_interface.py:563
+msgid "The setup tool will not do partitioning"
+msgstr "सेटअप टूल विभाजन नहीं करेगा"
+
+#: live-installer/frontend/gtk_interface.py:567
+msgid "Remove existing Windows and install system on it."
+msgstr "मौजूदा विंडोज़ को हटा दें और उस पर सिस्टम इंस्टॉल करें।"
+
+#: live-installer/frontend/gtk_interface.py:577 live-installer/frontend/gtk_interface.py:579
+msgid "Edit partitions"
+msgstr "विभाजन संपादित करें"
+
+#: live-installer/frontend/gtk_interface.py:584
+msgid "Device"
+msgstr "डिवाइस"
+
+#: live-installer/frontend/gtk_interface.py:586
+msgid "Operating system"
+msgstr "ऑपरेटिंग सिस्टम"
+
+#: live-installer/frontend/gtk_interface.py:587
+msgid "Mount point"
+msgstr "माउंट पॉइंट"
+
+#: live-installer/frontend/gtk_interface.py:588
+msgid "Format as"
+msgstr "के रूप में फॉर्मेट करें"
+
+#: live-installer/frontend/gtk_interface.py:589
+msgid "Size"
+msgstr "आकार"
+
+#: live-installer/frontend/gtk_interface.py:626 live-installer/frontend/gtk_interface.py:1367
+msgid "Warning"
+msgstr "चेतावनी"
+
+#: live-installer/frontend/gtk_interface.py:627 live-installer/frontend/gtk_interface.py:1368
+#, python-format
+msgid "This will delete all the data on %s. Are you sure?"
+msgstr "यह %s पर मौजूद सारा डेटा हटा देगा. क्या आपको यकीन है?"
+
+#: live-installer/frontend/gtk_interface.py:652 live-installer/frontend/gtk_interface.py:1228
+msgid "Install"
+msgstr "इंस्‍टॉल करें"
+
+#: live-installer/frontend/gtk_interface.py:785
+msgid "Please provide a passphrase for the encryption."
+msgstr "कृपया एन्क्रिप्शन के लिए एक पासफ़्रेज़ प्रदान करें।"
+
+#: live-installer/frontend/gtk_interface.py:787 live-installer/frontend/gtk_interface.py:1214
+msgid "Your passwords do not match."
+msgstr "कूटशब्द मेल नहीं खाते।"
+
+#: live-installer/frontend/gtk_interface.py:792
+msgid "Quit?"
+msgstr "छोड़ें?"
+
+#: live-installer/frontend/gtk_interface.py:793
+msgid "Are you sure you want to quit the installer?"
+msgstr "क्या आप वाकई इंस्टॉलर को बंद करना चाहते है?"
+
+#: live-installer/frontend/gtk_interface.py:994 live-installer/frontend/gtk_interface.py:1008
+#: live-installer/frontend/gtk_interface.py:1025 live-installer/frontend/gtk_interface.py:1040
+#: live-installer/frontend/gtk_interface.py:1224 live-installer/frontend/gtk_interface.py:1362
+msgid "Are you sure?"
+msgstr "क्या आपको यकीन है?"
+
+#: live-installer/frontend/gtk_interface.py:995
+msgid "New partition will created at {}"
+msgstr "नया विभाजन {} पर बनाया जाएगा"
+
+#: live-installer/frontend/gtk_interface.py:1009
+msgid "subvolume {} will removed from {}."
+msgstr "सबवॉल्यूम {} को {} से हटा दिया जाएगा."
+
+#: live-installer/frontend/gtk_interface.py:1026
+msgid "Partition {} will removed from {}."
+msgstr "विभाजन {} को {} से हटा दिया जाएगा."
+
+#: live-installer/frontend/gtk_interface.py:1041
+msgid "Partition {} will formated from {}."
+msgstr "विभाजन {} का निर्माण {} से होगा."
+
+#: live-installer/frontend/gtk_interface.py:1174
+msgid "Please choose a language"
+msgstr "भाषा चुनें"
+
+#: live-installer/frontend/gtk_interface.py:1199
+msgid "Please provide a keyboard layout for your computer."
+msgstr "कृपया अपने कंप्यूटर के लिए कीबोर्ड लेआउट प्रदान करें।"
+
+#: live-installer/frontend/gtk_interface.py:1219
+msgid "Please provide your full name."
+msgstr "कृपया पूरा नाम दर्ज करें।"
+
+#: live-installer/frontend/gtk_interface.py:1224 live-installer/frontend/gtk_interface.py:1362
+msgid "Your passwords is not strong."
+msgstr "आपके पासवर्ड मजबूत नहीं हैं."
+
+#: live-installer/frontend/gtk_interface.py:1242 live-installer/frontend/gtk_interface.py:1256
+msgid ""
+"Root filesystem type not specified. Installation will continue without disk formatting. Do you "
+"want to continue?"
+msgstr ""
+"रूट फ़ाइल सिस्टम प्रकार निर्दिष्ट नहीं है. डिस्क फ़ॉर्मेटिंग के बिना इंस्टालेशन जारी रहेगा. क्या आप जारी रखना चाहते "
+"हैं?"
+
+#: live-installer/frontend/gtk_interface.py:1246 live-installer/frontend/gtk_interface.py:1260
+msgid "The root partition is too small. It should be at least 16GB. Do you want to continue?"
+msgstr "मूल विभाजन बहुत छोटा है. यह कम से कम 16GB होना चाहिए. क्या आप जारी रखना चाहते हैं?"
+
+#: live-installer/frontend/gtk_interface.py:1264
+msgid "Please select a root (/) partition."
+msgstr "रुट(/) विभाजन चुनें।"
+
+#: live-installer/frontend/gtk_interface.py:1265
+#, python-format
+msgid ""
+"A root partition is needed to install %s on.\n"
+"\n"
+" - Mount point: /\n"
+" - Recommended size: 30GB\n"
+" - Recommended filesystem format: ext4\n"
+"\n"
+msgstr ""
+"%s को स्थापित करने के लिए एक रूट विभाजन की आवश्यकता है.\n"
+"\n"
+" - माउंट पॉइंट: /\n"
+" - अनुशंसित आकार: 30 जीबी\n"
+" - अनुशंसित फ़ाइल सिस्टम प्रारूप: ext4\n"
+"\n"
+
+#: live-installer/frontend/gtk_interface.py:1279
+msgid "The EFI partition is not bootable. Do you want to set boot flag?"
+msgstr "EFI विभाजन बूट करने योग्य नहीं है. क्या आप बूट फ़्लैग सेट करना चाहते हैं?"
+
+#: live-installer/frontend/gtk_interface.py:1285
+msgid "The EFI partition is too small. It must be at least 100MB."
+msgstr "EFI विभाजन बहुत छोटा है. यह कम से कम 100MB होना चाहिए."
+
+#: live-installer/frontend/gtk_interface.py:1291 live-installer/frontend/gtk_interface.py:1296
+msgid "The EFI partition must be formatted as vfat."
+msgstr "EFI विभाजन vfat के रूप में फॉर्मेट होना चाहिए।"
+
+#: live-installer/frontend/gtk_interface.py:1300
+msgid "Please select an EFI partition."
+msgstr "EFI विभाजन चुनें।"
+
+#: live-installer/frontend/gtk_interface.py:1301
+msgid ""
+"An EFI system partition is needed with the following requirements:\n"
+"\n"
+" - Mount point: /boot/efi\n"
+" - Partition flags: Bootable\n"
+" - Size: at least 100MB \n"
+" - Format: vfat or fat32\n"
+"\n"
+"To ensure compatibility with Windows we recommend you use the first partition of the disk as "
+"the EFI system partition.\n"
+" "
+msgstr ""
+"निम्नलिखित आवश्यकताओं के साथ एक EFI सिस्टम विभाजन की आवश्यकता है:\n"
+"\n"
+" - माउंट प्वाइंट: /boot/efi\n"
+" - विभाजन झंडे: बूट करने योग्य\n"
+" - आकार: कम से कम 100एमबी\n"
+" - प्रारूप: vfat या fat32\n"
+"\n"
+"विंडोज़ के साथ अनुकूलता सुनिश्चित करने के लिए हम अनुशंसा करते हैं कि आप डिस्क के पहले विभाजन को ईएफआई सिस्टम "
+"विभाजन के रूप में उपयोग करें।\n"
+" "
+
+#: live-installer/frontend/gtk_interface.py:1356
+msgid "Please select a disk."
+msgstr "कृपया एक डिस्क चुनें."
+
+#: live-installer/frontend/gtk_interface.py:1445
+msgid "Please provide a device to install grub."
+msgstr "कृपया ग्रब स्थापित करने के लिए एक उपकरण प्रदान करें।"
+
+#: live-installer/frontend/gtk_interface.py:1493
+msgid "Localization"
+msgstr "स्थानीयकरण"
+
+#: live-installer/frontend/gtk_interface.py:1494
+msgid "Language: "
+msgstr "भाषा: "
+
+#: live-installer/frontend/gtk_interface.py:1495
+msgid "Timezone: "
+msgstr "समय क्षेत्र: "
+
+#: live-installer/frontend/gtk_interface.py:1496
+msgid "Keyboard layout: "
+msgstr "कुंजीपटल अभिन्यास: "
+
+#: live-installer/frontend/gtk_interface.py:1500
+msgid "User settings"
+msgstr "उपयोक्ता सेटिंग्स"
+
+#: live-installer/frontend/gtk_interface.py:1504
+msgid "Real name: "
+msgstr "असली नाम: "
+
+#: live-installer/frontend/gtk_interface.py:1505
+msgid "Username: "
+msgstr "उपयोक्ता नाम: "
+
+#: live-installer/frontend/gtk_interface.py:1508 live-installer/frontend/gtk_interface.py:1511
+msgid "Password: "
+msgstr "पासवर्ड:"
+
+#: live-installer/frontend/gtk_interface.py:1513
+msgid "Automatic login: "
+msgstr "स्वतः लॉगिन: "
+
+#: live-installer/frontend/gtk_interface.py:1513 live-installer/frontend/gtk_interface.py:1563
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "enabled"
+msgstr "चालू है"
+
+#: live-installer/frontend/gtk_interface.py:1514 live-installer/frontend/gtk_interface.py:1564
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "disabled"
+msgstr "बंद है"
+
+#: live-installer/frontend/gtk_interface.py:1515
+msgid "System settings"
+msgstr "सिस्टम सेटिंग्स"
+
+#: live-installer/frontend/gtk_interface.py:1517
+msgid "Computer's name: "
+msgstr "कंप्यूटर का नाम:"
+
+#: live-installer/frontend/gtk_interface.py:1520 live-installer/frontend/gtk_interface.py:1522
+msgid "Bios type: "
+msgstr "बायोस प्रकार:"
+
+#: live-installer/frontend/gtk_interface.py:1524
+msgid "Install updates after installation"
+msgstr "इंस्टालेशन के बाद अपडेट इंस्टॉल करें"
+
+#: live-installer/frontend/gtk_interface.py:1525
+msgid "Filesystem operations"
+msgstr "फ़ाइल सिस्टम कार्य"
+
+#: live-installer/frontend/gtk_interface.py:1526
+#, python-format
+msgid "Install bootloader on %s"
+msgstr "बूट लोडर %s पर इंस्टॉल करें"
+
+#: live-installer/frontend/gtk_interface.py:1527
+msgid "Do not install bootloader"
+msgstr "बूट लोडर न इंस्टॉल करें"
+
+#: live-installer/frontend/gtk_interface.py:1529
+msgid "Use already-mounted /target."
+msgstr "पहले से माउंटेड / लक्ष्य का उपयोग करें।"
+
+#: live-installer/frontend/gtk_interface.py:1537
+#, python-format
+msgid " (with %s GB swap)"
+msgstr "(%s जीबी स्वैप के साथ)"
+
+#: live-installer/frontend/gtk_interface.py:1541
+#, python-format
+msgid "Automated installation on %s"
+msgstr "%s पर स्वचालित स्थापना"
+
+#: live-installer/frontend/gtk_interface.py:1545
+#, python-format
+msgid "Format %(path)s as %(filesystem)s"
+msgstr "%(path)s को %(filesystem)s के रूप में फॉर्मेट करें"
+
+#: live-installer/frontend/gtk_interface.py:1549
+#, python-format
+msgid "Mount %(path)s as %(mount)s"
+msgstr "%(path)s को %(mount)s पर माउंट करें"
+
+#: live-installer/frontend/gtk_interface.py:1554
+#, python-format
+msgid "Create btrfs subvolume %(path)s under %(parentPath)s "
+msgstr "%(parentPath)s के अंतर्गत btrfs सबवॉल्यूम %(path)s बनाएँ"
+
+#: live-installer/frontend/gtk_interface.py:1558
+#, python-format
+msgid "Mount %(path)s subvolume as %(mount)s"
+msgstr "%(path)s सबवॉल्यूम को %(mount)s के रूप में माउंट करें"
+
+#: live-installer/frontend/gtk_interface.py:1563
+msgid "LVM: "
+msgstr "LVM:  "
+
+#: live-installer/frontend/gtk_interface.py:1566
+msgid "Disk Encryption: "
+msgstr "डिस्क एन्क्रिप्शन: "
+
+#: live-installer/frontend/gtk_interface.py:1578 live-installer/installer.py:881
+msgid "Installation finished"
+msgstr "इंस्टॉल समाप्त"
+
+#: live-installer/frontend/gtk_interface.py:1579
+msgid ""
+"The installation is now complete. Do you want to restart your computer to use the new system?"
+msgstr "इंस्टॉल पूर्ण हुआ। क्या अब आप कंप्यूटर को पुनः आरंभ कर नया सिस्टम उपयोग करना चाहते हैं?"
+
+#: live-installer/frontend/gtk_interface.py:1611 live-installer/frontend/gtk_interface.py:1615
+#: live-installer/frontend/gtk_interface.py:1624 live-installer/frontend/gtk_interface.py:1633
+msgid "Installation error"
+msgstr "इंस्टॉल त्रुटि"
+
+#: live-installer/frontend/gtk_interface.py:1647
+msgid "Error"
+msgstr "गलती"
+
+#: live-installer/main.py:38
+msgid "You must be root!"
+msgstr "तुम्हें जड़ होना चाहिए!"
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
@@ -357,10 +1010,6 @@ msgstr "आपके पासवर्ड में नंबर होने �
 msgid "Please provide a password for your user account."
 msgstr "कृपया उपयोक्ता अकाउंट हेतु कूटशब्द दर्ज करें।"
 
-#: live-installer/main.py:38
-msgid "You must be root!"
-msgstr "तुम्हें जड़ होना चाहिए!"
-
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
 msgid "Copying /%s"
@@ -387,7 +1036,7 @@ msgstr "नए उपयोक्ता को सिस्टम में ज�
 msgid "Writing filesystem mount information to /etc/fstab"
 msgstr "फ़ाइल सिस्टम माउंट की जानकारी /etc/fstab पर राइट की जा रही है"
 
-#: live-installer/installer.py:257 live-installer/installer.py:413
+#: live-installer/installer.py:257 live-installer/installer.py:404
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
 msgstr "%(partition)s को %(mountpoint)s पर माउंट किया जा रहा है"
@@ -407,637 +1056,62 @@ msgstr "%s पर विभाजन बनाना"
 msgid "Formatting %(partition)s as %(format)s ..."
 msgstr "%(partition)s को फॉर्मेट किया जा रहा है %(format)s के रूप में ..."
 
-#: live-installer/installer.py:577
+#: live-installer/installer.py:594
 msgid "Setting hostname"
 msgstr "होस्ट नाम सेट हो रहा है"
 
-#: live-installer/installer.py:602
+#: live-installer/installer.py:619
 msgid "Setting locale"
 msgstr "स्थानिकी सेट हो रही है"
 
-#: live-installer/installer.py:642
+#: live-installer/installer.py:659
 msgid "Setting timezone"
 msgstr "समयक्षेत्र निर्धारित करना"
 
-#: live-installer/installer.py:677
+#: live-installer/installer.py:694
 msgid "Setting keyboard options"
 msgstr "कुंजीपटल विकल्प सेट किए जा रहे हैं"
 
-#: live-installer/installer.py:754
+#: live-installer/installer.py:771
 msgid "Removing extra packages"
 msgstr "अतिरिक्त पैकेज हटाना"
 
-#: live-installer/installer.py:760
+#: live-installer/installer.py:777
 msgid "Clearing package manager"
 msgstr "समाशोधन पैकेज प्रबंधक"
 
-#: live-installer/installer.py:779
+#: live-installer/installer.py:796
 msgid "Generating initramfs"
 msgstr "initramfs उत्पन्न करना"
 
-#: live-installer/installer.py:784
+#: live-installer/installer.py:801
 msgid "Preparing bootloader installation"
 msgstr "बूटलोडर संस्थापन की तैयारी"
 
-#: live-installer/installer.py:804
+#: live-installer/installer.py:821
 msgid "Installing bootloader"
 msgstr "बूट लोडर इंस्टॉल किया जा रहा है"
 
-#: live-installer/installer.py:816
+#: live-installer/installer.py:833
 msgid "Configuring bootloader"
 msgstr "बूट लोडर विन्यस्त किया जा रहा है"
 
-#: live-installer/installer.py:824
+#: live-installer/installer.py:841
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to configure it manually."
 msgstr "चेतावनी: grub बूट लोडर ठीक से विन्यस्त नहीं हुआ है। आपको इसे मैनुअल रूप से खुद ही करना पड़ेगा।"
 
-#: live-installer/installer.py:830
+#: live-installer/installer.py:854
 msgid "Trying to install updates"
 msgstr "अद्यतन स्थापित करने का प्रयास किया जा रहा है"
 
-#: live-installer/installer.py:863 live-installer/frontend/gtk_interface.py:1496
-msgid "Installation finished"
-msgstr "इंस्टॉल समाप्त"
-
-#: live-installer/installer.py:889
+#: live-installer/installer.py:907
 msgid "Checking bootloader"
 msgstr "बूट लोडर जाँचा जा रहा है"
 
-#: live-installer/installer.py:926
+#: live-installer/installer.py:944
 msgid "Failed to run command (Exited with {}):"
 msgstr "आदेश चलाने में विफल ({} के साथ बाहर निकला):"
-
-#: live-installer/frontend/gtk_interface.py:109 live-installer/frontend/gtk_interface.py:510
-msgid "Country"
-msgstr "देश"
-
-#: live-installer/frontend/gtk_interface.py:118 live-installer/frontend/gtk_interface.py:478
-#: live-installer/frontend/gtk_interface.py:509 live-installer/frontend/tui_interface.py:45
-msgid "Language"
-msgstr "भाषा"
-
-#: live-installer/frontend/gtk_interface.py:289
-msgid "Layout"
-msgstr "अभिन्यास"
-
-#: live-installer/frontend/gtk_interface.py:297
-msgid "Variant"
-msgstr "प्रकार"
-
-#: live-installer/frontend/gtk_interface.py:315
-msgid "Calculating file indexes ..."
-msgstr "फ़ाइल अनुक्रमणिका की गणना की जा रही है ..."
-
-#: live-installer/frontend/gtk_interface.py:463 live-installer/frontend/gtk_interface.py:466
-#: live-installer/frontend/gtk_interface.py:1112 live-installer/frontend/gtk_interface.py:1137
-#: live-installer/frontend/gtk_interface.py:1160 live-installer/frontend/gtk_interface.py:1180
-#: live-installer/frontend/gtk_interface.py:1184 live-installer/frontend/gtk_interface.py:1189
-#: live-installer/frontend/gtk_interface.py:1203 live-installer/frontend/gtk_interface.py:1209
-#: live-installer/frontend/gtk_interface.py:1215 live-installer/frontend/gtk_interface.py:1220
-#: live-installer/frontend/gtk_interface.py:1225 live-installer/frontend/gtk_interface.py:1291
-#: live-installer/frontend/gtk_interface.py:1372 live-installer/frontend/partitioning.py:301
-#: live-installer/frontend/partitioning.py:368
-msgid "Installer"
-msgstr "इंस्टालर"
-
-#: live-installer/frontend/gtk_interface.py:476
-msgid "License Agreement"
-msgstr "लाइसेंस समझौता"
-
-#: live-installer/frontend/gtk_interface.py:478 live-installer/frontend/tui_interface.py:40
-msgid "What language would you like to use?"
-msgstr "आप किस भाषा का उपयोग करना चाहेंगे?"
-
-#: live-installer/frontend/gtk_interface.py:480 live-installer/frontend/tui_interface.py:49
-msgid "Where are you?"
-msgstr "आप कहां हैं?"
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "Keyboard layout"
-msgstr "कुंजीपटल अभिन्यास"
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "What is your keyboard layout?"
-msgstr "आपका कीबोर्ड लेआउट क्या है?"
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "User account"
-msgstr "उपभोक्ता खाता"
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "Who are you?"
-msgstr "आप कौन हैं?"
-
-#: live-installer/frontend/gtk_interface.py:486
-msgid "Installation Type"
-msgstr "स्थापना प्रकार"
-
-#: live-installer/frontend/gtk_interface.py:486 live-installer/frontend/gtk_interface.py:488
-msgid "Where do you want to install system?"
-msgstr "आप सिस्टम कहाँ स्थापित करना चाहते हैं?"
-
-#: live-installer/frontend/gtk_interface.py:488
-msgid "Partitioning"
-msgstr "डिस्क विभाजन किया जा रहा है"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Summary"
-msgstr "सार"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Check that everything is correct"
-msgstr "जांचें कि सब कुछ सही है"
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Installing"
-msgstr "स्थापित कर रहा है"
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Please wait..."
-msgstr "कृपया प्रतीक्षा करें..."
-
-#: live-installer/frontend/gtk_interface.py:495 live-installer/frontend/gtk_interface.py:609
-msgid "Automated install"
-msgstr "स्वचालित स्थापना"
-
-#: live-installer/frontend/gtk_interface.py:496
-msgid "Back"
-msgstr "वापस जाएँ"
-
-#: live-installer/frontend/gtk_interface.py:497 live-installer/frontend/gtk_interface.py:1231
-msgid "Next"
-msgstr "अगला"
-
-#: live-installer/frontend/gtk_interface.py:501 live-installer/frontend/tui_interface.py:34
-#, python-format
-msgid "Welcome to the %s Installer."
-msgstr "%s इंस्टॉलर में आपका स्वागत है."
-
-#: live-installer/frontend/gtk_interface.py:516
-msgid "Type here to test your keyboard layout"
-msgstr "अपने कीबोर्ड लेआउट का परीक्षण करने के लिए यहां टाइप करें"
-
-#: live-installer/frontend/gtk_interface.py:542
-msgid "Erase a disk and install system on it."
-msgstr "एक डिस्क मिटाएँ और उस पर सिस्टम स्थापित करें।"
-
-#: live-installer/frontend/gtk_interface.py:555
-msgid "Manually create, resize or choose partitions for system."
-msgstr "सिस्टम के लिए मैन्युअल रूप से विभाजन बनाएं, आकार बदलें या चुनें।"
-
-#: live-installer/frontend/gtk_interface.py:559
-msgid "The setup tool will not do partitioning"
-msgstr "सेटअप टूल विभाजन नहीं करेगा"
-
-#: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existing Windows and install system on it."
-msgstr "मौजूदा विंडोज़ को हटा दें और उस पर सिस्टम इंस्टॉल करें।"
-
-#: live-installer/frontend/gtk_interface.py:573 live-installer/frontend/gtk_interface.py:575
-msgid "Edit partitions"
-msgstr "विभाजन संपादित करें"
-
-#: live-installer/frontend/gtk_interface.py:580
-msgid "Device"
-msgstr "डिवाइस"
-
-#: live-installer/frontend/gtk_interface.py:581 live-installer/frontend/tui_interface.py:77
-msgid "Type"
-msgstr "प्रकार"
-
-#: live-installer/frontend/gtk_interface.py:582
-msgid "Operating system"
-msgstr "ऑपरेटिंग सिस्टम"
-
-#: live-installer/frontend/gtk_interface.py:583
-msgid "Mount point"
-msgstr "माउंट पॉइंट"
-
-#: live-installer/frontend/gtk_interface.py:584
-msgid "Format as"
-msgstr "के रूप में फॉर्मेट करें"
-
-#: live-installer/frontend/gtk_interface.py:585
-msgid "Size"
-msgstr "आकार"
-
-#: live-installer/frontend/gtk_interface.py:586 live-installer/frontend/gtk_interface.py:927
-#: live-installer/frontend/partitioning.py:324 live-installer/frontend/partitioning.py:515
-msgid "Free space"
-msgstr "ख़ाली स्पेस"
-
-#: live-installer/frontend/gtk_interface.py:594 live-installer/frontend/partitioning.py:180
-msgid "Read only"
-msgstr "केवल पढ़ने के लिए"
-
-#: live-installer/frontend/gtk_interface.py:629 live-installer/frontend/gtk_interface.py:1167
-msgid "Install"
-msgstr "इंस्‍टॉल करें"
-
-#: live-installer/frontend/gtk_interface.py:735
-msgid "Please provide a passphrase for the encryption."
-msgstr "कृपया एन्क्रिप्शन के लिए एक पासफ़्रेज़ प्रदान करें।"
-
-#: live-installer/frontend/gtk_interface.py:737 live-installer/frontend/gtk_interface.py:1153
-msgid "Your passwords do not match."
-msgstr "कूटशब्द मेल नहीं खाते।"
-
-#: live-installer/frontend/gtk_interface.py:742
-msgid "Quit?"
-msgstr "छोड़ें?"
-
-#: live-installer/frontend/gtk_interface.py:743
-msgid "Are you sure you want to quit the installer?"
-msgstr "क्या आप वाकई इंस्टॉलर को बंद करना चाहते है?"
-
-#: live-installer/frontend/gtk_interface.py:937 live-installer/frontend/gtk_interface.py:952
-#: live-installer/frontend/gtk_interface.py:966 live-installer/frontend/gtk_interface.py:1163
-#: live-installer/frontend/gtk_interface.py:1288
-msgid "Are you sure?"
-msgstr "क्या आपको यकीन है?"
-
-#: live-installer/frontend/gtk_interface.py:938
-msgid "New partition will created at {}"
-msgstr "नया विभाजन {} पर बनाया जाएगा"
-
-#: live-installer/frontend/gtk_interface.py:953
-msgid "Partition {} will removed from {}."
-msgstr "विभाजन {} को {} से हटा दिया जाएगा."
-
-#: live-installer/frontend/gtk_interface.py:967
-msgid "Partition {} will formated from {}."
-msgstr "विभाजन {} का निर्माण {} से होगा."
-
-#: live-installer/frontend/gtk_interface.py:1113
-msgid "Please choose a language"
-msgstr "भाषा चुनें"
-
-#: live-installer/frontend/gtk_interface.py:1138
-msgid "Please provide a kayboard layout for your computer."
-msgstr "कृपया अपने कंप्यूटर के लिए एक कीबोर्ड लेआउट प्रदान करें।"
-
-#: live-installer/frontend/gtk_interface.py:1158
-msgid "Please provide your full name."
-msgstr "कृपया पूरा नाम दर्ज करें।"
-
-#: live-installer/frontend/gtk_interface.py:1163 live-installer/frontend/gtk_interface.py:1288
-msgid "Your passwords is not strong."
-msgstr "आपके पासवर्ड मजबूत नहीं हैं."
-
-#: live-installer/frontend/gtk_interface.py:1181
-msgid ""
-"Root filesystem type not specified. Installation will continue without disk formatting. Do you "
-"want to continue?"
-msgstr ""
-"रूट फ़ाइल सिस्टम प्रकार निर्दिष्ट नहीं है. डिस्क फ़ॉर्मेटिंग के बिना इंस्टालेशन जारी रहेगा. क्या आप जारी रखना चाहते "
-"हैं?"
-
-#: live-installer/frontend/gtk_interface.py:1185
-msgid "The root partition is too small. It should be at least 16GB. Do you want to continue?"
-msgstr "मूल विभाजन बहुत छोटा है. यह कम से कम 16GB होना चाहिए. क्या आप जारी रखना चाहते हैं?"
-
-#: live-installer/frontend/gtk_interface.py:1189
-msgid "Please select a root (/) partition."
-msgstr "रुट(/) विभाजन चुनें।"
-
-#: live-installer/frontend/gtk_interface.py:1190
-#, python-format
-msgid ""
-"A root partition is needed to install %s on.\n"
-"\n"
-" - Mount point: /\n"
-" - Recommended size: 30GB\n"
-" - Recommended filesystem format: ext4\n"
-"\n"
-msgstr ""
-"%s को स्थापित करने के लिए एक रूट विभाजन की आवश्यकता है.\n"
-"\n"
-" - माउंट पॉइंट: /\n"
-" - अनुशंसित आकार: 30 जीबी\n"
-" - अनुशंसित फ़ाइल सिस्टम प्रारूप: ext4\n"
-"\n"
-
-#: live-installer/frontend/gtk_interface.py:1204
-msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr "EFI विभाजन बूट करने योग्य नहीं है. क्या आप बूट फ़्लैग सेट करना चाहते हैं?"
-
-#: live-installer/frontend/gtk_interface.py:1210
-msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "EFI विभाजन बहुत छोटा है. यह कम से कम 100MB होना चाहिए."
-
-#: live-installer/frontend/gtk_interface.py:1216 live-installer/frontend/gtk_interface.py:1221
-msgid "The EFI partition must be formatted as vfat."
-msgstr "EFI विभाजन vfat के रूप में फॉर्मेट होना चाहिए।"
-
-#: live-installer/frontend/gtk_interface.py:1225
-msgid "Please select an EFI partition."
-msgstr "EFI विभाजन चुनें।"
-
-#: live-installer/frontend/gtk_interface.py:1226
-msgid ""
-"An EFI system partition is needed with the following requirements:\n"
-"\n"
-" - Mount point: /boot/efi\n"
-" - Partition flags: Bootable\n"
-" - Size: at least 100MB \n"
-" - Format: vfat or fat32\n"
-"\n"
-"To ensure compatibility with Windows we recommend you use the first partition of the disk as "
-"the EFI system partition.\n"
-" "
-msgstr ""
-"निम्नलिखित आवश्यकताओं के साथ एक EFI सिस्टम विभाजन की आवश्यकता है:\n"
-"\n"
-" - माउंट प्वाइंट: /boot/efi\n"
-" - विभाजन झंडे: बूट करने योग्य\n"
-" - आकार: कम से कम 100एमबी\n"
-" - प्रारूप: vfat या fat32\n"
-"\n"
-"विंडोज़ के साथ अनुकूलता सुनिश्चित करने के लिए हम अनुशंसा करते हैं कि आप डिस्क के पहले विभाजन को ईएफआई सिस्टम "
-"विभाजन के रूप में उपयोग करें।\n"
-" "
-
-#: live-installer/frontend/gtk_interface.py:1281
-msgid "Please select a disk."
-msgstr "कृपया एक डिस्क चुनें."
-
-#: live-installer/frontend/gtk_interface.py:1293
-msgid "Warning"
-msgstr "चेतावनी"
-
-#: live-installer/frontend/gtk_interface.py:1294
-#, python-format
-msgid "This will delete all the data on %s. Are you sure?"
-msgstr "यह %s पर मौजूद सारा डेटा हटा देगा. क्या आपको यकीन है?"
-
-#: live-installer/frontend/gtk_interface.py:1373
-msgid "Please provide a device to install grub."
-msgstr "कृपया ग्रब स्थापित करने के लिए एक उपकरण प्रदान करें।"
-
-#: live-installer/frontend/gtk_interface.py:1420
-msgid "Localization"
-msgstr "स्थानीयकरण"
-
-#: live-installer/frontend/gtk_interface.py:1421
-msgid "Language: "
-msgstr "भाषा: "
-
-#: live-installer/frontend/gtk_interface.py:1422
-msgid "Timezone: "
-msgstr "समय क्षेत्र: "
-
-#: live-installer/frontend/gtk_interface.py:1423
-msgid "Keyboard layout: "
-msgstr "कुंजीपटल अभिन्यास: "
-
-#: live-installer/frontend/gtk_interface.py:1427
-msgid "User settings"
-msgstr "उपयोक्ता सेटिंग्स"
-
-#: live-installer/frontend/gtk_interface.py:1431
-msgid "Real name: "
-msgstr "असली नाम: "
-
-#: live-installer/frontend/gtk_interface.py:1432
-msgid "Username: "
-msgstr "उपयोक्ता नाम: "
-
-#: live-installer/frontend/gtk_interface.py:1435 live-installer/frontend/gtk_interface.py:1438
-msgid "Password: "
-msgstr "पासवर्ड:"
-
-#: live-installer/frontend/gtk_interface.py:1440
-msgid "Automatic login: "
-msgstr "स्वतः लॉगिन: "
-
-#: live-installer/frontend/gtk_interface.py:1440 live-installer/frontend/gtk_interface.py:1481
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "enabled"
-msgstr "चालू है"
-
-#: live-installer/frontend/gtk_interface.py:1441 live-installer/frontend/gtk_interface.py:1482
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "disabled"
-msgstr "बंद है"
-
-#: live-installer/frontend/gtk_interface.py:1442
-msgid "System settings"
-msgstr "सिस्टम सेटिंग्स"
-
-#: live-installer/frontend/gtk_interface.py:1444
-msgid "Computer's name: "
-msgstr "कंप्यूटर का नाम:"
-
-#: live-installer/frontend/gtk_interface.py:1447 live-installer/frontend/gtk_interface.py:1449
-msgid "Bios type: "
-msgstr "बायोस प्रकार:"
-
-#: live-installer/frontend/gtk_interface.py:1451
-msgid "Install updates after installation"
-msgstr "इंस्टालेशन के बाद अपडेट इंस्टॉल करें"
-
-#: live-installer/frontend/gtk_interface.py:1452
-msgid "Filesystem operations"
-msgstr "फ़ाइल सिस्टम कार्य"
-
-#: live-installer/frontend/gtk_interface.py:1453
-#, python-format
-msgid "Install bootloader on %s"
-msgstr "बूट लोडर %s पर इंस्टॉल करें"
-
-#: live-installer/frontend/gtk_interface.py:1454
-msgid "Do not install bootloader"
-msgstr "बूट लोडर न इंस्टॉल करें"
-
-#: live-installer/frontend/gtk_interface.py:1456
-msgid "Use already-mounted /target."
-msgstr "पहले से माउंटेड / लक्ष्य का उपयोग करें।"
-
-#: live-installer/frontend/gtk_interface.py:1464
-#, python-format
-msgid " (with %s GB swap)"
-msgstr "(%s जीबी स्वैप के साथ)"
-
-#: live-installer/frontend/gtk_interface.py:1468
-#, python-format
-msgid "Automated installation on %s"
-msgstr "%s पर स्वचालित स्थापना"
-
-#: live-installer/frontend/gtk_interface.py:1472
-#, python-format
-msgid "Format %(path)s as %(filesystem)s"
-msgstr "%(path)s को %(filesystem)s के रूप में फॉर्मेट करें"
-
-#: live-installer/frontend/gtk_interface.py:1476
-#, python-format
-msgid "Mount %(path)s as %(mount)s"
-msgstr "%(path)s को %(mount)s पर माउंट करें"
-
-#: live-installer/frontend/gtk_interface.py:1481
-msgid "LVM: "
-msgstr "LVM:  "
-
-#: live-installer/frontend/gtk_interface.py:1484
-msgid "Disk Encryption: "
-msgstr "डिस्क एन्क्रिप्शन: "
-
-#: live-installer/frontend/gtk_interface.py:1497
-msgid ""
-"The installation is now complete. Do you want to restart your computer to use the new system?"
-msgstr "इंस्टॉल पूर्ण हुआ। क्या अब आप कंप्यूटर को पुनः आरंभ कर नया सिस्टम उपयोग करना चाहते हैं?"
-
-#: live-installer/frontend/gtk_interface.py:1529 live-installer/frontend/gtk_interface.py:1533
-#: live-installer/frontend/gtk_interface.py:1542 live-installer/frontend/gtk_interface.py:1551
-msgid "Installation error"
-msgstr "इंस्टॉल त्रुटि"
-
-#: live-installer/frontend/gtk_interface.py:1565
-msgid "Error"
-msgstr "गलती"
-
-#: live-installer/frontend/welcome.py:32
-#, python-format
-msgid "Try %s"
-msgstr "%s प्रयास करें"
-
-#: live-installer/frontend/welcome.py:36
-#, python-format
-msgid "You are currently running %s from live media."
-msgstr "आप वर्तमान में लाइव मीडिया से %s चला रहे हैं।"
-
-#: live-installer/frontend/welcome.py:38
-#, python-format
-msgid "You can install %s now, or chose \"Install to Hard Drive\" in the Appication Menu later."
-msgstr "आप अभी %s इंस्टॉल कर सकते हैं, या बाद में एप्लिकेशन मेनू में \"हार्ड ड्राइव पर इंस्टॉल करें\" चुन सकते हैं।"
-
-#: live-installer/frontend/welcome.py:39
-#, python-format
-msgid "Welcome to %s"
-msgstr "%s में आपका स्वागत है"
-
-#: live-installer/frontend/tui_interface.py:57
-msgid "What keyboard would you like to use?"
-msgstr "आप किस कीबोर्ड का उपयोग करना चाहेंगे?"
-
-#: live-installer/frontend/tui_interface.py:64
-msgid "Keyboard Model"
-msgstr "कीबोर्ड मॉडल"
-
-#: live-installer/frontend/tui_interface.py:73
-msgid "Installation type?"
-msgstr "स्थापना प्रकार?"
-
-#: live-installer/frontend/tui_interface.py:80
-msgid "Select a disk?"
-msgstr "कोई डिस्क चुनें?"
-
-#: live-installer/frontend/tui_interface.py:84
-msgid "Disk"
-msgstr "डिस्क"
-
-#: live-installer/frontend/timezones.py:140
-msgid "Select timezone"
-msgstr "समयक्षेत्र चुनें"
-
-#: live-installer/frontend/partitioning.py:72
-msgid "B"
-msgstr "B"
-
-#: live-installer/frontend/partitioning.py:72 live-installer/frontend/partitioning.py:442
-msgid "kB"
-msgstr "kB"
-
-#: live-installer/frontend/partitioning.py:72 live-installer/frontend/partitioning.py:442
-msgid "MB"
-msgstr "MB"
-
-#: live-installer/frontend/partitioning.py:73 live-installer/frontend/partitioning.py:443
-msgid "TB"
-msgstr "TB"
-
-#: live-installer/frontend/partitioning.py:80
-msgid "Removable:"
-msgstr "निराकरणीय:"
-
-#: live-installer/frontend/partitioning.py:221
-msgid "Edit"
-msgstr "संपादित करें"
-
-#: live-installer/frontend/partitioning.py:226 live-installer/frontend/partitioning.py:230
-#: live-installer/frontend/partitioning.py:237 live-installer/frontend/partitioning.py:246
-#, python-format
-msgid "Assign to %s"
-msgstr "%s को असाइन करें"
-
-#: live-installer/frontend/partitioning.py:302
-msgid "Disk: {} partition table broken or not exists. Do you want to create new partition table?"
-msgstr "डिस्क: {} विभाजन तालिका टूटी हुई है या मौजूद नहीं है। क्या आप नई विभाजन तालिका बनाना चाहते हैं?"
-
-#: live-installer/frontend/partitioning.py:384
-#, python-format
-msgid "The partition table couldn't be written for %s. Restart the computer and try again."
-msgstr "%s के लिए विभाजन तालिका नहीं लिखी जा सकी. कंप्यूटर को पुनरारंभ करें और पुनः प्रयास करें।"
-
-#: live-installer/frontend/partitioning.py:429
-#, python-format
-msgid ""
-"The partition %s could not be created. The installation will stop. Restart the computer and try "
-"again."
-msgstr "विभाजन %s नहीं बनाया जा सका. इंस्टालेशन रुक जाएगा. कंप्यूटर को पुनरारंभ करें और पुनः प्रयास करें।"
-
-#: live-installer/frontend/partitioning.py:513
-msgid "Logical partition"
-msgstr "तार्किक विभाजन"
-
-#: live-installer/frontend/partitioning.py:514
-msgid "Extended partition"
-msgstr "विस्तृत विभाजन"
-
-#: live-installer/frontend/partitioning.py:518
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: live-installer/frontend/partitioning.py:569
-msgid "bootloader/recovery"
-msgstr "बूटलोडर/रिकवरी"
-
-#: live-installer/frontend/partitioning.py:582
-msgid "EFI System Partition"
-msgstr "ईएफआई सिस्टम विभाजन"
-
-#: live-installer/frontend/partitioning.py:607
-msgid "Edit partition"
-msgstr "विभाजन संपादित करें"
-
-#: live-installer/frontend/partitioning.py:609
-msgid "Device:"
-msgstr "डिवाइस :"
-
-#: live-installer/frontend/partitioning.py:611
-msgid "Format as:"
-msgstr "के रूप में फॉर्मेट करें :"
-
-#: live-installer/frontend/partitioning.py:613
-msgid "Mount point:"
-msgstr "माउंट पॉइंट :"
-
-#: live-installer/frontend/partitioning.py:614
-msgid "Cancel"
-msgstr "रद्द करें"
-
-#: live-installer/frontend/partitioning.py:615 live-installer/frontend/dialogs.py:35
-#: live-installer/frontend/dialogs.py:48 live-installer/frontend/dialogs.py:54
-msgid "OK"
-msgstr "ठीक है"
-
-#: live-installer/frontend/dialogs.py:41
-msgid "No"
-msgstr "नहीं"
-
-#: live-installer/frontend/dialogs.py:42
-msgid "Yes"
-msgstr "हाँ"
 
 #~ msgid "Quit"
 #~ msgstr "छोड़ें"

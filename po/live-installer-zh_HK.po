@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-31 16:00+0300\n"
-"PO-Revision-Date: 2016-07-13 11:30+0000\n"
+"POT-Creation-Date: 2024-07-21 16:51-0300\n"
+"PO-Revision-Date: 2024-07-26 15:45-0300\n"
 "Last-Translator: tomoe_musashi <hkg.musashi@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <zh_HK@li.org>\n"
 "Language: zh_HK\n"
@@ -16,280 +16,290 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2020-03-13 11:20+0000\n"
-"X-Generator: Launchpad (build 3a6db24bbe7280ec09bae73384238390fcc98ad3)\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: live-installer/resources/interface.ui:71
 msgid "Welcome to the Mauna Installer."
-msgstr ""
+msgstr "歡迎使用 Mauna 安裝程式。"
 
 #: live-installer/resources/interface.ui:88
-#: live-installer/frontend/gtk_interface.py:503
 #: live-installer/frontend/tui_interface.py:36
+#: live-installer/frontend/gtk_interface.py:507
 msgid ""
 "This program will ask you some questions and set up system on your computer."
-msgstr ""
+msgstr "程式會問您一些問題並在您的電腦上設定係統。"
 
 #: live-installer/resources/interface.ui:143
-#: live-installer/frontend/gtk_interface.py:505
+#: live-installer/frontend/gtk_interface.py:509
 msgid "I accept the terms of the License Agreement"
-msgstr ""
+msgstr "我接受許可協議的條款"
 
 #: live-installer/resources/interface.ui:214
-#: live-installer/frontend/gtk_interface.py:514
+#: live-installer/frontend/gtk_interface.py:518
 msgid "Keyboard Model:"
-msgstr ""
+msgstr "鍵盤型號："
 
 #: live-installer/resources/interface.ui:321
 msgid "Type here to test your keyboard"
-msgstr ""
+msgstr "在此輸入以測試您的鍵盤"
 
 #: live-installer/resources/interface.ui:377
-#: live-installer/resources/interface.ui:1964
-#: live-installer/resources/interface.ui:2416
-#: live-installer/resources/interface.ui:2428
-#: live-installer/resources/interface.ui:2440
+#: live-installer/resources/interface.ui:1965
+#: live-installer/resources/interface.ui:2417
+#: live-installer/resources/interface.ui:2429
+#: live-installer/resources/interface.ui:2441
+#: live-installer/resources/interface.ui:2622
+#: live-installer/resources/interface.ui:2634
 msgid "label"
-msgstr ""
+msgstr "標籤"
 
 #: live-installer/resources/interface.ui:412
 msgid "Continent"
-msgstr ""
+msgstr "大陸"
 
 #: live-installer/resources/interface.ui:426
-#: live-installer/frontend/gtk_interface.py:480
 #: live-installer/frontend/tui_interface.py:53
+#: live-installer/frontend/gtk_interface.py:484
 msgid "Timezone"
 msgstr "時區"
 
 #: live-installer/resources/interface.ui:484
-#: live-installer/frontend/gtk_interface.py:540
+#: live-installer/frontend/gtk_interface.py:544
 msgid "Automated Installation"
-msgstr ""
+msgstr "自動安裝"
 
 #: live-installer/resources/interface.ui:500
 msgid "Erase a disk and install Mauna on it."
-msgstr ""
+msgstr "擦除磁碟並在其上安裝 Mauna。"
 
 #: live-installer/resources/interface.ui:528
-#: live-installer/frontend/gtk_interface.py:543
+#: live-installer/frontend/gtk_interface.py:547
 msgid "Disk:"
-msgstr ""
+msgstr "磁碟:"
 
 #: live-installer/resources/interface.ui:573
-#: live-installer/frontend/gtk_interface.py:570
-#, fuzzy
+#: live-installer/frontend/gtk_interface.py:574
 msgid "Create swap partition"
-msgstr "編輯磁碟分割"
+msgstr "建立交換分割區"
 
 #: live-installer/resources/interface.ui:595
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: live-installer/resources/interface.ui:613
 #: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:443
+#: live-installer/frontend/partitioning.py:604
 msgid "GB"
 msgstr "GB"
 
 #: live-installer/resources/interface.ui:658
-#: live-installer/frontend/gtk_interface.py:551
+#: live-installer/frontend/gtk_interface.py:555
 msgid "Use LVM (Logical Volume Management)"
-msgstr ""
+msgstr "使用LVM（邏輯磁碟區管理）"
 
 #: live-installer/resources/interface.ui:705
-#: live-installer/frontend/gtk_interface.py:545
+#: live-installer/frontend/gtk_interface.py:549
 msgid "Encrypt the operating system"
-msgstr ""
+msgstr "加密作業系統"
 
 #: live-installer/resources/interface.ui:735
-#: live-installer/frontend/gtk_interface.py:547
+#: live-installer/frontend/gtk_interface.py:551
 msgid "Passphrase"
-msgstr ""
+msgstr "密碼"
 
 #: live-installer/resources/interface.ui:751
-#: live-installer/frontend/gtk_interface.py:549
+#: live-installer/frontend/gtk_interface.py:553
 msgid "Confirm passphrase"
-msgstr ""
+msgstr "確認密碼"
 
 #: live-installer/resources/interface.ui:785
-#: live-installer/frontend/gtk_interface.py:568
+#: live-installer/frontend/gtk_interface.py:572
 msgid "This provides extra security but it can take hours."
-msgstr ""
+msgstr "這提供了額外的安全性，但可能需要幾個小時。"
 
 #: live-installer/resources/interface.ui:799
-#: live-installer/frontend/gtk_interface.py:566
+#: live-installer/frontend/gtk_interface.py:570
 msgid "Fill the disk with random data"
-msgstr ""
+msgstr "用隨機資料填充磁碟"
 
 #: live-installer/resources/interface.ui:884
-#: live-installer/frontend/gtk_interface.py:553
+#: live-installer/frontend/gtk_interface.py:557
 msgid "Manual Partitioning"
-msgstr ""
+msgstr "手動分區"
 
 #: live-installer/resources/interface.ui:900
 msgid "Manually create, resize or choose partitions for Mauna."
-msgstr ""
+msgstr "為 Mauna 手動建立、調整大小或選擇分割區。"
 
 #: live-installer/resources/interface.ui:965
+#: live-installer/frontend/gtk_interface.py:565
 msgid "Remove Windows & Install"
-msgstr ""
+msgstr "刪除 Windows 並安裝"
 
 #: live-installer/resources/interface.ui:981
 msgid "Remove existing Windows and install Mauna on it."
-msgstr ""
+msgstr "刪除現有的 Windows 並在上面安裝 Mauna。"
 
 #: live-installer/resources/interface.ui:1033
-#: live-installer/frontend/gtk_interface.py:557
-#, fuzzy
+#: live-installer/frontend/gtk_interface.py:561
 msgid "Expert Mode"
-msgstr "專家模式"
+msgstr "專家模式專業級"
 
 #: live-installer/resources/interface.ui:1049
 msgid "The setup tool will not do partitioning."
-msgstr ""
+msgstr "安裝工具不會進行分割區。"
 
 #: live-installer/resources/interface.ui:1111
-#: live-installer/frontend/gtk_interface.py:602
+#: live-installer/frontend/gtk_interface.py:606
 msgid "Minimal installation"
-msgstr ""
+msgstr "最小化安裝"
 
 #: live-installer/resources/interface.ui:1127
-#: live-installer/frontend/gtk_interface.py:603
+#: live-installer/frontend/gtk_interface.py:607
 msgid ""
 "This will only install a minimal desktop environment with a browser and "
 "utilities."
-msgstr ""
+msgstr "這只會安裝具有瀏覽器和實用程式的最小桌面環境。"
 
 #: live-installer/resources/interface.ui:1160
-#: live-installer/frontend/gtk_interface.py:600
+#: live-installer/frontend/gtk_interface.py:604
 msgid "Install system with updates"
-msgstr ""
+msgstr "安裝有更新的系統"
 
 #: live-installer/resources/interface.ui:1176
-#: live-installer/frontend/gtk_interface.py:601
+#: live-installer/frontend/gtk_interface.py:605
 msgid "If you connect internet, updates will install."
-msgstr ""
+msgstr "如果您連接互聯網，則會安裝更新。"
 
 #: live-installer/resources/interface.ui:1278
-#: live-installer/frontend/gtk_interface.py:574
+#: live-installer/frontend/gtk_interface.py:578
 msgid "Refresh"
 msgstr "重新整理"
 
 #: live-installer/resources/interface.ui:1325
-#: live-installer/frontend/gtk_interface.py:576
+#: live-installer/frontend/gtk_interface.py:580
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: live-installer/resources/interface.ui:1372
-#: live-installer/frontend/gtk_interface.py:577
-#, fuzzy
+#: live-installer/frontend/gtk_interface.py:581
 msgid "Format"
-msgstr "格式化為"
+msgstr "格式"
 
 #: live-installer/resources/interface.ui:1419
-#: live-installer/frontend/gtk_interface.py:578
+#: live-installer/frontend/partitioning.py:282
+#: live-installer/frontend/gtk_interface.py:582
+#: live-installer/frontend/gtk_interface.py:966
 msgid "Create"
-msgstr ""
+msgstr "創造"
 
 #: live-installer/resources/interface.ui:1455
-#: live-installer/frontend/gtk_interface.py:591
+#: live-installer/frontend/gtk_interface.py:595
 msgid "Install the GRUB boot menu on:"
-msgstr ""
+msgstr "將 GRUB 啟動選單安裝在："
 
-#: live-installer/resources/interface.ui:1528
-#, fuzzy
+#: live-installer/resources/interface.ui:1529
 msgid "Edit Partitions"
-msgstr "編輯磁碟分割"
+msgstr "編輯分區"
 
-#: live-installer/resources/interface.ui:1552
+#: live-installer/resources/interface.ui:1553
 msgid "Legacy"
-msgstr ""
+msgstr "遺產"
 
-#: live-installer/resources/interface.ui:1610
-#: live-installer/frontend/gtk_interface.py:519
-msgid "Your name:"
-msgstr ""
-
-#: live-installer/resources/interface.ui:1653
-#: live-installer/frontend/gtk_interface.py:521
-msgid "Your computer's name:"
-msgstr ""
-
-#: live-installer/resources/interface.ui:1668
-#: live-installer/frontend/gtk_interface.py:525
-msgid "Pick a username:"
-msgstr ""
-
-#: live-installer/resources/interface.ui:1681
+#: live-installer/resources/interface.ui:1611
 #: live-installer/frontend/gtk_interface.py:523
-msgid "The name it uses when it talks to other computers."
-msgstr ""
+msgid "Your name:"
+msgstr "你的名字："
 
-#: live-installer/resources/interface.ui:1714
+#: live-installer/resources/interface.ui:1654
+#: live-installer/frontend/gtk_interface.py:525
+msgid "Your computer's name:"
+msgstr "您的電腦名稱："
+
+#: live-installer/resources/interface.ui:1669
+#: live-installer/frontend/gtk_interface.py:529
+msgid "Pick a username:"
+msgstr "選擇一個使用者名稱："
+
+#: live-installer/resources/interface.ui:1682
 #: live-installer/frontend/gtk_interface.py:527
-msgid "Choose a password:"
-msgstr ""
+msgid "The name it uses when it talks to other computers."
+msgstr "它與其他電腦對話時使用的名稱。"
 
-#: live-installer/resources/interface.ui:1758
-#: live-installer/frontend/gtk_interface.py:532
+#: live-installer/resources/interface.ui:1715
+#: live-installer/frontend/gtk_interface.py:531
+msgid "Choose a password:"
+msgstr "選擇密碼："
+
+#: live-installer/resources/interface.ui:1759
+#: live-installer/frontend/gtk_interface.py:536
 msgid "Log in automatically"
 msgstr "自動登入"
 
-#: live-installer/resources/interface.ui:1773
-#: live-installer/frontend/gtk_interface.py:534
+#: live-installer/resources/interface.ui:1774
+#: live-installer/frontend/gtk_interface.py:538
 msgid "Require my password to log in"
-msgstr ""
+msgstr "需要我的密碼才能登入"
 
-#: live-installer/resources/interface.ui:1788
-#: live-installer/frontend/gtk_interface.py:536
+#: live-installer/resources/interface.ui:1789
+#: live-installer/frontend/gtk_interface.py:540
 msgid "Encrypt my home folder"
-msgstr ""
+msgstr "加密我的主資料夾"
 
-#: live-installer/resources/interface.ui:1812
-#: live-installer/frontend/gtk_interface.py:529
+#: live-installer/resources/interface.ui:1813
+#: live-installer/frontend/gtk_interface.py:533
 msgid "Confirm your password:"
-msgstr ""
+msgstr "確認你的密碼："
 
-#: live-installer/resources/interface.ui:1841
+#: live-installer/resources/interface.ui:1842
 msgid "Length must be minimum 8 characters"
-msgstr ""
+msgstr "長度必須至少為 8 個字符"
 
-#: live-installer/resources/interface.ui:1914
-#: live-installer/frontend/gtk_interface.py:608
+#: live-installer/resources/interface.ui:1915
+#: live-installer/frontend/gtk_interface.py:612
 msgid "Automated installation enabled!"
-msgstr ""
+msgstr "已啟用自動安裝！"
 
-#: live-installer/resources/interface.ui:1983
+#: live-installer/resources/interface.ui:1984
 msgid "0.0"
-msgstr ""
+msgstr "0.0"
 
-#: live-installer/resources/interface.ui:2015
-#: live-installer/frontend/gtk_interface.py:604
+#: live-installer/resources/interface.ui:2016
+#: live-installer/frontend/gtk_interface.py:608
 msgid "Please do not turn off your computer during the installation process."
-msgstr ""
+msgstr "安裝過程中請不要關閉電腦。"
 
-#: live-installer/resources/interface.ui:2084
+#: live-installer/resources/interface.ui:2085
 #: live-installer/resources/welcome.ui:206
 msgid "Mauna team"
-msgstr ""
+msgstr "莫納隊"
 
-#: live-installer/resources/interface.ui:2288
-#: live-installer/resources/interface.ui:2328
-#: live-installer/frontend/gtk_interface.py:474
+#: live-installer/resources/interface.ui:2289
+#: live-installer/resources/interface.ui:2329
+#: live-installer/frontend/gtk_interface.py:478
 msgid "Welcome"
-msgstr ""
+msgstr "歡迎"
 
-#: live-installer/resources/interface.ui:2452
+#: live-installer/resources/interface.ui:2453
 msgid "/dev/sda1"
-msgstr ""
+msgstr "/dev/sda1"
 
-#: live-installer/resources/interface.ui:2504
+#: live-installer/resources/interface.ui:2505
 msgid "read only"
-msgstr ""
+msgstr "只讀"
+
+#: live-installer/resources/interface.ui:2518
+msgid "Use default Btrfs subvolumes"
+msgstr "使用預設的 Btrfs 子卷"
+
+#: live-installer/resources/interface.ui:2678
+#: live-installer/frontend/partitioning.py:888
+msgid "Format subvolume"
+msgstr "格式化子卷"
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try Mauna"
-msgstr ""
+msgstr "試試莫納"
 
 #: live-installer/resources/welcome.ui:85
 msgid " "
@@ -297,47 +307,748 @@ msgstr ""
 
 #: live-installer/resources/welcome.ui:121
 #: live-installer/frontend/welcome.py:34
-#, fuzzy
 msgid "Install to Hard Drive"
-msgstr "正在安裝驅動程式"
+msgstr "安裝到硬碟"
 
 #: live-installer/resources/welcome.ui:166
 msgid "You are currently running Mauna from live media."
-msgstr ""
+msgstr "您目前正在透過直播媒體運行 Mauna。"
 
 #: live-installer/resources/welcome.ui:178
 msgid ""
 "You can install Mauna now, or chose \"Install to Hard Drive\" in the "
-"Appication Menu later."
-msgstr ""
+"Application Menu later."
+msgstr "您可以立即安裝 Mauna，或稍後在應用程式選單中選擇「安裝到硬碟」。"
 
 #: live-installer/resources/welcome.ui:228
 msgid "Welcome to Mauna"
+msgstr "歡迎來到莫納"
+
+#: live-installer/frontend/dialogs.py:35 live-installer/frontend/dialogs.py:48
+#: live-installer/frontend/dialogs.py:54
+#: live-installer/frontend/partitioning.py:798
+#: live-installer/frontend/partitioning.py:893
+msgid "OK"
+msgstr "好的"
+
+#: live-installer/frontend/dialogs.py:41
+msgid "No"
+msgstr "不"
+
+#: live-installer/frontend/dialogs.py:42
+msgid "Yes"
+msgstr "是的"
+
+#: live-installer/frontend/timezones.py:140
+msgid "Select timezone"
+msgstr "選擇時區"
+
+#: live-installer/frontend/tui_interface.py:34
+#: live-installer/frontend/gtk_interface.py:505
+#, python-format
+msgid "Welcome to the %s Installer."
+msgstr "歡迎使用 %s 安裝程式。"
+
+#: live-installer/frontend/tui_interface.py:40
+#: live-installer/frontend/gtk_interface.py:482
+msgid "What language would you like to use?"
+msgstr "您想使用什麼語言？"
+
+#: live-installer/frontend/tui_interface.py:45
+#: live-installer/frontend/gtk_interface.py:118
+#: live-installer/frontend/gtk_interface.py:482
+#: live-installer/frontend/gtk_interface.py:513
+msgid "Language"
+msgstr "語言"
+
+#: live-installer/frontend/tui_interface.py:49
+#: live-installer/frontend/gtk_interface.py:484
+msgid "Where are you?"
+msgstr "你在哪裡？"
+
+#: live-installer/frontend/tui_interface.py:57
+msgid "What keyboard would you like to use?"
+msgstr "您想使用什麼鍵盤？"
+
+#: live-installer/frontend/tui_interface.py:64
+msgid "Keyboard Model"
+msgstr "鍵盤型號"
+
+#: live-installer/frontend/tui_interface.py:73
+msgid "Installation type?"
+msgstr "安裝類型？"
+
+#: live-installer/frontend/tui_interface.py:77
+#: live-installer/frontend/gtk_interface.py:585
+msgid "Type"
+msgstr "類型"
+
+#: live-installer/frontend/tui_interface.py:80
+msgid "Select a disk?"
+msgstr "選擇磁碟？"
+
+#: live-installer/frontend/tui_interface.py:84
+msgid "Disk"
+msgstr "磁碟"
+
+#: live-installer/frontend/welcome.py:32
+#, python-format
+msgid "Try %s"
+msgstr "嘗試 %s"
+
+#: live-installer/frontend/welcome.py:36
+#, python-format
+msgid "You are currently running %s from live media."
+msgstr "您目前正在透過直播媒體運行 %s。"
+
+#: live-installer/frontend/welcome.py:38
+#, python-format
+msgid ""
+"You can install %s now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
+msgstr "您可以立即安裝 %s，或稍後在應用程式選單中選擇「安裝到硬碟」。"
+
+#: live-installer/frontend/welcome.py:39
+#, python-format
+msgid "Welcome to %s"
+msgstr "歡迎來到 %s"
+
+#: live-installer/frontend/partitioning.py:72
+msgid "B"
+msgstr "B"
+
+#: live-installer/frontend/partitioning.py:72
+#: live-installer/frontend/partitioning.py:603
+msgid "kB"
+msgstr "KB"
+
+#: live-installer/frontend/partitioning.py:72
+#: live-installer/frontend/partitioning.py:603
+msgid "MB"
+msgstr "MB"
+
+#: live-installer/frontend/partitioning.py:73
+#: live-installer/frontend/partitioning.py:604
+msgid "TB"
+msgstr "TB"
+
+#: live-installer/frontend/partitioning.py:80
+msgid "Removable:"
+msgstr "可移除式："
+
+#: live-installer/frontend/partitioning.py:190
+#: live-installer/frontend/partitioning.py:199
+#: live-installer/frontend/partitioning.py:201
+#: live-installer/frontend/partitioning.py:236
+#: live-installer/frontend/partitioning.py:278
+#: live-installer/frontend/partitioning.py:340
+#: live-installer/frontend/partitioning.py:352
+#: live-installer/frontend/partitioning.py:356
+#: live-installer/frontend/partitioning.py:776
+#: live-installer/frontend/gtk_interface.py:977
+#: live-installer/frontend/gtk_interface.py:1006
+msgid "btrfs subvolume"
+msgstr "Btrfs 子卷"
+
+#: live-installer/frontend/partitioning.py:195
+msgid "Edit Subvolume"
+msgstr "編輯子卷"
+
+#: live-installer/frontend/partitioning.py:213
+#: live-installer/frontend/gtk_interface.py:598
+msgid "Read only"
+msgstr "只讀"
+
+#: live-installer/frontend/partitioning.py:241
+msgid "The name of a subvolume must not start or end with a forward slash"
+msgstr "子卷的名稱不得以正斜線開頭或結尾"
+
+#: live-installer/frontend/partitioning.py:245
+msgid "The name of a subvolume must not be blank or contain a space"
+msgstr "子卷的名稱不能為空或包含空格"
+
+#: live-installer/frontend/partitioning.py:249
+msgid "The mount point of a subvolume must not contain a space"
+msgstr "子卷的掛載點不能包含空格"
+
+#: live-installer/frontend/partitioning.py:256
+#, python-format
+msgid "Subvolume with name '%s' already exists"
+msgstr "名為 '%s' 的子卷已存在"
+
+#: live-installer/frontend/partitioning.py:291
+#: live-installer/frontend/gtk_interface.py:984
+#: live-installer/frontend/gtk_interface.py:992
+msgid "Create a subvolume"
+msgstr "建立子卷"
+
+#: live-installer/frontend/partitioning.py:345
+msgid "Edit"
+msgstr "編輯"
+
+#: live-installer/frontend/partitioning.py:357
+#: live-installer/frontend/partitioning.py:364
+#: live-installer/frontend/partitioning.py:368
+#: live-installer/frontend/partitioning.py:375
+#: live-installer/frontend/partitioning.py:384
+#, python-format
+msgid "Assign to %s"
+msgstr "分配給 %s"
+
+#: live-installer/frontend/partitioning.py:391
+msgid "Create btrfs subvolume"
+msgstr "建立 btrfs 子卷"
+
+#: live-installer/frontend/partitioning.py:446
+#: live-installer/frontend/partitioning.py:529
+#: live-installer/frontend/gtk_interface.py:467
+#: live-installer/frontend/gtk_interface.py:470
+#: live-installer/frontend/gtk_interface.py:1173
+#: live-installer/frontend/gtk_interface.py:1198
+#: live-installer/frontend/gtk_interface.py:1221
+#: live-installer/frontend/gtk_interface.py:1241
+#: live-installer/frontend/gtk_interface.py:1245
+#: live-installer/frontend/gtk_interface.py:1255
+#: live-installer/frontend/gtk_interface.py:1259
+#: live-installer/frontend/gtk_interface.py:1264
+#: live-installer/frontend/gtk_interface.py:1278
+#: live-installer/frontend/gtk_interface.py:1284
+#: live-installer/frontend/gtk_interface.py:1290
+#: live-installer/frontend/gtk_interface.py:1295
+#: live-installer/frontend/gtk_interface.py:1300
+#: live-installer/frontend/gtk_interface.py:1365
+#: live-installer/frontend/gtk_interface.py:1444
+msgid "Installer"
+msgstr "安裝人員"
+
+#: live-installer/frontend/partitioning.py:447
+msgid ""
+"Disk: {} partition table broken or not exists. Do you want to create new "
+"partition table?"
+msgstr "磁碟：{} 分割區表損壞或不存在。您想建立新的分區表嗎？"
+
+#: live-installer/frontend/partitioning.py:469
+#: live-installer/frontend/partitioning.py:687
+#: live-installer/frontend/gtk_interface.py:590
+#: live-installer/frontend/gtk_interface.py:975
+msgid "Free space"
+msgstr "可用空間"
+
+#: live-installer/frontend/partitioning.py:545
+#, python-format
+msgid ""
+"The partition table couldn't be written for %s. Restart the computer and try "
+"again."
+msgstr "無法為 %s 寫入分區表。重新啟動計算機並重試。"
+
+#: live-installer/frontend/partitioning.py:590
+#, python-format
+msgid ""
+"The partition %s could not be created. The installation will stop. Restart "
+"the computer and try again."
+msgstr "無法建立分區 %s。安裝將停止。重新啟動計算機並重試。"
+
+#: live-installer/frontend/partitioning.py:685
+msgid "Logical partition"
+msgstr "邏輯磁碟分割"
+
+#: live-installer/frontend/partitioning.py:686
+msgid "Extended partition"
+msgstr "延伸磁碟分割"
+
+#: live-installer/frontend/partitioning.py:690
+#: live-installer/frontend/partitioning.py:824
+msgid "Unknown"
+msgstr "未知"
+
+#: live-installer/frontend/partitioning.py:741
+msgid "bootloader/recovery"
+msgstr "引導程式/恢復"
+
+#: live-installer/frontend/partitioning.py:754
+msgid "EFI System Partition"
+msgstr "EFI系統分割區"
+
+#: live-installer/frontend/partitioning.py:790
+msgid "Edit partition"
+msgstr "編輯磁碟分割"
+
+#: live-installer/frontend/partitioning.py:792
+msgid "Device:"
+msgstr "裝置："
+
+#: live-installer/frontend/partitioning.py:794
+msgid "Format as:"
+msgstr "格式化為："
+
+#: live-installer/frontend/partitioning.py:796
+#: live-installer/frontend/partitioning.py:883
+msgid "Mount point:"
+msgstr "掛載點："
+
+#: live-installer/frontend/partitioning.py:797
+#: live-installer/frontend/partitioning.py:892
+msgid "Cancel"
+msgstr "取消"
+
+#: live-installer/frontend/partitioning.py:874
+msgid "Create Subvolume"
+msgstr "建立子卷"
+
+#: live-installer/frontend/partitioning.py:881
+msgid "Name:"
+msgstr "姓名："
+
+#: live-installer/frontend/gtk_interface.py:109
+#: live-installer/frontend/gtk_interface.py:514
+msgid "Country"
+msgstr "國家"
+
+#: live-installer/frontend/gtk_interface.py:290
+msgid "Layout"
+msgstr "佈局"
+
+#: live-installer/frontend/gtk_interface.py:298
+msgid "Variant"
+msgstr "變體"
+
+#: live-installer/frontend/gtk_interface.py:316
+msgid "Calculating file indexes ..."
+msgstr "正在計算檔案索引..."
+
+#: live-installer/frontend/gtk_interface.py:480
+msgid "License Agreement"
+msgstr "授權協議"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "Keyboard layout"
+msgstr "鍵盤佈局"
+
+#: live-installer/frontend/gtk_interface.py:486
+msgid "What is your keyboard layout?"
+msgstr "你的鍵盤佈局是什麼？"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "User account"
+msgstr "使用者帳號"
+
+#: live-installer/frontend/gtk_interface.py:488
+msgid "Who are you?"
+msgstr "你是誰？"
+
+#: live-installer/frontend/gtk_interface.py:490
+msgid "Installation Type"
+msgstr "安裝類型"
+
+#: live-installer/frontend/gtk_interface.py:490
+#: live-installer/frontend/gtk_interface.py:492
+msgid "Where do you want to install system?"
+msgstr "您想在哪裡安裝系統？"
+
+#: live-installer/frontend/gtk_interface.py:492
+msgid "Partitioning"
+msgstr "分割中"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Summary"
+msgstr "總覽"
+
+#: live-installer/frontend/gtk_interface.py:494
+msgid "Check that everything is correct"
+msgstr "檢查一切是否正確"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Installing"
+msgstr "安裝中"
+
+#: live-installer/frontend/gtk_interface.py:496
+msgid "Please wait..."
+msgstr "請稍等..."
+
+#: live-installer/frontend/gtk_interface.py:499
+#: live-installer/frontend/gtk_interface.py:613
+msgid "Automated Install"
+msgstr "自動安裝"
+
+#: live-installer/frontend/gtk_interface.py:500
+msgid "Back"
+msgstr "後退"
+
+#: live-installer/frontend/gtk_interface.py:501
+#: live-installer/frontend/gtk_interface.py:1306
+msgid "Next"
+msgstr "下一個"
+
+#: live-installer/frontend/gtk_interface.py:520
+msgid "Type here to test your keyboard layout"
+msgstr "在此輸入以測試您的鍵盤佈局"
+
+#: live-installer/frontend/gtk_interface.py:546
+msgid "Erase a disk and install system on it."
+msgstr "擦除磁碟並在其上安裝系統。"
+
+#: live-installer/frontend/gtk_interface.py:559
+msgid "Manually create, resize or choose partitions for system."
+msgstr "手動建立、調整系統大小或選擇系統分割區。"
+
+#: live-installer/frontend/gtk_interface.py:563
+msgid "The setup tool will not do partitioning"
+msgstr "安裝工具不會進行分割區"
+
+#: live-installer/frontend/gtk_interface.py:567
+msgid "Remove existing Windows and install system on it."
+msgstr "刪除現有的 Windows 並在其上安裝系統。"
+
+#: live-installer/frontend/gtk_interface.py:577
+#: live-installer/frontend/gtk_interface.py:579
+msgid "Edit partitions"
+msgstr "編輯磁碟分割"
+
+#: live-installer/frontend/gtk_interface.py:584
+msgid "Device"
+msgstr "裝置"
+
+#: live-installer/frontend/gtk_interface.py:586
+msgid "Operating system"
+msgstr "操作系统"
+
+#: live-installer/frontend/gtk_interface.py:587
+msgid "Mount point"
+msgstr "掛載點"
+
+#: live-installer/frontend/gtk_interface.py:588
+msgid "Format as"
+msgstr "格式化為"
+
+#: live-installer/frontend/gtk_interface.py:589
+msgid "Size"
+msgstr "大小"
+
+#: live-installer/frontend/gtk_interface.py:626
+#: live-installer/frontend/gtk_interface.py:1367
+msgid "Warning"
+msgstr "警告"
+
+#: live-installer/frontend/gtk_interface.py:627
+#: live-installer/frontend/gtk_interface.py:1368
+#, python-format
+msgid "This will delete all the data on %s. Are you sure?"
+msgstr "這將刪除 %s 上的所有資料。你確定嗎？"
+
+#: live-installer/frontend/gtk_interface.py:652
+#: live-installer/frontend/gtk_interface.py:1228
+msgid "Install"
+msgstr "安裝"
+
+#: live-installer/frontend/gtk_interface.py:785
+msgid "Please provide a passphrase for the encryption."
+msgstr "請提供加密密碼。"
+
+#: live-installer/frontend/gtk_interface.py:787
+#: live-installer/frontend/gtk_interface.py:1214
+msgid "Your passwords do not match."
+msgstr "你的密碼不相符。"
+
+#: live-installer/frontend/gtk_interface.py:792
+msgid "Quit?"
+msgstr "退出？"
+
+#: live-installer/frontend/gtk_interface.py:793
+msgid "Are you sure you want to quit the installer?"
+msgstr "你是否確定要退出安裝程式？"
+
+#: live-installer/frontend/gtk_interface.py:994
+#: live-installer/frontend/gtk_interface.py:1008
+#: live-installer/frontend/gtk_interface.py:1025
+#: live-installer/frontend/gtk_interface.py:1040
+#: live-installer/frontend/gtk_interface.py:1224
+#: live-installer/frontend/gtk_interface.py:1362
+msgid "Are you sure?"
+msgstr "你確定嗎？"
+
+#: live-installer/frontend/gtk_interface.py:995
+msgid "New partition will created at {}"
+msgstr "新分區將在 {} 創建"
+
+#: live-installer/frontend/gtk_interface.py:1009
+msgid "subvolume {} will removed from {}."
+msgstr "子卷 {} 將從 {} 中刪除。"
+
+#: live-installer/frontend/gtk_interface.py:1026
+msgid "Partition {} will removed from {}."
+msgstr "分割區 {} 將從 {} 中刪除。"
+
+#: live-installer/frontend/gtk_interface.py:1041
+msgid "Partition {} will formated from {}."
+msgstr "分割區 {} 將從 {} 格式化。"
+
+#: live-installer/frontend/gtk_interface.py:1174
+msgid "Please choose a language"
+msgstr "請選擇語言"
+
+#: live-installer/frontend/gtk_interface.py:1199
+msgid "Please provide a keyboard layout for your computer."
+msgstr "請提供適合您電腦的鍵盤佈局。"
+
+#: live-installer/frontend/gtk_interface.py:1219
+msgid "Please provide your full name."
+msgstr "請提供你的全名。"
+
+#: live-installer/frontend/gtk_interface.py:1224
+#: live-installer/frontend/gtk_interface.py:1362
+msgid "Your passwords is not strong."
+msgstr "您的密碼強度不高。"
+
+#: live-installer/frontend/gtk_interface.py:1242
+#: live-installer/frontend/gtk_interface.py:1256
+msgid ""
+"Root filesystem type not specified. Installation will continue without disk "
+"formatting. Do you want to continue?"
+msgstr "未指定根檔案系統類型。安裝將繼續，無需格式化磁碟。你想繼續嗎？"
+
+#: live-installer/frontend/gtk_interface.py:1246
+#: live-installer/frontend/gtk_interface.py:1260
+msgid ""
+"The root partition is too small. It should be at least 16GB. Do you want to "
+"continue?"
+msgstr "根分區太小。至少應為 16GB。你想繼續嗎？"
+
+#: live-installer/frontend/gtk_interface.py:1264
+msgid "Please select a root (/) partition."
+msgstr "請選擇 root (/) 磁碟分割。"
+
+#: live-installer/frontend/gtk_interface.py:1265
+#, python-format
+msgid ""
+"A root partition is needed to install %s on.\n"
+"\n"
+" - Mount point: /\n"
+" - Recommended size: 30GB\n"
+" - Recommended filesystem format: ext4\n"
+"\n"
 msgstr ""
+"需要一個根分割區來安裝 %s。\n"
+"\n"
+" - 掛載點：/\n"
+" - 建議大小：30GB\n"
+" - 建議的檔案系統格式：ext4\n"
+"\n"
+
+#: live-installer/frontend/gtk_interface.py:1279
+msgid "The EFI partition is not bootable. Do you want to set boot flag?"
+msgstr "EFI 分割區不可啟動。您想設定啟動標誌嗎？"
+
+#: live-installer/frontend/gtk_interface.py:1285
+msgid "The EFI partition is too small. It must be at least 100MB."
+msgstr "EFI分割區太小。它必須至少為 100MB。"
+
+#: live-installer/frontend/gtk_interface.py:1291
+#: live-installer/frontend/gtk_interface.py:1296
+msgid "The EFI partition must be formatted as vfat."
+msgstr "EFI 磁碟分割必須被格式化為 vfat。"
+
+#: live-installer/frontend/gtk_interface.py:1300
+msgid "Please select an EFI partition."
+msgstr "請選擇 EFI 磁碟分割。"
+
+#: live-installer/frontend/gtk_interface.py:1301
+msgid ""
+"An EFI system partition is needed with the following requirements:\n"
+"\n"
+" - Mount point: /boot/efi\n"
+" - Partition flags: Bootable\n"
+" - Size: at least 100MB \n"
+" - Format: vfat or fat32\n"
+"\n"
+"To ensure compatibility with Windows we recommend you use the first "
+"partition of the disk as the EFI system partition.\n"
+" "
+msgstr ""
+"EFI 系統分割區需要滿足以下要求：\n"
+"\n"
+" - 掛載點：/boot/efi\n"
+" - 分區標誌：可啟動\n"
+" - 大小：至少 100MB\n"
+" - 格式：vfat 或 fat32\n"
+"\n"
+"為了確保與 Windows 的相容性，我們建議您使用磁碟的第一個分割區作為 EFI 系統分"
+"割區。\n"
+" "
+
+#: live-installer/frontend/gtk_interface.py:1356
+msgid "Please select a disk."
+msgstr "請選擇一個磁碟。"
+
+#: live-installer/frontend/gtk_interface.py:1445
+msgid "Please provide a device to install grub."
+msgstr "請提供一個安裝 grub 的設備。"
+
+#: live-installer/frontend/gtk_interface.py:1493
+msgid "Localization"
+msgstr "本地化"
+
+#: live-installer/frontend/gtk_interface.py:1494
+msgid "Language: "
+msgstr "語言： "
+
+#: live-installer/frontend/gtk_interface.py:1495
+msgid "Timezone: "
+msgstr "時區： "
+
+#: live-installer/frontend/gtk_interface.py:1496
+msgid "Keyboard layout: "
+msgstr "鍵盤佈局： "
+
+#: live-installer/frontend/gtk_interface.py:1500
+msgid "User settings"
+msgstr "使用者設定"
+
+#: live-installer/frontend/gtk_interface.py:1504
+msgid "Real name: "
+msgstr "真實姓名： "
+
+#: live-installer/frontend/gtk_interface.py:1505
+msgid "Username: "
+msgstr "使用者名稱： "
+
+#: live-installer/frontend/gtk_interface.py:1508
+#: live-installer/frontend/gtk_interface.py:1511
+msgid "Password: "
+msgstr "密碼： "
+
+#: live-installer/frontend/gtk_interface.py:1513
+msgid "Automatic login: "
+msgstr "自動登入： "
+
+#: live-installer/frontend/gtk_interface.py:1513
+#: live-installer/frontend/gtk_interface.py:1563
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "enabled"
+msgstr "啟用"
+
+#: live-installer/frontend/gtk_interface.py:1514
+#: live-installer/frontend/gtk_interface.py:1564
+#: live-installer/frontend/gtk_interface.py:1567
+msgid "disabled"
+msgstr "停用"
+
+#: live-installer/frontend/gtk_interface.py:1515
+msgid "System settings"
+msgstr "系統設定"
+
+#: live-installer/frontend/gtk_interface.py:1517
+msgid "Computer's name: "
+msgstr "電腦名稱： "
+
+#: live-installer/frontend/gtk_interface.py:1520
+#: live-installer/frontend/gtk_interface.py:1522
+msgid "Bios type: "
+msgstr "生物類型： "
+
+#: live-installer/frontend/gtk_interface.py:1524
+msgid "Install updates after installation"
+msgstr "安裝後安裝更新"
+
+#: live-installer/frontend/gtk_interface.py:1525
+msgid "Filesystem operations"
+msgstr "檔案系統操作"
+
+#: live-installer/frontend/gtk_interface.py:1526
+#, python-format
+msgid "Install bootloader on %s"
+msgstr "安裝 bootloader 於 %s"
+
+#: live-installer/frontend/gtk_interface.py:1527
+msgid "Do not install bootloader"
+msgstr "不要安裝 bootloader"
+
+#: live-installer/frontend/gtk_interface.py:1529
+msgid "Use already-mounted /target."
+msgstr "使用已掛載 /target。"
+
+#: live-installer/frontend/gtk_interface.py:1537
+#, python-format
+msgid " (with %s GB swap)"
+msgstr " （使用 %s GB 交換）"
+
+#: live-installer/frontend/gtk_interface.py:1541
+#, python-format
+msgid "Automated installation on %s"
+msgstr "在 %s 上自動安裝"
+
+#: live-installer/frontend/gtk_interface.py:1545
+#, python-format
+msgid "Format %(path)s as %(filesystem)s"
+msgstr "格式化 %(path)s 為 %(filesystem)s"
+
+#: live-installer/frontend/gtk_interface.py:1549
+#, python-format
+msgid "Mount %(path)s as %(mount)s"
+msgstr "掛載 %(path)s 為 %(mount)s"
+
+#: live-installer/frontend/gtk_interface.py:1554
+#, python-format
+msgid "Create btrfs subvolume %(path)s under %(parentPath)s "
+msgstr "在 %(parentPath)s 下建立 btrfs 子磁碟區 %(path)s"
+
+#: live-installer/frontend/gtk_interface.py:1558
+#, python-format
+msgid "Mount %(path)s subvolume as %(mount)s"
+msgstr "將 %(path)s 子卷裝載為 %(mount)s"
+
+#: live-installer/frontend/gtk_interface.py:1563
+msgid "LVM: "
+msgstr "LVM: "
+
+#: live-installer/frontend/gtk_interface.py:1566
+msgid "Disk Encryption: "
+msgstr "磁碟加密： "
+
+#: live-installer/frontend/gtk_interface.py:1578
+#: live-installer/installer.py:881
+msgid "Installation finished"
+msgstr "安裝完成"
+
+#: live-installer/frontend/gtk_interface.py:1579
+msgid ""
+"The installation is now complete. Do you want to restart your computer to "
+"use the new system?"
+msgstr "安裝現已完成。你想要重新啟動你的電腦以使用新系統嗎？"
+
+#: live-installer/frontend/gtk_interface.py:1611
+#: live-installer/frontend/gtk_interface.py:1615
+#: live-installer/frontend/gtk_interface.py:1624
+#: live-installer/frontend/gtk_interface.py:1633
+msgid "Installation error"
+msgstr "安裝發生錯誤"
+
+#: live-installer/frontend/gtk_interface.py:1647
+msgid "Error"
+msgstr "錯誤"
+
+#: live-installer/main.py:38
+msgid "You must be root!"
+msgstr "你必須是root！"
 
 #: live-installer/validate.py:12
 msgid "Please provide a username."
 msgstr "請提供使用者名稱。"
 
 #: live-installer/validate.py:14
-#, fuzzy
 msgid "Your username is invalid."
-msgstr "你的使用者名稱必須為細階字母。"
+msgstr "您的用戶名無效。"
 
 #: live-installer/validate.py:16
-#, fuzzy
 msgid "Your username is too long"
-msgstr "你的使用者名稱必須為細階字母。"
+msgstr "您的用戶名太長"
 
 #: live-installer/validate.py:18
-#, fuzzy
 msgid "Your username is unavailable"
-msgstr "你的使用者名稱必須為細階字母。"
+msgstr "您的使用者名稱不可用"
 
 #: live-installer/validate.py:20
-#, fuzzy
 msgid "Your username cannot start with numbers."
-msgstr "你的使用者名稱不能含有空白字元。"
+msgstr "您的用戶名不能以數字開頭。"
 
 #: live-installer/validate.py:23
 msgid "Your username must be lower case."
@@ -349,95 +1060,82 @@ msgstr "你的使用者名稱不能含有空白字元。"
 
 #: live-installer/validate.py:33
 msgid "Please provide a name for your computer."
-msgstr ""
+msgstr "請提供您的電腦的名稱。"
 
 #: live-installer/validate.py:35
-#, fuzzy
 msgid "The computer's name is invalid."
-msgstr "你的使用者名稱必須為細階字母。"
+msgstr "電腦名稱無效。"
 
 #: live-installer/validate.py:37
-#, fuzzy
 msgid "The computer's name is too long."
-msgstr "你的使用者名稱必須為細階字母。"
+msgstr "計算機名稱太長。"
 
 #: live-installer/validate.py:39
 msgid "The computer's name should not starts or ends with -"
-msgstr ""
+msgstr "電腦名稱不應以 - 開頭或結尾"
 
 #: live-installer/validate.py:42
 msgid "The computer's name must be lower case."
-msgstr ""
+msgstr "計算機名稱必須小寫。"
 
 #: live-installer/validate.py:45
 msgid "The computer's name may not contain whitespace characters."
-msgstr ""
+msgstr "電腦名稱不能包含空格字元。"
 
 #: live-installer/validate.py:48
 msgid ""
 "The computer's name must consist of only a-z or A-Z or 0-9 or - characters"
-msgstr ""
+msgstr "電腦名稱必須僅包含 a-z 或 A-Z 或 0-9 或 - 字符"
 
 #: live-installer/validate.py:59
-#, fuzzy
 msgid "Your passwords is too short."
-msgstr "你的密碼不相符。"
+msgstr "您的密碼太短。"
 
 #: live-installer/validate.py:63
-#, fuzzy
 msgid "Your password is numeric"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼是數字"
 
 #: live-installer/validate.py:67
-#, fuzzy
 msgid "Your password must have big letters"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼必須是大寫字母"
 
 #: live-installer/validate.py:71
-#, fuzzy
 msgid "Your password must have small letters"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼必須是小寫字母"
 
 #: live-installer/validate.py:75
-#, fuzzy
 msgid "Your password must not be the same as the user name"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼不能與使用者名稱相同"
 
 #: live-installer/validate.py:79
 msgid "Your password length must be minimum 8 characters"
-msgstr ""
+msgstr "您的密碼長度必須至少為 8 個字符"
 
 #: live-installer/validate.py:99
-#, fuzzy
 msgid "Your password must have exclusive characters"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼必須包含唯一字符"
 
 #: live-installer/validate.py:103
-#, fuzzy
 msgid "Your password must have numbers"
-msgstr "你的密碼不相符。"
+msgstr "您的密碼必須包含數字"
 
 #: live-installer/validate.py:107
 msgid "Please provide a password for your user account."
 msgstr "請提供密碼給你的使用者帳號。"
 
-#: live-installer/main.py:38
-msgid "You must be root!"
-msgstr ""
-
 #: live-installer/installer.py:139 live-installer/installer.py:160
 #, python-format
 msgid "Copying /%s"
-msgstr ""
+msgstr "正在複製 /%s"
 
 #: live-installer/installer.py:140
 #, python-format
 msgid "rsync exited with return code: %s"
-msgstr ""
+msgstr "rsync 退出並回傳代碼：%s"
 
 #: live-installer/installer.py:144
 msgid "Extracting rootfs."
-msgstr ""
+msgstr "提取 rootfs。"
 
 #: live-installer/installer.py:171
 msgid "Entering the system ..."
@@ -451,7 +1149,7 @@ msgstr "新增新使用者至系統"
 msgid "Writing filesystem mount information to /etc/fstab"
 msgstr "正在寫入檔案系統掛載資訊至 /etc/fstab"
 
-#: live-installer/installer.py:257 live-installer/installer.py:413
+#: live-installer/installer.py:257 live-installer/installer.py:404
 #, python-format
 msgid "Mounting %(partition)s on %(mountpoint)s"
 msgstr "正在將 %(partition)s 掛載於 %(mountpoint)s"
@@ -459,699 +1157,75 @@ msgstr "正在將 %(partition)s 掛載於 %(mountpoint)s"
 #: live-installer/installer.py:294
 #, python-format
 msgid "Filling %s with random data (please be patient, this can take hours...)"
-msgstr ""
+msgstr "用隨機數據填充 %s（請耐心等待，這可能需要幾個小時...）"
 
 #: live-installer/installer.py:300
 #, python-format
 msgid "Creating partitions on %s"
-msgstr ""
+msgstr "在 %s 上建立分區"
 
 #: live-installer/installer.py:366
 #, python-format
 msgid "Formatting %(partition)s as %(format)s ..."
 msgstr "正在以 %(format)s 格式化 %(partition)s ..."
 
-#: live-installer/installer.py:577
+#: live-installer/installer.py:594
 msgid "Setting hostname"
 msgstr "正在設定主機名稱"
 
-#: live-installer/installer.py:602
+#: live-installer/installer.py:619
 msgid "Setting locale"
 msgstr "正在設定語系"
 
-#: live-installer/installer.py:642
-#, fuzzy
+#: live-installer/installer.py:659
 msgid "Setting timezone"
-msgstr "正在設定主機名稱"
+msgstr "設定時區"
 
-#: live-installer/installer.py:677
+#: live-installer/installer.py:694
 msgid "Setting keyboard options"
 msgstr "正在設定鍵盤選項"
 
-#: live-installer/installer.py:754
-#, fuzzy
+#: live-installer/installer.py:771
 msgid "Removing extra packages"
-msgstr "正在移除 live 組態 (套件)"
+msgstr "刪除多餘的包"
 
-#: live-installer/installer.py:760
+#: live-installer/installer.py:777
 msgid "Clearing package manager"
-msgstr ""
+msgstr "清理包管理器"
 
-#: live-installer/installer.py:779
+#: live-installer/installer.py:796
 msgid "Generating initramfs"
-msgstr ""
+msgstr "生成initramfs"
 
-#: live-installer/installer.py:784
+#: live-installer/installer.py:801
 msgid "Preparing bootloader installation"
-msgstr ""
+msgstr "準備引導程式安裝"
 
-#: live-installer/installer.py:804
+#: live-installer/installer.py:821
 msgid "Installing bootloader"
 msgstr "正在安裝 bootloader"
 
-#: live-installer/installer.py:816
+#: live-installer/installer.py:833
 msgid "Configuring bootloader"
 msgstr "正在配置 bootloader"
 
-#: live-installer/installer.py:824
+#: live-installer/installer.py:841
 msgid ""
 "WARNING: The grub bootloader was not configured properly! You need to "
 "configure it manually."
 msgstr "警告：grub 啟動程式組態不正確！你需要進行手動配置。"
 
-#: live-installer/installer.py:830
+#: live-installer/installer.py:854
 msgid "Trying to install updates"
-msgstr ""
+msgstr "嘗試安裝更新"
 
-#: live-installer/installer.py:863
-#: live-installer/frontend/gtk_interface.py:1496
-msgid "Installation finished"
-msgstr "安裝完成"
-
-#: live-installer/installer.py:889
+#: live-installer/installer.py:907
 msgid "Checking bootloader"
 msgstr "正在檢查 bootloader"
 
-#: live-installer/installer.py:926
+#: live-installer/installer.py:944
 msgid "Failed to run command (Exited with {}):"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:109
-#: live-installer/frontend/gtk_interface.py:510
-msgid "Country"
-msgstr "國家"
-
-#: live-installer/frontend/gtk_interface.py:118
-#: live-installer/frontend/gtk_interface.py:478
-#: live-installer/frontend/gtk_interface.py:509
-#: live-installer/frontend/tui_interface.py:45
-msgid "Language"
-msgstr "語言"
-
-#: live-installer/frontend/gtk_interface.py:289
-msgid "Layout"
-msgstr "佈局"
-
-#: live-installer/frontend/gtk_interface.py:297
-msgid "Variant"
-msgstr "變體"
-
-#: live-installer/frontend/gtk_interface.py:315
-msgid "Calculating file indexes ..."
-msgstr "正在計算檔案索引..."
-
-#: live-installer/frontend/gtk_interface.py:463
-#: live-installer/frontend/gtk_interface.py:466
-#: live-installer/frontend/gtk_interface.py:1112
-#: live-installer/frontend/gtk_interface.py:1137
-#: live-installer/frontend/gtk_interface.py:1160
-#: live-installer/frontend/gtk_interface.py:1180
-#: live-installer/frontend/gtk_interface.py:1184
-#: live-installer/frontend/gtk_interface.py:1189
-#: live-installer/frontend/gtk_interface.py:1203
-#: live-installer/frontend/gtk_interface.py:1209
-#: live-installer/frontend/gtk_interface.py:1215
-#: live-installer/frontend/gtk_interface.py:1220
-#: live-installer/frontend/gtk_interface.py:1225
-#: live-installer/frontend/gtk_interface.py:1291
-#: live-installer/frontend/gtk_interface.py:1372
-#: live-installer/frontend/partitioning.py:301
-#: live-installer/frontend/partitioning.py:368
-msgid "Installer"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:476
-msgid "License Agreement"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:478
-#: live-installer/frontend/tui_interface.py:40
-msgid "What language would you like to use?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:480
-#: live-installer/frontend/tui_interface.py:49
-msgid "Where are you?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "Keyboard layout"
-msgstr "鍵盤佈局"
-
-#: live-installer/frontend/gtk_interface.py:482
-msgid "What is your keyboard layout?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "User account"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:484
-msgid "Who are you?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:486
-msgid "Installation Type"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:486
-#: live-installer/frontend/gtk_interface.py:488
-#, fuzzy
-msgid "Where do you want to install system?"
-msgstr "你是否確定要退出安裝程式？"
-
-#: live-installer/frontend/gtk_interface.py:488
-msgid "Partitioning"
-msgstr "分割中"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Summary"
-msgstr "總覽"
-
-#: live-installer/frontend/gtk_interface.py:490
-msgid "Check that everything is correct"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Installing"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:492
-msgid "Please wait..."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:495
-#: live-installer/frontend/gtk_interface.py:609
-msgid "Automated install"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:496
-msgid "Back"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:497
-#: live-installer/frontend/gtk_interface.py:1231
-msgid "Next"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:501
-#: live-installer/frontend/tui_interface.py:34
-#, python-format
-msgid "Welcome to the %s Installer."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:516
-msgid "Type here to test your keyboard layout"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:542
-msgid "Erase a disk and install system on it."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:555
-msgid "Manually create, resize or choose partitions for system."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:559
-msgid "The setup tool will not do partitioning"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:561
-msgid "Remove Windows & Install"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:563
-msgid "Remove existsing windows and install system on it."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:573
-#: live-installer/frontend/gtk_interface.py:575
-msgid "Edit partitions"
-msgstr "編輯磁碟分割"
-
-#: live-installer/frontend/gtk_interface.py:580
-msgid "Device"
-msgstr "裝置"
-
-#: live-installer/frontend/gtk_interface.py:581
-#: live-installer/frontend/tui_interface.py:77
-msgid "Type"
-msgstr "類型"
-
-#: live-installer/frontend/gtk_interface.py:582
-msgid "Operating system"
-msgstr "操作系统"
-
-#: live-installer/frontend/gtk_interface.py:583
-msgid "Mount point"
-msgstr "掛載點"
-
-#: live-installer/frontend/gtk_interface.py:584
-msgid "Format as"
-msgstr "格式化為"
-
-#: live-installer/frontend/gtk_interface.py:585
-msgid "Size"
-msgstr "大小"
-
-#: live-installer/frontend/gtk_interface.py:586
-#: live-installer/frontend/gtk_interface.py:927
-#: live-installer/frontend/partitioning.py:324
-#: live-installer/frontend/partitioning.py:515
-msgid "Free space"
-msgstr "可用空間"
-
-#: live-installer/frontend/gtk_interface.py:594
-#: live-installer/frontend/partitioning.py:180
-msgid "Read only"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:629
-#: live-installer/frontend/gtk_interface.py:1167
-msgid "Install"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:735
-msgid "Please provide a passphrase for the encryption."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:737
-#: live-installer/frontend/gtk_interface.py:1153
-msgid "Your passwords do not match."
-msgstr "你的密碼不相符。"
-
-#: live-installer/frontend/gtk_interface.py:742
-msgid "Quit?"
-msgstr "退出？"
-
-#: live-installer/frontend/gtk_interface.py:743
-msgid "Are you sure you want to quit the installer?"
-msgstr "你是否確定要退出安裝程式？"
-
-#: live-installer/frontend/gtk_interface.py:937
-#: live-installer/frontend/gtk_interface.py:952
-#: live-installer/frontend/gtk_interface.py:966
-#: live-installer/frontend/gtk_interface.py:1163
-#: live-installer/frontend/gtk_interface.py:1288
-msgid "Are you sure?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:938
-msgid "New partition will created at {}"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:953
-msgid "Partition {} will removed from {}."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:967
-msgid "Partition {} will formated from {}."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1113
-msgid "Please choose a language"
-msgstr "請選擇語言"
-
-#: live-installer/frontend/gtk_interface.py:1138
-#, fuzzy
-msgid "Please provide a kayboard layout for your computer."
-msgstr "請提供密碼給你的使用者帳號。"
-
-#: live-installer/frontend/gtk_interface.py:1158
-msgid "Please provide your full name."
-msgstr "請提供你的全名。"
-
-#: live-installer/frontend/gtk_interface.py:1163
-#: live-installer/frontend/gtk_interface.py:1288
-#, fuzzy
-msgid "Your passwords is not strong."
-msgstr "你的密碼不相符。"
-
-#: live-installer/frontend/gtk_interface.py:1181
-msgid ""
-"Root filesystem type not specified. Installation will continue without disk "
-"formatting. Do you want to continue?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1185
-#, fuzzy
-msgid ""
-"The root partition is too small. It should be at least 16GB. Do you want to "
-"continue?"
-msgstr "EFI 磁碟分割無法用於開機。請編輯磁碟分割旗標。"
-
-#: live-installer/frontend/gtk_interface.py:1189
-msgid "Please select a root (/) partition."
-msgstr "請選擇 root (/) 磁碟分割。"
-
-#: live-installer/frontend/gtk_interface.py:1190
-#, python-format
-msgid ""
-"A root partition is needed to install %s on.\n"
-"\n"
-" - Mount point: /\n"
-" - Recommended size: 30GB\n"
-" - Recommended filesystem format: ext4\n"
-"\n"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1204
-#, fuzzy
-msgid "The EFI partition is not bootable. Do you want to set boot flag?"
-msgstr "EFI 磁碟分割無法用於開機。請編輯磁碟分割旗標。"
-
-#: live-installer/frontend/gtk_interface.py:1210
-#, fuzzy
-msgid "The EFI partition is too small. It must be at least 100MB."
-msgstr "EFI 磁碟分割必須被格式化為 vfat。"
-
-#: live-installer/frontend/gtk_interface.py:1216
-#: live-installer/frontend/gtk_interface.py:1221
-msgid "The EFI partition must be formatted as vfat."
-msgstr "EFI 磁碟分割必須被格式化為 vfat。"
-
-#: live-installer/frontend/gtk_interface.py:1225
-msgid "Please select an EFI partition."
-msgstr "請選擇 EFI 磁碟分割。"
-
-#: live-installer/frontend/gtk_interface.py:1226
-msgid ""
-"An EFI system partition is needed with the following requirements:\n"
-"\n"
-" - Mount point: /boot/efi\n"
-" - Partition flags: Bootable\n"
-" - Size: at least 100MB \n"
-" - Format: vfat or fat32\n"
-"\n"
-"To ensure compatibility with Windows we recommend you use the first "
-"partition of the disk as the EFI system partition.\n"
-" "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1281
-msgid "Please select a disk."
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1293
-msgid "Warning"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1294
-#, python-format
-msgid "This will delete all the data on %s. Are you sure?"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1373
-#, fuzzy
-msgid "Please provide a device to install grub."
-msgstr "請提供使用者名稱。"
-
-#: live-installer/frontend/gtk_interface.py:1420
-msgid "Localization"
-msgstr "本地化"
-
-#: live-installer/frontend/gtk_interface.py:1421
-msgid "Language: "
-msgstr "語言： "
-
-#: live-installer/frontend/gtk_interface.py:1422
-msgid "Timezone: "
-msgstr "時區： "
-
-#: live-installer/frontend/gtk_interface.py:1423
-msgid "Keyboard layout: "
-msgstr "鍵盤佈局： "
-
-#: live-installer/frontend/gtk_interface.py:1427
-msgid "User settings"
-msgstr "使用者設定"
-
-#: live-installer/frontend/gtk_interface.py:1431
-msgid "Real name: "
-msgstr "真實姓名： "
-
-#: live-installer/frontend/gtk_interface.py:1432
-msgid "Username: "
-msgstr "使用者名稱： "
-
-#: live-installer/frontend/gtk_interface.py:1435
-#: live-installer/frontend/gtk_interface.py:1438
-msgid "Password: "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1440
-msgid "Automatic login: "
-msgstr "自動登入： "
-
-#: live-installer/frontend/gtk_interface.py:1440
-#: live-installer/frontend/gtk_interface.py:1481
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "enabled"
-msgstr "啟用"
-
-#: live-installer/frontend/gtk_interface.py:1441
-#: live-installer/frontend/gtk_interface.py:1482
-#: live-installer/frontend/gtk_interface.py:1485
-msgid "disabled"
-msgstr "停用"
-
-#: live-installer/frontend/gtk_interface.py:1442
-msgid "System settings"
-msgstr "系統設定"
-
-#: live-installer/frontend/gtk_interface.py:1444
-msgid "Computer's name: "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1447
-#: live-installer/frontend/gtk_interface.py:1449
-msgid "Bios type: "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1451
-msgid "Install updates after installation"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1452
-msgid "Filesystem operations"
-msgstr "檔案系統操作"
-
-#: live-installer/frontend/gtk_interface.py:1453
-#, python-format
-msgid "Install bootloader on %s"
-msgstr "安裝 bootloader 於 %s"
-
-#: live-installer/frontend/gtk_interface.py:1454
-msgid "Do not install bootloader"
-msgstr "不要安裝 bootloader"
-
-#: live-installer/frontend/gtk_interface.py:1456
-msgid "Use already-mounted /target."
-msgstr "使用已掛載 /target。"
-
-#: live-installer/frontend/gtk_interface.py:1464
-#, python-format
-msgid " (with %s GB swap)"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1468
-#, python-format
-msgid "Automated installation on %s"
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1472
-#, python-format
-msgid "Format %(path)s as %(filesystem)s"
-msgstr "格式化 %(path)s 為 %(filesystem)s"
-
-#: live-installer/frontend/gtk_interface.py:1476
-#, python-format
-msgid "Mount %(path)s as %(mount)s"
-msgstr "掛載 %(path)s 為 %(mount)s"
-
-#: live-installer/frontend/gtk_interface.py:1481
-msgid "LVM: "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1484
-msgid "Disk Encryption: "
-msgstr ""
-
-#: live-installer/frontend/gtk_interface.py:1497
-msgid ""
-"The installation is now complete. Do you want to restart your computer to "
-"use the new system?"
-msgstr "安裝現已完成。你想要重新啟動你的電腦以使用新系統嗎？"
-
-#: live-installer/frontend/gtk_interface.py:1529
-#: live-installer/frontend/gtk_interface.py:1533
-#: live-installer/frontend/gtk_interface.py:1542
-#: live-installer/frontend/gtk_interface.py:1551
-msgid "Installation error"
-msgstr "安裝發生錯誤"
-
-#: live-installer/frontend/gtk_interface.py:1565
-msgid "Error"
-msgstr ""
-
-#: live-installer/frontend/welcome.py:32
-#, python-format
-msgid "Try %s"
-msgstr ""
-
-#: live-installer/frontend/welcome.py:36
-#, python-format
-msgid "You are currently running %s from live media."
-msgstr ""
-
-#: live-installer/frontend/welcome.py:38
-#, python-format
-msgid ""
-"You can install %s now, or chose \"Install to Hard Drive\" in the Appication "
-"Menu later."
-msgstr ""
-
-#: live-installer/frontend/welcome.py:39
-#, python-format
-msgid "Welcome to %s"
-msgstr ""
-
-#: live-installer/frontend/tui_interface.py:57
-msgid "What keyboard would you like to use?"
-msgstr ""
-
-#: live-installer/frontend/tui_interface.py:64
-#, fuzzy
-msgid "Keyboard Model"
-msgstr "鍵盤佈局"
-
-#: live-installer/frontend/tui_interface.py:73
-#, fuzzy
-msgid "Installation type?"
-msgstr "安裝已暫停"
-
-#: live-installer/frontend/tui_interface.py:80
-msgid "Select a disk?"
-msgstr ""
-
-#: live-installer/frontend/tui_interface.py:84
-msgid "Disk"
-msgstr ""
-
-#: live-installer/frontend/timezones.py:140
-#, fuzzy
-msgid "Select timezone"
-msgstr "時區"
-
-#: live-installer/frontend/partitioning.py:72
-msgid "B"
-msgstr "B"
-
-#: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:442
-msgid "kB"
-msgstr "KB"
-
-#: live-installer/frontend/partitioning.py:72
-#: live-installer/frontend/partitioning.py:442
-msgid "MB"
-msgstr "MB"
-
-#: live-installer/frontend/partitioning.py:73
-#: live-installer/frontend/partitioning.py:443
-msgid "TB"
-msgstr "TB"
-
-#: live-installer/frontend/partitioning.py:80
-msgid "Removable:"
-msgstr "可移除式："
-
-#: live-installer/frontend/partitioning.py:221
-msgid "Edit"
-msgstr "編輯"
-
-#: live-installer/frontend/partitioning.py:226
-#: live-installer/frontend/partitioning.py:230
-#: live-installer/frontend/partitioning.py:237
-#: live-installer/frontend/partitioning.py:246
-#, fuzzy, python-format
-msgid "Assign to %s"
-msgstr "指派至 /"
-
-#: live-installer/frontend/partitioning.py:302
-msgid ""
-"Disk: {} partition table broken or not exists. Do you want to create new "
-"partition table?"
-msgstr ""
-
-#: live-installer/frontend/partitioning.py:384
-#, python-format
-msgid ""
-"The partition table couldn't be written for %s. Restart the computer and try "
-"again."
-msgstr ""
-
-#: live-installer/frontend/partitioning.py:429
-#, python-format
-msgid ""
-"The partition %s could not be created. The installation will stop. Restart "
-"the computer and try again."
-msgstr ""
-
-#: live-installer/frontend/partitioning.py:513
-msgid "Logical partition"
-msgstr "邏輯磁碟分割"
-
-#: live-installer/frontend/partitioning.py:514
-msgid "Extended partition"
-msgstr "延伸磁碟分割"
-
-#: live-installer/frontend/partitioning.py:518
-msgid "Unknown"
-msgstr "未知"
-
-#: live-installer/frontend/partitioning.py:569
-msgid "bootloader/recovery"
-msgstr ""
-
-#: live-installer/frontend/partitioning.py:582
-#, fuzzy
-msgid "EFI System Partition"
-msgstr "編輯磁碟分割"
-
-#: live-installer/frontend/partitioning.py:607
-msgid "Edit partition"
-msgstr "編輯磁碟分割"
-
-#: live-installer/frontend/partitioning.py:609
-msgid "Device:"
-msgstr "裝置："
-
-#: live-installer/frontend/partitioning.py:611
-msgid "Format as:"
-msgstr "格式化為："
-
-#: live-installer/frontend/partitioning.py:613
-msgid "Mount point:"
-msgstr "掛載點："
-
-#: live-installer/frontend/partitioning.py:614
-msgid "Cancel"
-msgstr ""
-
-#: live-installer/frontend/partitioning.py:615
-#: live-installer/frontend/dialogs.py:35 live-installer/frontend/dialogs.py:48
-#: live-installer/frontend/dialogs.py:54
-msgid "OK"
-msgstr ""
-
-#: live-installer/frontend/dialogs.py:41
-msgid "No"
-msgstr ""
-
-#: live-installer/frontend/dialogs.py:42
-msgid "Yes"
-msgstr ""
+msgstr "無法執行指令（使用 {} 退出）："
 
 #~ msgid "Installation Tool"
 #~ msgstr "安裝工具"
