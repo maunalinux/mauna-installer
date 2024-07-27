@@ -5,7 +5,7 @@ distro_codename: mauna
 distro_title: Mauna
 # distribution: auto
 # display_manager: auto
-copyright: Mauna Technologies | 2023
+copyright: Mauna Linux | 2024
 
 ## Base options section
 # loop_directory: /dev/loop0
@@ -55,6 +55,7 @@ additional_user_groups:
   - scanner
   - root
   - samba
+  - vboxusers
   
 ## Partitioning section
 manual_partition_enabled: true 
