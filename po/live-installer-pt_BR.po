@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-21 16:51-0300\n"
-"PO-Revision-Date: 2024-07-21 16:52-0300\n"
+"PO-Revision-Date: 2024-07-27 12:16-0300\n"
 "Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "Language: pt_BR\n"
@@ -139,7 +139,7 @@ msgstr "Remova o Windows e instale"
 
 #: live-installer/resources/interface.ui:981
 msgid "Remove existing Windows and install Mauna on it."
-msgstr "Remova o Windows existente e instale o Mauna nele."
+msgstr "Remover o Windows existente e instalar o Mauna nele."
 
 #: live-installer/resources/interface.ui:1033
 #: live-installer/frontend/gtk_interface.py:561
@@ -708,7 +708,7 @@ msgstr "A ferramenta de configuração não fará particionamento"
 
 #: live-installer/frontend/gtk_interface.py:567
 msgid "Remove existing Windows and install system on it."
-msgstr "Remova o Windows existente e instale o sistema nele."
+msgstr "Remover o Windows existente e instalar o sistema nele."
 
 #: live-installer/frontend/gtk_interface.py:577
 #: live-installer/frontend/gtk_interface.py:579
