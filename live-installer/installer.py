@@ -400,7 +400,7 @@ class InstallerEngine:
         # Mount the target partition
         for partition in self.setup.partitions:
             if(partition.mount_as not in [None, "swap"] and partition.subvolumes != [] and not self.is_subvolume_has_mountpoint(partition.subvolumes,"")) or (partition.mount_as not in ["", None, "swap"]):
-                if partition.mount_as == "/" or self.is_subvolume_has_mountpoint(partition.subvolumes, "/")
+                if partition.mount_as == "/" or self.is_subvolume_has_mountpoint(partition.subvolumes, "/"):
                     self.update_progress(_("Mounting %(partition)s on %(mountpoint)s") % {
                                          'partition': partition.path, 'mountpoint': "/target/"})
                     log(" ------ Mounting partition %s on %s" %
