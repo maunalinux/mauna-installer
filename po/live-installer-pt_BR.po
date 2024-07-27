@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 16:51-0300\n"
-"PO-Revision-Date: 2024-07-27 12:16-0300\n"
+"POT-Creation-Date: 2024-07-27 14:44-0300\n"
+"PO-Revision-Date: 2024-07-27 14:53-0300\n"
 "Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "Language: pt_BR\n"
@@ -96,7 +96,7 @@ msgstr "GB"
 #: live-installer/resources/interface.ui:658
 #: live-installer/frontend/gtk_interface.py:555
 msgid "Use LVM (Logical Volume Management)"
-msgstr "Use LVM (Gerenciamento de volume lógico)"
+msgstr "Usar LVM (Gerenciamento de volume lógico)"
 
 #: live-installer/resources/interface.ui:705
 #: live-installer/frontend/gtk_interface.py:549
@@ -130,12 +130,11 @@ msgstr "Particionamento Manual"
 
 #: live-installer/resources/interface.ui:900
 msgid "Manually create, resize or choose partitions for Mauna."
-msgstr "Crie, redimensione ou escolha manualmente partições para o Mauna."
+msgstr "Criar, redimensionar ou escolher manualmente partições para o Mauna."
 
 #: live-installer/resources/interface.ui:965
-#: live-installer/frontend/gtk_interface.py:565
-msgid "Remove Windows & Install"
-msgstr "Remova o Windows e instale"
+msgid "Remove windows & Install"
+msgstr "Remover o Windows e Instalar"
 
 #: live-installer/resources/interface.ui:981
 msgid "Remove existing Windows and install Mauna on it."
@@ -165,7 +164,7 @@ msgstr "Isso instalará apenas um desktop mínimo com navegador e utilitários."
 #: live-installer/resources/interface.ui:1160
 #: live-installer/frontend/gtk_interface.py:604
 msgid "Install system with updates"
-msgstr "Instale o sistema com atualizações"
+msgstr "Instalar o sistema com atualizações"
 
 #: live-installer/resources/interface.ui:1176
 #: live-installer/frontend/gtk_interface.py:605
@@ -197,7 +196,7 @@ msgstr "Criar"
 #: live-installer/resources/interface.ui:1455
 #: live-installer/frontend/gtk_interface.py:595
 msgid "Install the GRUB boot menu on:"
-msgstr "Instale o menu de inicialização do GRUB em:"
+msgstr "Instalar o menu de inicialização do GRUB em:"
 
 #: live-installer/resources/interface.ui:1529
 msgid "Edit Partitions"
@@ -291,7 +290,7 @@ msgstr "somente leitura"
 
 #: live-installer/resources/interface.ui:2518
 msgid "Use default Btrfs subvolumes"
-msgstr "Use subvolumes padrão do Btrfs"
+msgstr "Usar subvolumes padrão do Btrfs"
 
 #: live-installer/resources/interface.ui:2678
 #: live-installer/frontend/partitioning.py:888
@@ -300,7 +299,7 @@ msgstr "Formatar subvolume"
 
 #: live-installer/resources/welcome.ui:61
 msgid "Try Mauna"
-msgstr "Formatar subvolume"
+msgstr "Experimente o Mauna"
 
 #: live-installer/resources/welcome.ui:85
 msgid " "
@@ -617,7 +616,7 @@ msgstr "País"
 
 #: live-installer/frontend/gtk_interface.py:290
 msgid "Layout"
-msgstr "Leiaute"
+msgstr "Layout"
 
 #: live-installer/frontend/gtk_interface.py:298
 msgid "Variant"
@@ -633,7 +632,7 @@ msgstr "Contrato de Licença"
 
 #: live-installer/frontend/gtk_interface.py:486
 msgid "Keyboard layout"
-msgstr "Leiaute do teclado"
+msgstr "Layout do teclado"
 
 #: live-installer/frontend/gtk_interface.py:486
 msgid "What is your keyboard layout?"
@@ -700,11 +699,15 @@ msgstr "Apagar um disco e instale o Mauna nele."
 
 #: live-installer/frontend/gtk_interface.py:559
 msgid "Manually create, resize or choose partitions for system."
-msgstr "Crie, redimensione ou escolha manualmente partições para o Mauna."
+msgstr "Criar, redimensionar ou escolher manualmente partições para o Mauna."
 
 #: live-installer/frontend/gtk_interface.py:563
 msgid "The setup tool will not do partitioning"
 msgstr "A ferramenta de configuração não fará particionamento"
+
+#: live-installer/frontend/gtk_interface.py:565
+msgid "Remove Windows & Install"
+msgstr "Remover o Windows e Instalar"
 
 #: live-installer/frontend/gtk_interface.py:567
 msgid "Remove existing Windows and install system on it."
@@ -1006,7 +1009,7 @@ msgstr "Montar %(path)s em %(mount)s"
 #: live-installer/frontend/gtk_interface.py:1554
 #, python-format
 msgid "Create btrfs subvolume %(path)s under %(parentPath)s "
-msgstr "Crie o subvolume btrfs %(path)s em %(parentPath)s "
+msgstr "Criar o subvolume btrfs %(path)s em %(parentPath)s "
 
 #: live-installer/frontend/gtk_interface.py:1558
 #, python-format
@@ -1252,9 +1255,6 @@ msgstr "Verificando o carregador de inicialização"
 #: live-installer/installer.py:944
 msgid "Failed to run command (Exited with {}):"
 msgstr "Falha ao executar o comando (encerrado com {}):"
-
-#~ msgid "Remove windows & Install"
-#~ msgstr "Remova o Windows e Instale"
 
 #~ msgid "Quit"
 #~ msgstr "Sair"
