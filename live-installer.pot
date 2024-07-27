@@ -3,14 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-
-#, fuzzy
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 16:51-0300\n"
+"POT-Creation-Date: 2024-07-27 14:44-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +24,8 @@ msgstr ""
 #: live-installer/resources/interface.ui:88
 #: live-installer/frontend/tui_interface.py:36
 #: live-installer/frontend/gtk_interface.py:507
-msgid "This program will ask you some questions and set up system on your computer."
+msgid ""
+"This program will ask you some questions and set up system on your computer."
 msgstr ""
 
 #: live-installer/resources/interface.ui:143
@@ -132,7 +131,7 @@ msgid "Manually create, resize or choose partitions for Mauna."
 msgstr ""
 
 #: live-installer/resources/interface.ui:965
-msgid "Remove Windows & Install"
+msgid "Remove windows & Install"
 msgstr ""
 
 #: live-installer/resources/interface.ui:981
@@ -155,7 +154,9 @@ msgstr ""
 
 #: live-installer/resources/interface.ui:1127
 #: live-installer/frontend/gtk_interface.py:607
-msgid "This will only install a minimal desktop environment with a browser and utilities."
+msgid ""
+"This will only install a minimal desktop environment with a browser and "
+"utilities."
 msgstr ""
 
 #: live-installer/resources/interface.ui:1160
@@ -311,7 +312,9 @@ msgid "You are currently running Mauna from live media."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:178
-msgid "You can install Mauna now, or chose \"Install to Hard Drive\" in the Application Menu later."
+msgid ""
+"You can install Mauna now, or chose \"Install to Hard Drive\" in the "
+"Application Menu later."
 msgstr ""
 
 #: live-installer/resources/welcome.ui:228
@@ -397,7 +400,9 @@ msgstr ""
 
 #: live-installer/frontend/welcome.py:38
 #, python-format
-msgid "You can install %s now, or chose \"Install to Hard Drive\" in the Application Menu later."
+msgid ""
+"You can install %s now, or chose \"Install to Hard Drive\" in the Application "
+"Menu later."
 msgstr ""
 
 #: live-installer/frontend/welcome.py:39
@@ -514,7 +519,9 @@ msgid "Installer"
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:447
-msgid "Disk: {} partition table broken or not exists. Do you want to create new partition table?"
+msgid ""
+"Disk: {} partition table broken or not exists. Do you want to create new "
+"partition table?"
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:469
@@ -526,12 +533,16 @@ msgstr ""
 
 #: live-installer/frontend/partitioning.py:545
 #, python-format
-msgid "The partition table couldn't be written for %s. Restart the computer and try again."
+msgid ""
+"The partition table couldn't be written for %s. Restart the computer and try "
+"again."
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:590
 #, python-format
-msgid "The partition %s could not be created. The installation will stop. Restart the computer and try again."
+msgid ""
+"The partition %s could not be created. The installation will stop. Restart "
+"the computer and try again."
 msgstr ""
 
 #: live-installer/frontend/partitioning.py:685
@@ -791,12 +802,16 @@ msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1242
 #: live-installer/frontend/gtk_interface.py:1256
-msgid "Root filesystem type not specified. Installation will continue without disk formatting. Do you want to continue?"
+msgid ""
+"Root filesystem type not specified. Installation will continue without disk "
+"formatting. Do you want to continue?"
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1246
 #: live-installer/frontend/gtk_interface.py:1260
-msgid "The root partition is too small. It should be at least 16GB. Do you want to continue?"
+msgid ""
+"The root partition is too small. It should be at least 16GB. Do you want to "
+"continue?"
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1264
@@ -805,7 +820,8 @@ msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1265
 #, python-format
-msgid "A root partition is needed to install %s on.\n"
+msgid ""
+"A root partition is needed to install %s on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"
@@ -831,14 +847,16 @@ msgid "Please select an EFI partition."
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1301
-msgid "An EFI system partition is needed with the following requirements:\n"
+msgid ""
+"An EFI system partition is needed with the following requirements:\n"
 "\n"
 " - Mount point: /boot/efi\n"
 " - Partition flags: Bootable\n"
 " - Size: at least 100MB \n"
 " - Format: vfat or fat32\n"
 "\n"
-"To ensure compatibility with Windows we recommend you use the first partition of the disk as the EFI system partition.\n"
+"To ensure compatibility with Windows we recommend you use the first partition "
+"of the disk as the EFI system partition.\n"
 " "
 msgstr ""
 
@@ -976,7 +994,9 @@ msgid "Installation finished"
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1579
-msgid "The installation is now complete. Do you want to restart your computer to use the new system?"
+msgid ""
+"The installation is now complete. Do you want to restart your computer to use "
+"the new system?"
 msgstr ""
 
 #: live-installer/frontend/gtk_interface.py:1611
@@ -1047,7 +1067,8 @@ msgid "The computer's name may not contain whitespace characters."
 msgstr ""
 
 #: live-installer/validate.py:48
-msgid "The computer's name must consist of only a-z or A-Z or 0-9 or - characters"
+msgid ""
+"The computer's name must consist of only a-z or A-Z or 0-9 or - characters"
 msgstr ""
 
 #: live-installer/validate.py:59
@@ -1173,7 +1194,9 @@ msgid "Configuring bootloader"
 msgstr ""
 
 #: live-installer/installer.py:841
-msgid "WARNING: The grub bootloader was not configured properly! You need to configure it manually."
+msgid ""
+"WARNING: The grub bootloader was not configured properly! You need to "
+"configure it manually."
 msgstr ""
 
 #: live-installer/installer.py:854
@@ -1187,4 +1210,3 @@ msgstr ""
 #: live-installer/installer.py:944
 msgid "Failed to run command (Exited with {}):"
 msgstr ""
-
