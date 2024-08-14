@@ -1,3 +1,9 @@
+mauna-installer (2.0.6) mauna; urgency=medium
+
+  * Update slides
+
+ -- Mauna Linux <dev@maunalinux.top>  Wed, 14 Aug 2024 19:07:19 -0300
+
 mauna-installer (2.0.5) mauna; urgency=medium
 
   * Fix Typo
